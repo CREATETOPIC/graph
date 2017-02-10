@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui">
+	<title>CREATE CHART</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">	
+	<link rel="stylesheet" href="main.css">
+</head>
+	<body>
+
+	<div>
+		<div class="canvas-container">
+			<div class="graph-container">
+					<canvas id="topicChart" width="400px" height="400px"></canvas>
+			</div>
+		</div>
+	</div>
+
+		<div class="filter-menu">
+				<ul>
+					<li>concept</li>
+					<li>periode<br>
+						<input id="firstyear" type="number" name="ffirstyear" value="1600" maxlength="4" onchange="redrawGraph()">
+						<input id="secondyear" type="number" name="flastyear" value="1700" maxlength="4" onchange="redrawGraph()">
+					</li>
+					<li>drukker</li>
+					<li>auteur</li>
+					<li>plaats</li>
+				</ul>
+		</div>
+	</div>	
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.bundle.min.js">
+</script>
+
+	<script src="scripts/vendor.js"></script>
+	<script src="scripts/main.js"></script>
+
+	</body>
+</html>
