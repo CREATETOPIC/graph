@@ -23,6 +23,23 @@
 		<div class="filter-menu">
 				<ul>
 					<li>concept</li>
+						<select>
+							<option value="default" onchange="conceptChanger()" selected>alle concepten</option>
+							<option value="natuur" onchange="conceptChanger()" >natuur</option>
+							<option value="god" onchange="conceptChanger()" >god</option>
+							<option value="oorzaak" onchange="conceptChanger()" >oorzaak</option>
+							<option value="wet" onchange="conceptChanger()" >wet</option>
+							<option value="kennis" onchange="conceptChanger()" >kennis</option>
+							<option value="verstand" onchange="conceptChanger()" >verstand</option>
+							<option value="reden" onchange="conceptChanger()" >reden</option>
+							<option value="macht" onchange="conceptChanger()" >macht</option>
+							<option value="recht " onchange="conceptChanger()" >recht </option>
+							<option value="wil" onchange="conceptChanger()" >wil</option>
+							<option value="schrift" onchange="conceptChanger()" >schrift</option>
+							<option value="ziel" onchange="conceptChanger()" >ziel</option>
+							<option value="lichaam" onchange="conceptChanger()" >lichaam</option>
+							<option value="mozes" onchange="conceptChanger()" >mozes</option>
+						</select>
 					<li>periode<br>
 						<input id="firstyear" type="number" name="ffirstyear" value="1600" maxlength="4" onchange="redrawGraph()">
 						<input id="secondyear" type="number" name="flastyear" value="1700" maxlength="4" onchange="redrawGraph()">

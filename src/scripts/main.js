@@ -10543,7 +10543,7 @@ function recalculateData(firstyear, secondyear) {
 			var dataObj = {};
 			dataObj.x = rawData[i].overeenkomst_1;
 			dataObj.y = rawData[i].frequentie_1;
-			dataObj.r = (rawData[i].overlap_1/4);
+			dataObj.r = (rawData[i].overlap_1*5);
 			dataObj.metaX = rawData[i].ppn;
 			dataObj.author = rawData[i].auteur;
 			dataObj.publisher = rawData[i].drukker;
@@ -10570,10 +10570,10 @@ var rawestData = [
 var data = {
     datasets: [
         {
-            label: 'Overige teksten',
+            label: '',
             data: rawestData,
-            backgroundColor:"#FF6384",
-            hoverBackgroundColor: "#FF6384",
+            backgroundColor:"#bd9c69",
+            hoverBackgroundColor: "#d9ba8b",
         }]
 };
 
@@ -10635,14 +10635,14 @@ function pointClickHandler(evt){
 			metadataObj.jaar = rawData[i].jaar;
 			metadataObj.drukker = rawData[i].drukker;
 			metadataObj.plaats = rawData[i].plaats;
-			metadataObj.url = rawData[i];
+			metadataObj.url = rawData[i].stcn;
 			metadataObj.contextwoorden = rawData[i].contextwoorden_1;
 			metadataObj.frequentie_1 = rawData[i].frequentie_1;
 			metadataObj.overeenkomst_1 = rawData[i].overeenkomst_1;
 			metadataObj.overlap_1 = rawData[i].overlap_1;
 
 			document.getElementsByClassName('fml-author')[0].innerHTML = metadataObj.auteur;
-			// document.getElementsByClassName('fml-title')[0].innerHTML = metadataObj.titel + "<a href=\'" +  + "\'>(STCN)</a>";
+			document.getElementsByClassName('fml-title')[0].innerHTML = metadataObj.titel + " <a class=\'fml-url\' target=\'_blank\' href=\'" + metadataObj.url + "\'>(stcn)</a>";
 			document.getElementsByClassName('fml-jaar')[0].innerHTML = metadataObj.jaar;
 			document.getElementsByClassName('fml-drukker')[0].innerHTML = metadataObj.drukker;
 			document.getElementsByClassName('fml-plaats')[0].innerHTML = metadataObj.plaats;
