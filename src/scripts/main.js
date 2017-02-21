@@ -1704,26 +1704,86 @@ var rawData = [
 ];
 
 
+var allPublishers = [];
+var activePublishers = ['bla'];
+
+function grabAllPublishers() {
+	for ( i=0; i<rawData.length; i++ ) {
+		allPublishers.push(rawData[i].drukker);
+	}	
+	var publisherContainer = document.getElementsByClassName('publisher-container')[0];
+	for ( i=0; i<allPublishers.length; i++) {
+		publisherContainer.insertAdjacentHTML('afterbegin', '<input class="inputboxes" type="checkbox" onchange="toggleCheckbox(this)" name="inputpublisher" value="' + allPublishers[i] + '" checked><span class="inputbox-text">' + allPublishers[i] + '</span></input><br/>');
+
+	}
+	activePublishers = allPublishers;
+	console.log(activePublishers);
+}
+
+var filterOn = false;
+function toggleCheckbox(element) {
+   // element.checked = !element.checked;
+   console.log(element.value);
+   console.log(element.checked);
+   if (element.checked === false) {
+   	for (var i = 0; i < activePublishers.length; i++) {
+   		if (element.value == activePublishers[i]) {
+   			console.log('bingo');
+   			activePublishers.splice(i, 1);
+   		}
+   	}
+   } else if (element.checked === true ) {
+   	activePublishers.push(element.value);
+   }
+   console.log(activePublishers);
+   filterOn = true;
+   redrawGraph();
+ }
+
+function deselectAllCheckboxes(){
+	checkboxes = document.getElementsByClassName('inputboxes');
+
+	for (var i=0; i<checkboxes.length; i++)  {
+	  checkboxes[i].checked = false;
+	  console.log(checkboxes[i].checked);
+	}
+		console.log(checkboxes);
+
+}
+
+deselectAllCheckboxes();
+
+grabAllPublishers();
+
+/* Hertekening van de grafiek */
 function redrawGraph() {
 	var firstYear = document.getElementById("firstyear");
 	var secondYear = document.getElementById("secondyear");
 	recalculateData(firstYear.value, secondYear.value);
 }
 
+/* Hertelling van de grafiek op basis van de interval tussen twee jaartallen */
 function recalculateData(firstyear, secondyear) {
 	rawestData.length = 0;
 	for ( i=0; i<rawData.length; i++ ) {
 
 		if(rawData[i].jaar > firstyear && rawData[i].jaar < secondyear) {
-			var dataObj = {}
-			dataObj.x = rawData[i].frequentie_1;
-			dataObj.y = rawData[i].overeenkomst_1;
+			var dataObj = {};
+			dataObj.x = rawData[i].overeenkomst_1;
+			dataObj.y = rawData[i].frequentie_1;
 			dataObj.r = (rawData[i].overlap_1/4);
 			dataObj.metaX = rawData[i].ppn;
-			rawestData.push(dataObj);
-		}
+			dataObj.author = rawData[i].auteur;
+			dataObj.publisher = rawData[i].drukker;
+
+   		for (var n = 0; n < activePublishers.length; n++) {
+   			if (rawData[i].drukker === activePublishers[n]) {
+   				rawestData.push(dataObj);
+   			}
+			}
 	}
 	spinozaChart.update();
+}
 }
 
 var rawestData = [
@@ -1732,12 +1792,6 @@ var rawestData = [
         y: 51,
         r: 8,
         metaX: 'hello is it me'
-    },
-    {
-        x: 17,
-        y: 53,
-        r: 3,
-        metaX: 'you looking for'
     }
 ];
 
@@ -1755,6 +1809,9 @@ var spinozaChart = new Chart(ctx,{
     type: 'bubble',
 		data: data,
     options: {
+    onClick: function(evt){
+    	pointClickHandler(evt)
+    },
  		tooltips: {
 		  enabled: true,
 		  mode: 'single',
@@ -1774,3 +1831,55 @@ var spinozaChart = new Chart(ctx,{
         }
 	    }
 });
+
+recalculateData(1600, 1700);
+
+
+document.getElementsByClassName('filter-metadata-close')[0].addEventListener("click", displayNone);
+
+function displayNone(){
+	var modalWindow = document.getElementsByClassName('filter-metadata')[0];
+	modalWindow.style.display = 'none';
+}
+
+
+
+function pointClickHandler(evt){
+	var activePoints = spinozaChart.getElementAtEvent(evt);
+	var currentPPN = rawestData[activePoints[0]._index].metaX;
+
+	console.log(currentPPN);
+  // console.log(rawestData[activePoints[0]._index].metaX);
+
+  /* Zet CSS property van het modal window naar block */
+	var modalWindow = document.getElementsByClassName('filter-metadata')[0];
+	modalWindow.style.display = 'block';
+
+	for ( i=0; i<rawData.length; i++ ) {
+		if(currentPPN == rawData[i].ppn) {
+			var metadataObj = {};
+			metadataObj.auteur = rawData[i].auteur;
+			metadataObj.titel = rawData[i].titel;
+			metadataObj.jaar = rawData[i].jaar;
+			metadataObj.drukker = rawData[i].drukker;
+			metadataObj.plaats = rawData[i].plaats;
+			metadataObj.url = rawData[i];
+			metadataObj.contextwoorden = rawData[i].contextwoorden_1;
+			metadataObj.frequentie_1 = rawData[i].frequentie_1;
+			metadataObj.overeenkomst_1 = rawData[i].overeenkomst_1;
+			metadataObj.overlap_1 = rawData[i].overlap_1;
+
+			document.getElementsByClassName('fml-author')[0].innerHTML = metadataObj.auteur;
+			// document.getElementsByClassName('fml-title')[0].innerHTML = metadataObj.titel + "<a href=\'" +  + "\'>(STCN)</a>";
+			document.getElementsByClassName('fml-jaar')[0].innerHTML = metadataObj.jaar;
+			document.getElementsByClassName('fml-drukker')[0].innerHTML = metadataObj.drukker;
+			document.getElementsByClassName('fml-plaats')[0].innerHTML = metadataObj.plaats;
+			document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = metadataObj.contextwoorden;
+
+			document.getElementsByClassName('fml-frequentie')[0].innerHTML = metadataObj.frequentie_1;
+			document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = metadataObj.overeenkomst_1;
+			document.getElementsByClassName('fml-overlap')[0].innerHTML = metadataObj.overlap_1;
+
+		}
+	}
+    }

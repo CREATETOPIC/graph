@@ -45,6 +45,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.create-logo {
+  width: 60px;
+  bottom: 20px;
+  left: 20px;
+  opacity: .3;
+  position: absolute;
+  cursor: pointer; }
+  .create-logo:hover {
+    opacity: .7; }
+
 .canvas-container {
   width: 66.66%;
   height: 100vh;
@@ -54,7 +64,10 @@ table {
 .graph-container {
   width: 500px;
   height: 500px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
 
 #topicChart {
   /*	width: 400px;
@@ -66,6 +79,46 @@ table {
   float: right;
   background: #f5f5f5; }
 
+.filter-metadata {
+  width: 33.33%;
+  height: 100vh;
+  background: #bd9c69;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  display: none; }
+
+.filter-metadata-close {
+  position: absolute;
+  right: 20px;
+  top: 20px; }
+
+.fml-closebutton {
+  width: 17px;
+  color: white;
+  cursor: pointer;
+  opacity: .7; }
+  .fml-closebutton:hover {
+    opacity: 1; }
+
+.fml-white {
+  color: white !important; }
+
+.fml-garamond {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  margin-top: -10px; }
+
+.publisher-container {
+  height: 200px;
+  overflow: auto; }
+
+.inputbox-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  margin-left: 10px;
+  color: #828282; }
+
 ul {
   padding: 30px; }
 
@@ -73,5 +126,27 @@ li {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 35px;
   color: #7b7b7b; }
+
+.fml-meta-list {
+  padding: 0; }
+
+.fml-meta {
+  display: block; }
+
+.fml-meta-list br {
+  margin-top: 10px;
+  line-height: 10px; }
+
+.fml-meta-list li {
+  width: 30%;
+  padding-left: 3%;
+  float: left;
+  border-right: 1px dotted #d4b381; }
+
+.fml-meta-list li:first-child {
+  padding-left: 0; }
+
+.fml-meta-list li:last-child {
+  border-right: none; }
