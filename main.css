@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.create-logo {
+  width: 60px;
+  bottom: 20px;
+  left: 20px;
+  opacity: .3;
+  position: absolute;
+  cursor: pointer; }
+  .create-logo:hover {
+    opacity: .7; }
+
+.canvas-container {
+  width: 66.66%;
+  height: 100vh;
+  float: left;
+  background: #e9e9e9; }
+
+.graph-container {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+#topicChart {
+  /*	width: 400px;
+	height: 400px;*/ }
+
+.filter-menu {
+  width: 33.33%;
+  height: 100vh;
+  float: right;
+  background: #f5f5f5; }
+
+.filter-metadata {
+  width: 33.33%;
+  height: 100vh;
+  background: #bd9c69;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  display: none; }
+
+.filter-metadata-close {
+  position: absolute;
+  right: 20px;
+  top: 20px; }
+
+.fml-closebutton {
+  width: 17px;
+  color: white;
+  cursor: pointer;
+  opacity: .7; }
+  .fml-closebutton:hover {
+    opacity: 1; }
+
+.fml-white {
+  color: white !important; }
+
+.fml-garamond {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  margin-top: -10px; }
+
+.publisher-container {
+  height: 200px;
+  overflow: auto; }
+
+.inputbox-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  margin-left: 10px;
+  color: #828282; }
+
+ul {
+  padding: 30px; }
+
+li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 35px;
+  color: #7b7b7b; }
+
+.fml-url {
+  color: white; }
+
+.fml-meta-list {
+  padding: 0; }
+
+.fml-meta {
+  display: block; }
+
+.fml-meta-list br {
+  margin-top: 10px;
+  line-height: 10px; }
+
+.fml-meta-list li {
+  width: 30%;
+  padding-left: 3%;
+  float: left;
+  border-right: 1px dotted #d4b381; }
+
+.fml-meta-list li:first-child {
+  padding-left: 0; }
+
+.fml-meta-list li:last-child {
+  border-right: none; }
+
+.y-as {
+  font-family: Montserrat;
+  margin-left: -80px;
+  transform: rotate(-90deg);
+  z-index: 1000000000;
+  position: absolute;
+  margin-top: 100px;
+  font-size: 15px;
+  color: #b7b7b7; }
+
+.x-as {
+  font-family: Montserrat;
+  z-index: 1000000000;
+  position: absolute;
+  float: right;
+  font-size: 14px;
+  color: #b7b7b7;
+  margin-left: 350px;
+  margin-top: 15px;
+  line-height: 17px; }
+
+.size-icon {
+  width: 17px; }
+
+h1 {
+  position: absolute;
+  font-family: 'Montserrat';
+  top: 20px;
+  left: 20px;
+  color: #bd9c69;
+  font-size: 18px; }
