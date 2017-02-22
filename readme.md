@@ -3,4 +3,4 @@
 2. ```npm install```
 3. ```gulp```
 
-The chart can then be accessed by going visiting localhost:8080
+The chart can then be accessed by going to localhost:8080
