@@ -1,5 +1,6 @@
 # CREATE TOPIC chart
-```git clone https://https://github.com/CREATETOPIC/graph.git```
-```npm install```
-```gulp```
-Go to ```localhost:8080```
+```1. git clone https://https://github.com/CREATETOPIC/graph.git
+2. npm install
+3. gulp```
+
+The chart can then be accessed by going visiting localhost:8080
