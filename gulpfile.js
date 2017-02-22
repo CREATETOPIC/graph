@@ -107,7 +107,7 @@ gulp.task('serve', ['build'], function(){
     // Start live-reload server
     $.connect.server({
         root: 'dist/',
-        port: 8888,
+        port: 8080,
         livereload: true
     });
 
