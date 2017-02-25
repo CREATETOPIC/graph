@@ -1,9 +1,21 @@
 @import 'reset';
 
 .create-logo {
-	width: 60px;
+	width: 80px;
   bottom: 20px;
   left: 20px;
+  opacity: .3;
+  position: absolute;
+  cursor: pointer;
+  &:hover {
+		opacity: .7;
+  }
+}
+
+.uva-logo {
+	width: 47px;
+  bottom: 20px;
+  left: 113px;
   opacity: .3;
   position: absolute;
   cursor: pointer;
@@ -72,6 +84,7 @@ transform: translateY(-50%);
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 20px;
 	margin-top: -10px;
+	line-height: 22px;
 }
 
 .publisher-container {
@@ -145,7 +158,7 @@ font-family: Montserrat;
     float: right;
     font-size: 14px;
     color: #b7b7b7;
-    margin-left: 350px;
+    margin-left: 425px;
     margin-top: 15px;
     line-height: 17px;
 }
@@ -153,6 +166,7 @@ font-family: Montserrat;
 .size-icon {
 	width: 17px;
 }
+
 h1 {
 	  position: absolute;
     font-family: 'Montserrat';
@@ -160,4 +174,13 @@ h1 {
     left: 20px;
     color: #bd9c69;
     font-size: 18px;
+}
+
+h2 {
+	  position: absolute;
+    font-family: 'Montserrat';
+    top: 40px;
+    left: 20px;
+    color: #b7b7b7;
+    font-size: 14px;
 }
