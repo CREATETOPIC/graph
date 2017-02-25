@@ -7,7 +7,7 @@ var rawData =
         "title": "Komste van zyne majesteit Willem III. koning van Groot Britanje, enz. in Holland. / `IT`(By Govard Bidloo)`LO`",
         "year": "1691",
         "place": "-",
-        "printer": "Leers, Arnout (II)",
+        "printer": "Leers, Arnout (I)",
         "stcn": "http://picarta.nl/DB=3.11/XMLPRS=Y/PPN?PPN=851461190",
         "def_freq": "0.0205",
         "def_sim": "0.0238",
