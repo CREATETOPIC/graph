@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui">
+	<title>CREATE CHART</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+</head>
+	<body>
+
+	<div>
+		<div class="canvas-container">
+			<h1>Spinozist discourse in Dutch textual culture (1660-1720)</h1>
+			<h2>Lia van Gemert, Lucas van der Deijl, Erik van Zummeren, University of Amsterdam</h2>
+			<a href="http://www.create.humanities.uva.nl/" target="_blank"><img class="create-logo" src="images/creategray.png" /></a>
+			<a href="http://www.uva.nl/" target="_blank"><img class="uva-logo" src="images/uva-logo.png" /></a>
+			<div class="graph-container">
+				<span class="y-as">relative frequency</span>	
+				<canvas id="topicChart" width="400px" height="400px"></canvas>
+				<span class="x-as">similarity
+					<br/>
+					<img src="images/icon-size.svg" class="size-icon"/>overlap</span>	
+			</div>
+		</div>
+	</div>
+
+		<div class="filter-menu">
+				<ul>
+					<li>concept</li>
+						<select id="concept-picker" onchange="conceptChanger()" >
+							<option value="default" selected>alle concepten</option>
+							<option value="natuur" >natuur</option>
+							<option value="god" >god</option>
+							<option value="oorzaak" >oorzaak</option>
+							<option value="wet" >wet</option>
+							<option value="kennis" >kennis</option>
+							<option value="verstand" >verstand</option>
+							<option value="reden" >reden</option>
+							<option value="macht" >macht</option>
+							<option value="recht" >recht </option>
+							<option value="wil" >wil</option>
+							<option value="schrift" >schrift</option>
+							<option value="ziel" >ziel</option>
+							<option value="lichaam" >lichaam</option>
+							<option value="mozes" >mozes</option>
+						</select>
+					<li>periode<br>
+						<input id="firstyear" type="number" name="ffirstyear" value="1600" maxlength="4" onchange="redrawGraph()">
+						<input id="secondyear" type="number" name="flastyear" value="1700" maxlength="4" onchange="redrawGraph()">
+					</li>
+					<li>drukker (alles deselecteren)</li>
+						<div class="publisher-container">
+
+						</div>
+					<li>auteur</li>
+					<li>plaats</li>
+				</ul>
+
+				<div class="filter-metadata">
+					<span class="filter-metadata-close"><img class="fml-closebutton" src="images/close.svg" ></span>
+					<ul class="filter-metadata-list">
+						<li class="fml-white">author</li>
+							<li class="fml-author fml-garamond fml-white"></li>
+						<li class="fml-white">title</li>
+							<li class="fml-title fml-garamond fml-white"></li>						
+						<li class="fml-white">year</li>
+							<li class="fml-jaar fml-garamond fml-white"></li>	
+						<li class="fml-white">printer</li>
+							<li class="fml-drukker fml-garamond fml-white"></li>					
+						<li class="fml-white">place</li>
+							<li class="fml-plaats fml-garamond fml-white"></li>
+						<li class="fml-white">context words</li>
+							<li class="fml-contextwoorden fml-garamond fml-white"></li>
+
+						<ul class="fml-meta-list">
+							<li class="fml-white fml-meta">rel. frequency
+								<br/><span class="fml-frequentie fml-meta fml-garamond fml-white"></span>
+							</li>
+							<li class="fml-white fml-meta">similarity
+								<br/><span class="fml-overeenkomst fml-meta fml-garamond fml-white"></span>
+							</li>
+							<li class="fml-white fml-meta">overlap
+								<br/><span class="fml-overlap  fml-meta fml-garamond fml-white"></span>
+							</li>
+						</ul>
+
+
+					</ul>
+				</div>
+		</div>
+	</div>	
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.bundle.min.js">
+</script>
+
+	<script src="scripts/vendor.js"></script>
+	<script src="scripts/main.js"></script>
+
+	</body>
+</html>
