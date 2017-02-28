@@ -17221,9 +17221,11 @@ function recalculateData(firstyear, secondyear) {
 				dataObj.x = rawData[i].sim_array[13];
 				dataObj.r = (rawData[i].overlap_array[13]*increase);
 			}
-			dataObj.metaX = rawData[i].ppn;
-			dataObj.author = rawData[i].author;
-			dataObj.publisher = rawData[i].printer;
+            dataObj.title = rawData[i].title;
+            dataObj.year = rawData[i].year;
+            dataObj.metaX = rawData[i].ppn;
+			// dataObj.author = rawData[i].author;
+			// dataObj.publisher = rawData[i].printer;
 
    		for (var n = 0; n < activePublishers.length; n++) {
    			if (rawData[i].drukker === activePublishers[n]) {
@@ -17240,7 +17242,7 @@ var rawestData = [
         x: 64,
         y: 51,
         r: 8,
-        metaX: 'hello is it me'
+        metaX: ''
     }
 ];
 
@@ -17267,7 +17269,7 @@ var spinozaChart = new Chart(ctx,{
 		  callbacks: {
 		    label: function(tooltipItems, data) { 
 		      // console.log(tooltipItems.index);
-		      return data.datasets[0].data[tooltipItems.index].metaX;
+		      return data.datasets[0].data[tooltipItems.index].title.substring(0,30) + "... (" + data.datasets[0].data[tooltipItems.index].year + ")";
 		      }
 		    }
 			},
@@ -17290,8 +17292,6 @@ function displayNone(){
 	var modalWindow = document.getElementsByClassName('filter-metadata')[0];
 	modalWindow.style.display = 'none';
 }
-
-
 
 function pointClickHandler(evt){
 	var activePoints = spinozaChart.getElementAtEvent(evt);
