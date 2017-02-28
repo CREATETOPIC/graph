@@ -2,7 +2,7 @@ var ctx = document.getElementById("topicChart");
 
 var rawData = 
 [  {
-        "ppn": "851461190",
+        "ppn": "851461190","corpus": 3,
         "author": "Bidloo, Govert (1649-1713)",
         "title": "Komste van zyne majesteit Willem III. koning van Groot Britanje, enz. in Holland. / `IT`(By Govard Bidloo)`LO`",
         "year": "1691",
@@ -31,7 +31,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "850611806",
+        "ppn": "850611806","corpus": 3,
         "author": "Subligny, Adrien Thomas Perdou de",
         "title": "De valsche Clelie. / `IT`[By Adrien Thomas Perdou de Subligny]. ; Translated from the French by B.V.G. [= G. van Broekhuizen]`LO`",
         "year": "1680",
@@ -60,7 +60,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "844281212",
+        "ppn": "844281212","corpus": 3,
         "author": "Hoorn, Timotheus ten (1644-1715)",
         "title": "Het leeven en bedryf van de hedendaagsche Haagsche en Amsterdamsche zalet-juffers. / `IT`[By Timotheus ten Hoorn]`LO`",
         "year": "1696",
@@ -89,7 +89,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "850013267",
+        "ppn": "850013267","corpus": 3,
         "author": "Me´zeray, Franc¸ois Eudes de (1610-1683)",
         "title": "Chronyk van Vrankryk. : `IT`6 parts. / By De Mezeray. ; Translated into Dutch by G. van Broekhuizen`LO`",
         "year": "1685",
@@ -118,7 +118,7 @@ var rawData =
         "context_mozes": "heiligen geest jesus christus sakramenten einde gesteld ceremonien oude testaments vervuld daaden liefde gedaan                "
     },
     {
-        "ppn": "850015146",
+        "ppn": "850015146","corpus": 3,
         "author": "Maimbourg, Louis (1610-1686)",
         "title": "Historie van de kettery der beeldstormers. / `IT`By Louis Maimburg. ; Translated from the French into Dutch by G. van Broekhuizen`LO`",
         "year": "1685",
@@ -147,7 +147,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "850080940",
+        "ppn": "850080940","corpus": 3,
         "author": "-",
         "title": "De kluchtige Mercurius. / `IT`Translated from the French`LO`",
         "year": "1684",
@@ -176,7 +176,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "850091357",
+        "ppn": "850091357","corpus": 3,
         "author": "-",
         "title": "De boosaardige en bedriegelike huisvrou",
         "year": "1682",
@@ -205,7 +205,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "850092558",
+        "ppn": "850092558","corpus": 3,
         "author": "-",
         "title": "De wandelende dukaat",
         "year": "1682",
@@ -234,7 +234,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "850167434",
+        "ppn": "850167434","corpus": 3,
         "author": "Moscherosch, Johann Michael (1601-1669)",
         "title": "Ses satyrische wondergesighten. / `IT`By Johan Michael Moscherosch. ; Translated and adapt. S. de Vries`LO`",
         "year": "1680",
@@ -263,7 +263,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "850168058",
+        "ppn": "850168058","corpus": 3,
         "author": "Dan, Pierre (-1649)",
         "title": "Historie van Barbaryen, en des zelfs zee-roovers. / `IT`By Pieter Dan. ; Translated from the French into Dutch by G. van Broekhuizen`LO`",
         "year": "1684",
@@ -292,7 +292,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "850247624",
+        "ppn": "850247624","corpus": 3,
         "author": "-",
         "title": "De vliegende gedagten, in een hoofd vol muizenesten",
         "year": "1683",
@@ -321,7 +321,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "850259754",
+        "ppn": "850259754","corpus": 3,
         "author": "Segrais, Jean Regnault de (1624-1701)",
         "title": "De wonderlijke werkingen der liefde. / `IT`By De Segrais. ; Translated from the French into Dutch by G. van Broekhuizen`LO`",
         "year": "1680",
@@ -350,7 +350,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "850277450",
+        "ppn": "850277450","corpus": 3,
         "author": "Schipper Jan",
         "title": "Waarachtige vryagie, tusschen de stantvastige [...] Cloris en de trouwlooze Rosanier. / `IT`By Schipper Jan (pseudonym of Jan Jacobsz. Schipper)`LO`",
         "year": "1681",
@@ -379,7 +379,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "850278570",
+        "ppn": "850278570","corpus": 3,
         "author": "Vairasse, Denis (ca.1630-1672)",
         "title": "Historie der Sevarambes, volkeren die een gedeelte van het darde vast-land bewoonen, gemeenlijk Zuid-land genaamd. / `IT`[By Denis Vairasse]. ; Translated from the French into Dutch by G. van Broekhuizen`LO`",
         "year": "1682",
@@ -408,7 +408,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "850455359",
+        "ppn": "850455359","corpus": 3,
         "author": "Hennin, Jacob de (ca. 1629-1688)",
         "title": "De dwaalende liefde. Vertoond in ses veranderl?ke, waarachtige, ende zeer vermaakel?ke historien. / `IT`By Jakob de Hennin`LO`",
         "year": "1682",
@@ -437,7 +437,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "850456665",
+        "ppn": "850456665","corpus": 3,
         "author": "Melton, Eduward",
         "title": "Zeldzaame en gedenkwaardige zee- en landreizen. / `IT`By Eduward Melton [pseudonym of Gotfried van Broekhuizen]`LO`",
         "year": "1681",
@@ -466,7 +466,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "853061548",
+        "ppn": "853061548","corpus": 3,
         "author": "Voiture, Vincent de (1597-1648)",
         "title": "De historie van Alcidalis en Zelide. / `IT`By De Voiture`LO`",
         "year": "1683",
@@ -495,7 +495,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "844270857",
+        "ppn": "844270857","corpus": 3,
         "author": "-",
         "title": "De trouwlooze vriend, en de broederlyke minnaar, of de kracht des bloeds. / `IT`Translated from the Spanish by D.E.V.`LO`",
         "year": "1679",
@@ -524,7 +524,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "844270776",
+        "ppn": "844270776","corpus": 3,
         "author": "Pre´chac, Jean de (1647-1720)",
         "title": "De musket-draagende heldin. Ofte Een waarachtig verhaal van het doorluchtige leeven [...] van Kristina van Meirak. / `IT`[By Jean de Pre´chac]`LO`",
         "year": "1680",
@@ -553,7 +553,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "844270504",
+        "ppn": "844270504","corpus": 3,
         "author": "-",
         "title": "Hollantse trouw-gevallen",
         "year": "1678",
@@ -582,7 +582,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843567775",
+        "ppn": "843567775","corpus": 3,
         "author": "Hondorffius, Andreas (-1572)",
         "title": "De tien geboden des Heeren. / `IT`By Andreas Hondorffius. ; Translated from the Latin tr. from the German into Dutch by G. van Broekhuizen`LO`",
         "year": "1685",
@@ -611,7 +611,7 @@ var rawData =
         "context_mozes": "nieuwsgierigheid stoffe voldoen god opperste wetgeever geboden knecht volk israëls gegeeven bedtiere gemelde vrucht zaligheid voortbrengen einde tempel grootvader vader bezoedeld vernieuwde gebrokene plaatsen bracht gevondene boeken dag herstelde godlijke"
     },
     {
-        "ppn": "843545054",
+        "ppn": "843545054","corpus": 3,
         "author": "Scude´ry, Madeleine de (1607-1701)",
         "title": "Des doorlughtigen bassa Ibrahims en der volstandige Isabellæ wonder-geschiedenissen. / `IT`By Scudery. ; Translated from the French by S. de Vries`LO`",
         "year": "1679",
@@ -640,7 +640,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843452307",
+        "ppn": "843452307","corpus": 3,
         "author": "Thevenot, Jean de (1633-1667)",
         "title": "Gedenkwaardige en zeer naauwkeurige reizen van den heere de Thevenot. / `IT`Translated from the French by G. van Broekhuizen`LO`",
         "year": "1681",
@@ -669,7 +669,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "842850465",
+        "ppn": "842850465","corpus": 3,
         "author": "Savary, Jacques (1622-1690)",
         "title": "De volmaakte koopman, zynde een naaukeurige onderrechting van alles wat den inlandschen en uitlandschen koophandel betreft. / `IT`By Savary. ; Translated from the French into Dutch by G. van Broekhuizen`LO`",
         "year": "1683",
@@ -698,7 +698,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "842414908",
+        "ppn": "842414908","corpus": 3,
         "author": "-",
         "title": "D'arkadisghe[!] minne-gloob, waer op, van aghter de gord?nen der liefde, breydelloose driften, en dwaze hartstogten spelen",
         "year": "1683",
@@ -727,7 +727,7 @@ var rawData =
         "context_mozes": "leven eyndigden ontelbare hoogen ouderdom bereikt lesen denk profeet iosefus oirsake sghfijtmen kwalijk sober matig               "
     },
     {
-        "ppn": "842406778",
+        "ppn": "842406778","corpus": 3,
         "author": "Lyly, John (ca. 1554-1606)",
         "title": "De vermaakel?ke historie, zee en landt-reyze van Euphues, ofte Een ontleedinge des vernufts. / `IT`[By John Lyly]. ; Translated from the English by J.G. [= J. Grindal]`LO`",
         "year": "1682",
@@ -756,7 +756,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "841250871",
+        "ppn": "841250871","corpus": 3,
         "author": "Dircksz, Jacob (Oom ; 1673-1683 fl.)",
         "title": "Een alegoris-historis verhaal van het edel en machtig koninkr?k van Salem. / `IT`By O.J.D. van W-V [= Oom Jacob Dircksz van Wormerveer]`LO`",
         "year": "1683",
@@ -808,7 +808,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "316230170",
+        "ppn": "316230170","corpus": 3,
         "author": "Waeyen, Johannes van der (1639-1701)",
         "title": "[De] Franequer los-kop; of holbollige student. / `IT`By J.W.D.V.`LO`",
         "year": "16XX",
@@ -837,7 +837,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "240199065",
+        "ppn": "240199065","corpus": 3,
         "author": "Courtilz de Sandras, Gatien de (1644-1712)",
         "title": "De minneryen van den groten Alcander inde Nederlanden. / `IT`[By Gatien de Courtilz de Sandras]`LO`",
         "year": "1684",
@@ -866,7 +866,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "141577975",
+        "ppn": "141577975","corpus": 3,
         "author": "-",
         "title": "[Het wonderl?ck leven en bedryf van den vermaerden Nicolaes Molemy, anders genaamt, Kleyn Klaesje",
         "year": "17XX",
@@ -895,7 +895,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "126596751",
+        "ppn": "126596751","corpus": 3,
         "author": "Heinsius, Nicolaas (jr. ; 1656-1718)",
         "title": "Den vermakelyken avanturier, ofte De wispelturige, en niet min wonderlyke levens-loop van Mirandor. / `IT`By N.H. [= Nicolaas Heinsius jr.]`LO`",
         "year": "1695",
@@ -924,7 +924,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "125341172",
+        "ppn": "125341172","corpus": 3,
         "author": "Vries, S. de (1628-1708)",
         "title": "D'edelste verlustigingh der leer- en lees-geerige gemoederen. Of Groot historisch schouw-tooneel. / `IT`By S. de Vries`LO`",
         "year": "1680",
@@ -953,7 +953,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "100626378",
+        "ppn": "100626378","corpus": 3,
         "author": "Maimbourg, Louis (1610-1686)",
         "title": "Historie der kruisvaarders, tot de verlossing van't heilig land. / `IT`By Louis Maimburg. ; Translated from the French into Dutch by G. van Broekhuizen`LO`",
         "year": "1684",
@@ -1005,7 +1005,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "85231423X",
+        "ppn": "85231423X","corpus": 3,
         "author": "-",
         "title": "'t Leven en bedryf van d'heer Paulus Wirtz [...] velt-maerschalck ten dienste deser Vereenighde Nederlanden",
         "year": "1681",
@@ -1034,7 +1034,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "85016771X",
+        "ppn": "85016771X","corpus": 3,
         "author": "Vries, S. de (1628-1708)",
         "title": "Franckrycks kerckl?cke en weereldl?cke staet [...] van't jaer Christi 420. tot op't jaer 1684. / `IT`By S. de Vries`LO`",
         "year": "1684",
@@ -1063,7 +1063,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "84246042X",
+        "ppn": "84246042X","corpus": 3,
         "author": "Vrye, Hippolytus de",
         "title": "De tien vermakelikheden des houwelyks. / `IT`By Hippolytus de Vrye [pseudonym of Hieronymus Sweerts]`LO`",
         "year": "1683",
@@ -1092,7 +1092,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "83058031X",
+        "ppn": "83058031X","corpus": 3,
         "author": "Bussy Rabutin, Roger de (1618-1693)",
         "title": "'tGeheim van't Fransche hof. / `IT`[By Roger de Bussy Rabutin et al.] ; Translated from the French`LO`",
         "year": "1680",
@@ -1190,7 +1190,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "12514816X",
+        "ppn": "12514816X","corpus": 3,
         "author": "-",
         "title": "D'edele Sandastra. Stralende uyt Asia in Europa. Of Cyprische Medea",
         "year": "1680",
@@ -1219,7 +1219,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "166007781",
+        "ppn": "166007781","corpus": 3,
         "author": "-",
         "title": "De ontleeding van den Ontleeder der gebreeken",
         "year": "1724",
@@ -1248,7 +1248,7 @@ var rawData =
         "context_mozes": "mes heften drietand steelen staf eertyds gebloeit handen veranderderde naderhant serpent staatkundig man janus hoofden slang koppen pand minne beledigde juffers tederheyt verspilt ondankbaar galant huysvrouw hard hoofd lintweever herstelt"
     },
     {
-        "ppn": "100817378",
+        "ppn": "100817378","corpus": 3,
         "author": "Lingelbach, David (1641-)",
         "title": "De ontdekte schyndeugd, bly-spel. / `IT`By D. Lingelbagh`LO`",
         "year": "1687",
@@ -1277,7 +1277,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "154032638",
+        "ppn": "154032638","corpus": 3,
         "author": "Callot, Jacques (ca. 1592-1635)",
         "title": "De carneval van Roomen, of de vastenavonds vermaaklykheden. / `IT`(By Jacques Callot)`LO`",
         "year": "1718",
@@ -1306,7 +1306,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "183945891",
+        "ppn": "183945891","corpus": 3,
         "author": "Lustig, Jacob Wilhelm (1706-1796)",
         "title": "Vervolg van het musikaels tydverdryf. / `IT`By Jacob Wilhelm Lustig`LO`",
         "year": "175X",
@@ -1335,7 +1335,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "180925784",
+        "ppn": "180925784","corpus": 3,
         "author": "Langendijk, Pieter (1683-1756)",
         "title": "Arlequyn actionist. Kluchtig blyspe´l. / `IT`By Pieter Langendyk`LO`",
         "year": "1720",
@@ -1364,7 +1364,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "844053414",
+        "ppn": "844053414","corpus": 3,
         "author": "Arents, Thomas (1652-1701)",
         "title": "De krooninge van haare majesteiten, Wilhem Hendrik, e´n Maria Stuart, to´t koning, e´n koninginne, van Engeland, Vrankryk, e´n Yrland. / `IT`(By Thomas Arents)`LO`",
         "year": "1689",
@@ -1393,7 +1393,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "255799845",
+        "ppn": "255799845","corpus": 3,
         "author": "Ruysch, Frederik (1638-1731)",
         "title": "Alle de ontleed- genees- en heelkundige werken : `IT`3 parts. / By Fredrik Ruysch. ; Translated into Dutch by Y.G. Arlebout`LO`",
         "year": "1744",
@@ -1422,7 +1422,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "168670402",
+        "ppn": "168670402","corpus": 3,
         "author": "-",
         "title": "Onderzoek of de rechten van den mensch [...] strijden met de leere der hervormde kerk [...] b? aanleiding van zeker bericht geplaatst in de Algemeene vaderlandsche lettero¨efeningen voor 1798, n°. 14. II. stuk. bladz. 588. Behandeld in IV. brieven tusschen Filekklesius en Veridicus",
         "year": "1799",
@@ -1451,7 +1451,7 @@ var rawData =
         "context_mozes": "wet joseph geschiedenis gedrag komst genomen boeken oude kond groot zabbath mensch propheeten god egyptenaars zegt schoone behaaglyke deugd afschuwelyke ondeugd nutte leeringen wysgeerige beschouwer verhaalen afleiden gepast voorwerp opmerkinge"
     },
     {
-        "ppn": "110956184",
+        "ppn": "110956184","corpus": 3,
         "author": "-",
         "title": "Op de Betoverde wereld, &amp;c. Seer geleerd, bondig, en krachtig beschreven ten nutte der algemeene christenheyt, door [...] d`SUP`o`LO`. Balthasar Bekker",
         "year": "1691",
@@ -1480,7 +1480,7 @@ var rawData =
         "context_mozes": "god deeden duivel aaron selfs genen menschen spreecken engel seyt sijn heeren zien volk doe reden staat wijs mensch weeten koning tijd lichaam seggen exod dienst maken egypten deut sulx"
     },
     {
-        "ppn": "242833233",
+        "ppn": "242833233","corpus": 3,
         "author": "Nieuwentijt, Bernard (1654-1717)",
         "title": "Het regt gebruik der werelt beschouwingen, ter overtuiginge van ongodisten en ongelovigen. / `IT`By Bernard Nieuwentyt`LO`",
         "year": "1720",
@@ -1509,7 +1509,7 @@ var rawData =
         "context_mozes": "god plaatsen syn seggen laet reden selfs man land goud wierde ingever water schriften lesen woorden genes geest wateren aarde ymand goddelyke veele vyer sigh soodanigh maken macht maght geschreven"
     },
     {
-        "ppn": "239926781",
+        "ppn": "239926781","corpus": 3,
         "author": "Huydecoper, Balthasar (1695-1778)",
         "title": "Proeve van taal- en dichtkunde; in vrymoedige aanmerkingen op Vondels vertaalde Herscheppingen van Ovidius. / `IT`By B. Huydecoper. ; 2nd enlarged edition by F. van Lelyveld`LO`",
         "year": "1782",
@@ -1538,7 +1538,7 @@ var rawData =
         "context_mozes": "lofzang zegt betekenis vleesch teder tanger aldegonde hoornen sc gelegenheden verkiest minst dubbelzinnig duister moonen uitbreiding 719 filistijn astarte maen gruwzaem mirtewout heur boelschap onderhoudt onbepaaldelijk genomen menigte vollen overvloed"
     },
     {
-        "ppn": "300314639",
+        "ppn": "300314639","corpus": 3,
         "author": "Martinet, J.F. (1729-1795)",
         "title": "Katechismus der natuur. : `IT`Volume 1. / `By J.F. Martinet`LO`",
         "year": "1777",
@@ -1567,7 +1567,7 @@ var rawData =
         "context_mozes": "god licht lev deut eeten geyverd opgehouden kennis natuur aangepreezen weet job david jesaias heilige mannen gedaan salomo heerlyken tempel bouwde verbeterd veranderde verërgeren denk grootsch seggen schepping werk spreecken"
     },
     {
-        "ppn": "306009471",
+        "ppn": "306009471","corpus": 3,
         "author": "Lairesse, Ge´rard de (1640/41-1711)",
         "title": "Groot schilderboek, waar in de schilderkonst [...] werd onderweezen. / `IT`By Gerard de Lairesse`LO`",
         "year": "1712",
@@ -1596,7 +1596,7 @@ var rawData =
         "context_mozes": "god oude propheet geeft heilige schrift dingen offerhanden verstaan poussyn vindinge nyl verbeeld offeren insgelyks wet gebood zonden oogen verscheen arke voorbeeld eenemaal zegt schoenen tyden bloed leven hairen priesters"
     },
     {
-        "ppn": "840969589",
+        "ppn": "840969589","corpus": 3,
         "author": "Krul, Jan Hermansz (1602-1644)",
         "title": "Pampiere wereld ofte Wereldsche oeffeninge. : `IT`4 parts. / By J.H. Krul`LO`",
         "year": "1681",
@@ -1625,7 +1625,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "191420778",
+        "ppn": "191420778","corpus": 3,
         "author": "Picart, Bernard (1673-1733)",
         "title": "Naaukeurige beschryving der uitwendige godtsdienst-plichten, kerk-zeden en gewoontens van alle volkeren der waereldt. / `IT`Engraved by Bernard Picard. ; Translated from the French into Dutch by A. Moubach`LO`",
         "year": "1727",
@@ -1654,7 +1654,7 @@ var rawData =
         "context_mozes": "mahomet jesus christus god boekken wet zegt alcoran evangelium mahometaanen profeeten heeren maria aaron historie adam menschen spreekt abraham gevoelen volk laatste seggen boek gelooven kinderen weeten zien mirakelen jooden"
     },
     {
-        "ppn": "107161230",
+        "ppn": "107161230","corpus": 3,
         "author": "Outrein, Johannes d' (1662-1722)",
         "title": "Proef-stukken van heilige sinne-beelden. / `IT`By Johannes d'Outrein`LO`",
         "year": "1700",
@@ -1683,7 +1683,7 @@ var rawData =
         "context_mozes": "god syn dag christus ligt wysheid abraham ontrent selfs tyd egypten wereld sinnebeeldige wateren volk segt sinnebeelden egyptenaren aarde goede dagen profeten woorden kerke jaaren morgens wet nagt werken kragt"
     },
     {
-        "ppn": "147572789",
+        "ppn": "147572789","corpus": 3,
         "author": "Cats, Jacob (1577-1660)",
         "title": "sWerelts begin, midden, eynde, besloten in den trov-ringh, met den proef-steen van den selven. / `IT`By I. Cats`LO`",
         "year": "1638",
@@ -1712,7 +1712,7 @@ var rawData =
         "context_mozes": "god vvijf val sulcx geeft selfs syn schiep seyt beeldt gewagh maeckt weeten begin sie zien yet houwelick ghelijck daerom keyser justinianus goddelicke wet gever gelegentheyt beginnen schrijvē hebreen ioden"
     },
     {
-        "ppn": "251937887",
+        "ppn": "251937887","corpus": 3,
         "author": "-",
         "title": "De boekzaal van Europe. : `IT`19 parts. / (Edited by P. Rabus)`LO`",
         "year": "1692",
@@ -1741,7 +1741,7 @@ var rawData =
         "context_mozes": "god tijd wil wet kerck abraham joden zoon christus heeren schrijver woorden goddelijke zegt seggen wijze propheten wereld zien genen egypten hebreen genoemd beschreven geboorte menschen historie kinderen boek gedagten"
     },
     {
-        "ppn": "160330386",
+        "ppn": "160330386","corpus": 3,
         "author": "Post, Elisabeth Maria (1755-1812)",
         "title": "Reinhart, of Natuur en godsdienst. / `IT`(By Elisabeth Maria Post)`LO`",
         "year": "1791",
@@ -1770,7 +1770,7 @@ var rawData =
         "context_mozes": "tegenwoordige omstandigheden vorderen vergeeten laet herinneren aangenaame zachte aandoeningen vreedzaame herdertooneelen aftekent mijne kinderlijke ziel heugt klein jonge            "
     },
     {
-        "ppn": "850786584",
+        "ppn": "850786584","corpus": 3,
         "author": "Simon de Vries",
         "title": "Wonderen soo aen als in, en wonder-gevallen soo op als ontrent de zeeën, rivieren, meiren, poelen en fonteynen: historischer; ondersoeckender, en redenvoorstellender wijs verhandeld",
         "year": "1687",
@@ -1799,7 +1799,7 @@ var rawData =
         "context_mozes": "water america heylige schrift verhael god arck nae dieren ghelijck sondvloed getroffen loopt seyde honorius opentlijck gedaan geest leesen vloed veertigh dagen aerden wateren eyndigen deezer woorden honorii dienstmaeghd aenseggen"
     },
     {
-        "ppn": "251975436",
+        "ppn": "251975436","corpus": 3,
         "author": "-",
         "title": "Algemene konst- en letter-bode, voor meer- en min-geoeffenden: behelzende berigten uit de geleerde waereld, van alle landen. : `IT`11 parts`LO`",
         "year": "1788",
@@ -1828,7 +1828,7 @@ var rawData =
         "context_mozes": "boeken the hoogduitsch vertaald j 1788 verscheidene 1ste kerkenraad gravenhage du wysgerige verhandelingen brieven gesprekken mendelszoon aantekeningen leven auteur verrykt g brender zilvere medaille bekroond zien nieuwe uitkomende akademische schriften"
     },
     {
-        "ppn": "150621884",
+        "ppn": "150621884","corpus": 3,
         "author": "Swaanenburg, Willem van (1679-1728)",
         "title": "De herboore oudheit, of Europa in't nieuw. / `IT`(By Wilhelmus van Swaanenburg)`LO`",
         "year": "1724",
@@ -1857,7 +1857,7 @@ var rawData =
         "context_mozes": "amsterdam geschrei vollen toom maat davids harpen zetten tempel stander god puik aronieten stoel beklom snydent zwaart adams bekkeneel stuk geschaart natte spillen adam lobé gedrukt bekomen euangelium beschreven joannes"
     },
     {
-        "ppn": "09063487X",
+        "ppn": "09063487X","corpus": 3,
         "author": "Olaus Magnus (1490-1558)",
         "title": "Toonneel der Noordsche landen. / `IT`By Olaus de Groot. ; Translated from the Latin by D. Blefken`LO`",
         "year": "1652",
@@ -1886,7 +1886,7 @@ var rawData =
         "context_mozes": "god recht hand macht omringht beschermt abrahams ghetrouwheydt lanckmoedigheydt davids ootmoedigheydt salomons wijsheydt verçiert dingen behaegh oprechtelijck wandel vyanden           "
     },
     {
-        "ppn": "297145533",
+        "ppn": "297145533","corpus": 3,
         "author": "-",
         "title": "Maendelyke uittreksels, of De boekzael der geleerde werrelt",
         "year": "1715",
@@ -1915,7 +1915,7 @@ var rawData =
         "context_mozes": "tabernakel god tyt abraham schryver outrein israël heeren christus genoemd onderscheiden byzonder stuk belofte uure hooftstuk oorsprong spreecken anderzins levitische tente zonde lampjes stonden granaetappel schaeltje text boeken neffens schrift"
     },
     {
-        "ppn": "85058695X",
+        "ppn": "85058695X","corpus": 3,
         "author": "Blankaart, Steven (1650-1704)",
         "title": "Den Neder-landschen herbarius ofte Kruid-boek der voornaamste kruiden. / `IT`By Steph. Blankaart`LO`",
         "year": "1698",
@@ -1944,7 +1944,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "842363270",
+        "ppn": "842363270","corpus": 3,
         "author": "Adriaan Koerbagh",
         "title": "Een Bloemhof van allerley lieflijkheyd",
         "year": "1668",
@@ -1973,7 +1973,7 @@ var rawData =
         "context_mozes": "boek boeken kist selfs noemen gehandelt heeren arm genoemd gesprooken maken dans mose selven geschreven getoont hebreen הדברים אלה כפר sepher ele woorden mosis schrijver god verbond verbonds weest setten"
     },
     {
-        "ppn": "154980625",
+        "ppn": "154980625","corpus": 3,
         "author": "Fermin, Philippe (1730-1813)",
         "title": "Nieuwe algemeene beschryving van de colonie van Suriname. / `IT`By Philip Fermin`LO`",
         "year": "1770",
@@ -2002,7 +2002,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "202616975",
+        "ppn": "202616975","corpus": 3,
         "author": "-",
         "title": "Nederduitse en Latynse keurdigten, by een verzamelt door de liefhebberen der oude Hollandse vryheit. : `IT`[Part 1]`LO`",
         "year": "1710",
@@ -2031,7 +2031,7 @@ var rawData =
         "context_mozes": "aron glans tyrannye herders werk voeten krygen schoenen gedaan armen zwygen deedt barvoets gaen bruyloft dorre bezwalken gantsch priesterschap wert verdooft arons borstlapssteenen stralen slegts hoornen scheenen &gt; verovering goes"
     },
     {
-        "ppn": "189728361",
+        "ppn": "189728361","corpus": 3,
         "author": "Wolff, Betje (1738-1804)",
         "title": "Historie van mejuffrouw Sara Burgerhart. / `IT`By E. Bekker wed. ds. Wolff and Agatha Deken`LO`",
         "year": "1783",
@@ -2060,7 +2060,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "213689111",
+        "ppn": "213689111","corpus": 3,
         "author": "Zorgdrager, C.G. (1650-)",
         "title": "Bloeijende opkomst der aloude en hedendaagsche Groenlandsche visschery. / `IT`By C.G. Zorgdrager. ; With additions by A. Moubach`LO`",
         "year": "1727",
@@ -2089,7 +2089,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "338895973",
+        "ppn": "338895973","corpus": 3,
         "author": "Rosenmu¨ller, Johann Georg (1736-1815)",
         "title": "Eenvoudig onderwijs in den godsdienst voor kinderen. / `IT`By J.G. Rosenmuller. ; Translated from the German`LO`",
         "year": "1792",
@@ -2118,7 +2118,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "53739132",
+        "ppn": "53739132","corpus": 3,
         "author": "Nicolaas Stapel",
         "title": "Het lust-hof der zielen, beplant met verscheiden zoorten van geestelijke gezangen. / Comp. C.S. [= Nicolaas Stapel]",
         "year": "1681",
@@ -2147,7 +2147,7 @@ var rawData =
         "context_mozes": "heeren verscheenen leer god need rig wezen schrikke niemand aardze glory deezen heenen salomon christus volmaakte pracht zien hoog beelden heiligen dienstig zingen bemoeid getrouwe dienst knecht kinderen israels exod"
     },
     {
-        "ppn": "161751768",
+        "ppn": "161751768","corpus": 3,
         "author": "Weyerman, Jacob Campo (1677-1747)",
         "title": "Den Amsterdamschen Hermes. Zynde een historisch, poe¨etisch, en satyrisch verhaal van de zotheden der voorby zynde [...] eeuw. / `IT`By Jacob Campo Weyerman`LO`",
         "year": "1722",
@@ -2176,7 +2176,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "143376349",
+        "ppn": "143376349","corpus": 3,
         "author": "-",
         "title": "De denker",
         "year": "1764",
@@ -2205,7 +2205,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "234675284",
+        "ppn": "234675284","corpus": 3,
         "author": "Snakenburg, Henr. (1674-1750)",
         "title": "Poe¨zy. / `IT`By Hendrik Snakenburg. ; Edited by F. de Haes`LO`",
         "year": "1753",
@@ -2234,7 +2234,7 @@ var rawData =
         "context_mozes": "god volk israël doodt dingen water eige macht maght wet zien wetten snoode aarons stond hand aerd ô jozefs vergeet wezen hoop midden nood uitverkoren zenden weerwil smaed gozen wenden"
     },
     {
-        "ppn": "184929369",
+        "ppn": "184929369","corpus": 3,
         "author": "Swaanenburg, Willem van (1679-1728)",
         "title": "De vervrolykende Momus, of Koddige berisper, opgedragen aan Hans Christoffel Ludeman. / `IT`By W. v. Swaanenburg`LO`",
         "year": "1727",
@@ -2263,7 +2263,7 @@ var rawData =
         "context_mozes": "doe weet arons zaaken wereld throon ziet wars past laet gemeen levi schoone israël zien oogmerk laeten weeten hoofd schelm bedagt begreep bovendryvende party ordinairie geestelyke dwaalt geeft hand aron"
     },
     {
-        "ppn": "841937060",
+        "ppn": "841937060","corpus": 3,
         "author": "Boccaccio, Giovanni (1313/14-1375)",
         "title": "De tweede v?ftigh lustige historien ofte nieuwigheden. / `IT`By Johannes Boccatius. ; Translated into Dutch`LO`",
         "year": "1644",
@@ -2292,7 +2292,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "205291279",
+        "ppn": "205291279","corpus": 3,
         "author": "-",
         "title": "Huwelykskranssen, voor den eerwaarden [...] Adria¨nus de Hart [...] en mejuffrouwe Christina van Yzendoorn",
         "year": "1751",
@@ -2321,7 +2321,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "152015108",
+        "ppn": "152015108","corpus": 3,
         "author": "-",
         "title": "Verscheide gedigten soo voor als tegen den Hemel op aarde gefatsoeneert van d`SUP`o`LO`. F. van Leenhof. Naar de gronden van B.D.S",
         "year": "1704",
@@ -2350,7 +2350,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "84371297X",
+        "ppn": "84371297X","corpus": 3,
         "author": "Asselyn, Thomas (1620-1701)",
         "title": "Gusman de Alfarache, of De doorsleepene bedelaars. Blyspel. / `IT`By T. Asselyn`LO`",
         "year": "1693",
@@ -2379,7 +2379,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "31734028X",
+        "ppn": "31734028X","corpus": 2,
         "author": "Balthasar Bekker",
         "title": "De betoverde wereld",
         "year": "1691-1693",
@@ -2408,7 +2408,7 @@ var rawData =
         "context_mozes": "god duivel deeden aaron selfs genen menschen spreecken engel seyt sijn heeren zien wijs volk doe reden mensch staat weeten koning tijd lichaam seggen exod dienst maken egypten deut sulx"
     },
     {
-        "ppn": "841468826",
+        "ppn": "841468826","corpus": 3,
         "author": "Six van Chandelier, J. (1620-1695)",
         "title": "Poe¨sy. / `IT`By J. Six van Chandelier`LO`",
         "year": "1657",
@@ -2437,7 +2437,7 @@ var rawData =
         "context_mozes": "genoemd beloofde land volk artsen staat medische kennis vastgelegd israël gereegelt oeffeningh belust koër prins seegen god koomen terugkeren parallellie vanaf berg nebo kijken sterven deuteronomium 34 michels geschreven pentateuch"
     },
     {
-        "ppn": "204348471",
+        "ppn": "204348471","corpus": 3,
         "author": "Hartsinck, Jan Jacob (1716-1779)",
         "title": "Beschryving van Guiana, of de Wilde kust, in Zuid-America. : `IT`2 parts. / By Jan Jacob Hartsinck`LO`",
         "year": "1770",
@@ -2466,7 +2466,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "184644682",
+        "ppn": "184644682","corpus": 3,
         "author": "Heinsius, Nicolaas (jr. ; 1656-1718)",
         "title": "Den vermakelyken avanturier, ofte De wispelturige, en niet min wonderlyke levens-loop van Mirandor. / `IT`By N.H. [= Nicolaas Heinsius jr.]`LO`",
         "year": "1722",
@@ -2495,7 +2495,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "293084076",
+        "ppn": "293084076","corpus": 3,
         "author": "-",
         "title": "Het groote tafereel der dwaasheid, vertoonende de opkomst, voortgang en ondergang der [...] windnegotie, in Vrankryk, Engeland, en de Nederlanden, gepleegt in den jaare MDCCXX",
         "year": "1720",
@@ -2524,7 +2524,7 @@ var rawData =
         "context_mozes": "ô god teeken jacobs besweeken plaets ontvlugt vader abraham wild spreecken bad gebreeken jacob gram               "
     },
     {
-        "ppn": "841936978",
+        "ppn": "841936978","corpus": 3,
         "author": "Boccaccio, Giovanni (1313/14-1375)",
         "title": "V?ftigh lustighe historien oft nieuwigheden. / `IT`By Joannes Boccatius. ; Translated into Dutch by D.V. Coornhert`LO`",
         "year": "16XX",
@@ -2553,7 +2553,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "374841659",
+        "ppn": "374841659","corpus": 3,
         "author": "-",
         "title": "Het boek der psalmen, nevens de gezangen bij de hervormde kerk van Nederland in gebruik",
         "year": "1774",
@@ -2582,7 +2582,7 @@ var rawData =
         "context_mozes": "god volk wegen genade verlaaten g land druk heeren hunn zond aron verkooren vleesch gunst alom verspreid bestaan eeuwigheid ghelijck segt geschapen seyden waerom geboden scheydbrief seyde hardigheyt dagen seyt"
     },
     {
-        "ppn": "83122360X",
+        "ppn": "83122360X","corpus": 3,
         "author": "-",
         "title": "Vlissings-redens-lusthof, beplant met seer schoone en bequame oeffeningen [...] uyt-gegeven by [...] De Blaeu Acoleye",
         "year": "1642",
@@ -2611,7 +2611,7 @@ var rawData =
         "context_mozes": "god volk heeren ghemeen int best nodighst wort gebedt ren woonen geluckigh selfs leydt geketent ach cleen blijft hangen iethro raedt doe last prangen verkiesen mannen cloeck verstand gierigheyt elck"
     },
     {
-        "ppn": "168366843",
+        "ppn": "168366843","corpus": 3,
         "author": "-",
         "title": "Davids psalmen. / `IT`By J. de Brune de oude`LO`",
         "year": "1650",
@@ -2640,7 +2640,7 @@ var rawData =
         "context_mozes": "god end pause water ghy volk aaron samuel buyght heeren ging verkoren zee pad niemand kende voetstappen hand aärons kudde vees gheleyt &gt; lxxviii psalm onderwijzinghe asaphs onsen bly valt"
     },
     {
-        "ppn": "297328549",
+        "ppn": "297328549","corpus": 3,
         "author": "-",
         "title": "De vrolyke zanggodinnen, of Mengelwerk van vernuft",
         "year": "1781",
@@ -2669,7 +2669,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "154312177",
+        "ppn": "154312177","corpus": 3,
         "author": "Brune, Jan de (de jonge ; 1616-1649)",
         "title": "Wetsteen der vernuften, oft Bequaam middel, om van alle voorvallende zaken, aardighlik te leeren spreken. : `IT`Part 1. / By Jan de Brune de jonge`LO`",
         "year": "1644",
@@ -2698,7 +2698,7 @@ var rawData =
         "context_mozes": "duisend gezeid twintigh verhaalt outste studyen gewisselik musijk zondvloed afnemen achtervolgens dewelke genes iubal genen wort wezen harpeslagers gekomen zonde israeliten dry zeit wieren dag verslagen princen volx dryentwintigh lastergeesten"
     },
     {
-        "ppn": "316630829",
+        "ppn": "316630829","corpus": 3,
         "author": "Langendijk, Pieter (1683-1756)",
         "title": "De gedichten : `IT`Part 4. / By Pieter Langendyk`LO`",
         "year": "1760",
@@ -2727,7 +2727,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "169350495",
+        "ppn": "169350495","corpus": 3,
         "author": "Styl, S. (1731-1804)",
         "title": "De opkomst en bloei van de Republiek der Vereenigde Nederlanden; voorafgegaan door een verhandeling over de opkomst en den ondergang van oude en hedendaagsche republieken. / `IT`[By Simon Stijl]`LO`",
         "year": "1774",
@@ -2756,7 +2756,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "112200184",
+        "ppn": "112200184","corpus": 3,
         "author": "Bentivoglio, Guido (1579-1644)",
         "title": "Relationi del cardinal Bentivoglio",
         "year": "1646",
@@ -2785,7 +2785,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "268610339",
+        "ppn": "268610339","corpus": 3,
         "author": "Halma, Franc¸ois (1653-1722)",
         "title": "t Gereformeert gezangboek over de voornaamste gevallen en waarheden van't christendom. / `IT`By F. Halma`LO`",
         "year": "1712",
@@ -2814,7 +2814,7 @@ var rawData =
         "context_mozes": "god wet israël dag oude geest ruste iesus bloet kracht leven spreecken kerkbestel duidlyk most verbeeldt eindelooze dieren kalveren bokken stieren verdient gansche doodt zoon ziel profeet taal verbondt offerhanden"
     },
     {
-        "ppn": "843771348",
+        "ppn": "843771348","corpus": 3,
         "author": "Steendam, Jacob (1616-ca1670)",
         "title": "Den distel-vink in't geheel. / `IT`By J.J. Steendam`LO`",
         "year": "1649",
@@ -2843,7 +2843,7 @@ var rawData =
         "context_mozes": "god hart volk ren vloekt trouwen harde verhart plaagden slavelijke smart bbiram dathan reên roeriglijk quellen moabiten vorst kind iacobs dees wulpse vreugd groter wellust duyst rode meêr aegiptis heyr"
     },
     {
-        "ppn": "315643838",
+        "ppn": "315643838","corpus": 3,
         "author": "Kist, W. (1758-1841)",
         "title": "Het leven gevoelens en zonderlinge reize van den land-jonker, Govert Hendrik Godefroi van Blankenheim tot den Stronk. / `IT`[By Wilhelmus Kist].`LO`",
         "year": "1800",
@@ -2872,7 +2872,7 @@ var rawData =
         "context_mozes": "zaaymannius baron paruikmaaker laeten hoog hart vader hoofdstuk drift huys kamenier nut predikant japon stronk hairen wensch grijzen zweeg haalde vierde zet paruik meid liep geschieden afscheeren zag heeviger woede"
     },
     {
-        "ppn": "853409463",
+        "ppn": "853409463","corpus": 3,
         "author": "Veen, Jan van der (1587-1659)",
         "title": "Zinne-beelden, oft Adams appel : `IT`and other works. / By Jan vander Veen`LO`",
         "year": "1642",
@@ -2901,7 +2901,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "167651846",
+        "ppn": "167651846","corpus": 3,
         "author": "-",
         "title": "De post van den Helicon. : `IT`2 parts`LO`",
         "year": "1788",
@@ -2930,7 +2930,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "315173300",
+        "ppn": "315173300","corpus": 3,
         "author": "Bie, Cornelis de (1627-1715/16)",
         "title": "Faems weer-galm der Neder-duytsche poe¨sie. / `IT`By Cornelius de Bie`LO`",
         "year": "1670",
@@ -2959,7 +2959,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "184231876",
+        "ppn": "184231876","corpus": 3,
         "author": "-",
         "title": "Proeve van oudheid-, taal- en dichtkunde, door het genootschap Dulces ante omnia musæ",
         "year": "1775",
@@ -2988,7 +2988,7 @@ var rawData =
         "context_mozes": "bosch god zing blazoen brandend kamer wit lavender oude naberouw spâ begunstigt snood verdigte logen 1763 &gt; dankleid israëls uittogt egipte gevolgd latijn heeren petrus francius hertog hebreen keer honderd"
     },
     {
-        "ppn": "181079062",
+        "ppn": "181079062","corpus": 3,
         "author": "-",
         "title": "Davids harpzangen, of de CL psalmen van [...] David. / `IT`By F. Halma`LO`",
         "year": "1707",
@@ -3017,7 +3017,7 @@ var rawData =
         "context_mozes": "god aärons israël wegen verlaaten heilige schelfzee kloek verspreidt knecht recht samen seyden waerom geboden scheydbrief seyde hardigheydt geschiedenissen gezangen immers weeten schynen meest aanvang neemen mirriam zuster profetesse toenze"
     },
     {
-        "ppn": "850525187",
+        "ppn": "850525187","corpus": 3,
         "author": "Eecke, Cornelis van (17e E.)",
         "title": "De koninklyke harpliederen, op nieuws in rym [...] uitgebreid. / `IT`By Cornelis van Eeke`LO`",
         "year": "1698",
@@ -3046,7 +3046,7 @@ var rawData =
         "context_mozes": "god volk broeder ron smert afgezonden hoofd hoeder tolk hert wet priester wàter hadd verbéten zat sufte angst dappre wrogten zàken verwondrens lof tongen almagt gezongen roem zégening geuyt bleek"
     },
     {
-        "ppn": "19122457X",
+        "ppn": "19122457X","corpus": 3,
         "author": "Wolff, Betje (1738-1804)",
         "title": "Historie van mejuffrouw Cornelia Wildschut; of, De gevolgen der opvoeding. / `IT`By E. Bekker wed. ds. Wolff and A. Deken`LO`",
         "year": "1793",
@@ -3075,7 +3075,7 @@ var rawData =
         "context_mozes": "opende hieldt heiligen redelijken godsdienst schriften verklaarde propheten psalmen euangeliën hart acht gave hoog waardeeren stuk groot lof man goedaartig wa re moedeloosheid murmureeren oversloeg meest onderwijzers jeugd  "
     },
     {
-        "ppn": "316625248",
+        "ppn": "316625248","corpus": 3,
         "author": "Langendijk, Pieter (1683-1756)",
         "title": "De gedichten : `IT`Part 1. / By Pieter Langendyk`LO`",
         "year": "17XX",
@@ -3104,7 +3104,7 @@ var rawData =
         "context_mozes": "voortaan aron heeren laet vrinden spoog mont gebraad banket wyn verschil beslecht riep predikers best banketteeren sprak nieuwe twist raaken broeder kalven maken       "
     },
     {
-        "ppn": "831684356",
+        "ppn": "831684356","corpus": 3,
         "author": "Buitendijck, Albertus",
         "title": "Bloem-hof, verciert met geestel?cke lof-sangen. / `IT`By A.B.D. [= Albertus Buitend?ck]`LO`",
         "year": "1659",
@@ -3133,7 +3133,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "160235766",
+        "ppn": "160235766","corpus": 3,
         "author": "Ockerse, Willem Anthonie (1760-1826)",
         "title": "Ontwerp tot eene algemeene characterkunde. : `IT`3 parts. / By W.A. Ockerse`LO`",
         "year": "1788",
@@ -3162,7 +3162,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "861783077",
+        "ppn": "861783077","corpus": 3,
         "author": "Soet, I. (1610-1674)",
         "title": "Grove roffel ofte Qvartier des Amsterdamsche mane-sch?n. / `IT`[By Jan Zoet]`LO`",
         "year": "1639",
@@ -3191,7 +3191,7 @@ var rawData =
         "context_mozes": "arrem geslacht abram telt meê leven nae wetten kreeg god izrêl zetten schoppen goude kalf weeten baal             "
     },
     {
-        "ppn": "853367434",
+        "ppn": "853367434","corpus": 3,
         "author": "Camphuysen, Dirck Rafaelsz (1586-1627)",
         "title": "Stichtelycke rymen. : `IT`3 parts. / By D.R. Camphuysen`LO`",
         "year": "1647",
@@ -3220,7 +3220,7 @@ var rawData =
         "context_mozes": "nieuwe oude yemant dieder god heeren selfs wet schijn verboden leeft geeft oyt ghelijck stil kant knecht christum richt christi mosis leer standt groeyen 35 geweld dooden noyt verlof voet"
     },
     {
-        "ppn": "188719830",
+        "ppn": "188719830","corpus": 3,
         "author": "Haren, Willem van (1710-1768)",
         "title": "Gevallen van Friso, koning der Gangariden en Prasiaten. / `IT`By Willem van Haren`LO`",
         "year": "1741",
@@ -3249,7 +3249,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "310878780",
+        "ppn": "310878780","corpus": 3,
         "author": "Rosant, Jacob",
         "title": "De euangelische triumphwagen; by de welke de treffelijke daden des Koninkx der Glorie [...] gelesen [...] worden, op alle euangelien des geheelen iaars. / `IT`By Jacob Rosant`LO`",
         "year": "1654",
@@ -3278,7 +3278,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "822927403",
+        "ppn": "822927403","corpus": 3,
         "author": "-",
         "title": "Veelderhande schriftuirl?cke liedekens, gemaekt uyt het Oude ende Nieuwe Testament",
         "year": "1700",
@@ -3307,7 +3307,7 @@ var rawData =
         "context_mozes": "quaden lidt bevel ziel snel rusten verblijt helpt heeren getal vermeeren gevallen zijt selven geboden laten roden leven boeck paulus gelijcker moden sijn leer wilt deught neemen strijt vleys ionckheyt"
     },
     {
-        "ppn": "830775730",
+        "ppn": "830775730","corpus": 3,
         "author": "-",
         "title": "De CL. psalmen Davids. / `IT`By P. Dathenus. Adaptation by J. Revius`LO`",
         "year": "1640",
@@ -3336,7 +3336,7 @@ var rawData =
         "context_mozes": "verlaaten ghy god waerom geboden scheyt brief seyde wegen volk geleydet alsmen teere schaepkens weydet aärons trouwe hant lant &gt; lxxviij psalm volc wilt vermaen aenhooren neycht verstand dagen gerekent"
     },
     {
-        "ppn": "314573089",
+        "ppn": "314573089","corpus": 3,
         "author": "Bolognino, Guillaume (1590-1669)",
         "title": "Den gheestelycken leevwercker vol godtvruchtighe liedekens ende leyssenen. / `IT`By Guil. Bolognino`LO`",
         "year": "1645",
@@ -3365,7 +3365,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "822811545",
+        "ppn": "822811545","corpus": 3,
         "author": "-",
         "title": "t Gheestel?ck bloem-hofken, beplant met veel liefl?cke bloemkens",
         "year": "1637",
@@ -3394,7 +3394,7 @@ var rawData =
         "context_mozes": "sulck gheloof versterckt menschen wil god gheboden buyght heylsaem betuyght trad voet egypsche kroon koos hoogher goede verliet abram land          "
     },
     {
-        "ppn": "186860722",
+        "ppn": "186860722","corpus": 3,
         "author": "Wyn, Henrik van (1740-1831)",
         "title": "Historische en letterkundige avondstonden, ter ophelderinge van eenige zeden der Nederlanderen; byzonderlyk in derzelver daaglyksch en huislyk leeven; en van den stand der Nederduitsche dichtkunde. / `IT`By Henrik van Wyn`LO`",
         "year": "1800",
@@ -3423,7 +3423,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "181897563",
+        "ppn": "181897563","corpus": 3,
         "author": "Winter-van Merken, Lucretia Wilhelmina van (1721-1789)",
         "title": "Germanicus. / `IT`By Lucretia Wilhelmina van Winter geboren van Merken`LO`",
         "year": "1779",
@@ -3452,7 +3452,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "260560979",
+        "ppn": "260560979","corpus": 3,
         "author": "Wagenaar, Jan (1709-1773)",
         "title": "Vaderlandsche historie, vervattende de geschiedenissen der nu Vereenigde Nederlanden, inzonderheid die van Holland [...]. Derde deel, beginnende met de regeeringe van graave Floris den V. in't jaar 1256; en eindigende, in't jaar 1442, onder [...] hertoge Filips van Bourgondie. / `IT`[By Jan Wagenaar]`LO`",
         "year": "1750",
@@ -3481,7 +3481,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "188887156",
+        "ppn": "188887156","corpus": 3,
         "author": "Francq van Berkhey, Johan le (1729-1812)",
         "title": "Natuurlyke historie van Holland. / `IT`By J. Le Francq van Berkhey`LO`",
         "year": "1769",
@@ -3510,7 +3510,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843323000",
+        "ppn": "843323000","corpus": 3,
         "author": "Wits, Claes Jacobsz (1599-1669)",
         "title": "Stichtel?cke bedenckinge, onledige ledigheyt, stichtel?cke t?t-kortinge. / `IT`By C.J. Wits`LO`",
         "year": "1694",
@@ -3539,7 +3539,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "260561177",
+        "ppn": "260561177","corpus": 3,
         "author": "Wagenaar, Jan (1709-1773)",
         "title": "Vaderlandsche historie, vervattende de geschiedenissen der nu Vereenigde Nederlanden, inzonderheid die van Holland [...]. Vierde deel, beginnende, met het jaar 1443, onder [...] hertoge Filips van Bourgondie; en eindigende, met de Kameryksche Vrede des jaars 1529, onder [...] keizer Karel den Vyfden. / `IT`[By Jan Wagenaar]`LO`",
         "year": "1750",
@@ -3568,7 +3568,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "316628867",
+        "ppn": "316628867","corpus": 3,
         "author": "Langendijk, Pieter (1683-1756)",
         "title": "De gedichten : `IT`Part 3. / By Pieter Langendyk`LO`",
         "year": "1751",
@@ -3597,7 +3597,7 @@ var rawData =
         "context_mozes": "linkerhand tafelen wet god sinaï vuur vlam geschreven zaad abraham gegeeven ziet altaar sneeuwit verzoenlam brandt heilige zinnebeeld christus offerhand          "
     },
     {
-        "ppn": "240058860",
+        "ppn": "240058860","corpus": 3,
         "author": "Luyken, Jan (1649-1712)",
         "title": "Geestelyke brieven. / `IT`By Joannes Luiken`LO`",
         "year": "1714",
@@ -3626,7 +3626,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "18985524X",
+        "ppn": "18985524X","corpus": 3,
         "author": "Wolff, Betje (1738-1804)",
         "title": "Economische liedjes. / `IT`By E. Bekker weduwe A. Wolff and A. Deken`LO`",
         "year": "1781",
@@ -3655,7 +3655,7 @@ var rawData =
         "context_mozes": "god tong raakt los spreekt zegen gevloek zegening besluit noemt midden volk geplaatst verbidden land               "
     },
     {
-        "ppn": "311757782",
+        "ppn": "311757782","corpus": 3,
         "author": "Poirters, Adrianus (1605-1674)",
         "title": "Het masker vande wereldt afgetrocken. / `IT`By Adrianus Poirters`LO`",
         "year": "1646",
@@ -3684,7 +3684,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "240656563",
+        "ppn": "240656563","corpus": 3,
         "author": "Woensel, Pieter van (1747-1808)",
         "title": "Aanteekeningen, gehouden op eene reize door Turkijen, Natolie¨n, de Krim en Rusland, in de jaaren 1784-89. / `IT`[By Pieter van Woensel]`LO`",
         "year": "1791",
@@ -3713,7 +3713,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "159325013",
+        "ppn": "159325013","corpus": 3,
         "author": "Wolff, Betje (1738-1804)",
         "title": "Historie van den heer Willem Leevend. / `IT`By E. Bekker wed. ds. Wolff and Agatha Deken`LO`",
         "year": "1784",
@@ -3742,7 +3742,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "227868358",
+        "ppn": "227868358","corpus": 3,
         "author": "Elger, Willem den (1679-1703)",
         "title": "Zinne-beelden der liefde. / `IT`By Willem den Elger`LO`",
         "year": "1703",
@@ -3771,7 +3771,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "831527889",
+        "ppn": "831527889","corpus": 3,
         "author": "-",
         "title": "tKleyn Hoorns-liet-boeck, inhoudende eenige psalmen Davids, lof-sanghen, en geestelijcke liedekens",
         "year": "1644",
@@ -3800,7 +3800,7 @@ var rawData =
         "context_mozes": "afkeer sijn leer wilt deught toenemen strijdt vleysch teghen ionckheydt seyt jonghs gheneghen quaden hoort bescheyt wereld lust ydelheydt           "
     },
     {
-        "ppn": "102642796",
+        "ppn": "102642796","corpus": 3,
         "author": "Bontius, J. (1592-1631)",
         "title": "Oost- en West-Indische warande. Vervattende aldaar de leef- en genees-konst. / `IT`By Jacobus Bontius et al`LO`",
         "year": "1694",
@@ -3829,7 +3829,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "311458122",
+        "ppn": "311458122","corpus": 3,
         "author": "Haeften, Benedictus van (1588-1648)",
         "title": "De heyr-baene des cruys. / `IT`By Benedictus Haeftenus. ; Translated from the Latin by P. Mallants`LO`",
         "year": "1667",
@@ -3858,7 +3858,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "26031174X",
+        "ppn": "26031174X","corpus": 3,
         "author": "Wyn, Henrik van (1740-1831)",
         "title": "Byvoegsels en aanmerkingen voor de Vaderlandsche historie van Jan Wagenaar [...]. Van het eerste tot het vyfde deel. / `IT`By H. van Wyn et al`LO`",
         "year": "1799",
@@ -3887,7 +3887,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "180057235",
+        "ppn": "180057235","corpus": 3,
         "author": "Rusting, Salomon van (1652-1717 ; dichter, arts)",
         "title": "Het schouw-toneel des doods. / `IT`By Salomon van Rusting`LO`",
         "year": "1726",
@@ -3916,7 +3916,7 @@ var rawData =
         "context_mozes": "god aäron deedt israël wondren doe volk straf water hebreen pharao wens ging begeerte samen murmureerde helper rebelleerde dikmaal dwong sinai wet ontfong verdriet kennen gehoor schoone slaverny bevel staf"
     },
     {
-        "ppn": "155664344",
+        "ppn": "155664344","corpus": 3,
         "author": "Groenvelt, C. (1672 fl.)",
         "title": "Het nieuwe Hoornse speel-werck, bestaende uyt verscheyden ernstige en vrool?cke gezangen en gedichten. / `IT`By C.G.v.d.H. [= C. Groenvelt] et al. ; Collected by C.C. [= C. Crook]`LO`",
         "year": "1732",
@@ -3945,7 +3945,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "14125842X",
+        "ppn": "14125842X","corpus": 3,
         "author": "Poot, Hubert Cornelisz (1689-1733)",
         "title": "Gedichten. / `IT`By Hubert Korneliszoon Poot`LO`",
         "year": "1722",
@@ -3974,7 +3974,7 @@ var rawData =
         "context_mozes": "kajuit voeden fynste spyzen gansche schip besluit raedt getrouwer vieren gryze wet wil wenken zwieren gerust onbelet hierop voer ydelheit dwaling         "
     },
     {
-        "ppn": "56819943",
+        "ppn": "56819943","corpus": 3,
         "author": "-",
         "title": "Een nieuw sangh-boeck, iuhoudende[!] eenighe psalmen, lof-sangen ende geestelijcke liedekens",
         "year": "1650",
@@ -4003,7 +4003,7 @@ var rawData =
         "context_mozes": "pharo syn spreecken rode ghy dwaelde weder socht sijn bloedt ghecocht bevocht looft onsen god ziel heylighe wooninghe ghebracht ros wagens viel wijsheyt crachte gheen begint mont recht maeckt lippen"
     },
     {
-        "ppn": "303286865",
+        "ppn": "303286865","corpus": 3,
         "author": "-",
         "title": "Nuttige besteedinge der afgebrookene uuren, in christelyke zang-stoffen. / `IT`Preface by J. d'Outrein`LO`",
         "year": "1717",
@@ -4032,7 +4032,7 @@ var rawData =
         "context_mozes": "onderdaan stoel vertoont zeeg ning ernst bekroont beed smeeken geroemt naame israël genoemd ontdekt brandend braam bos verwekt iacobs zaad pharaoôs hand leiden aarde manna spijs neer daalt sijn komst"
     },
     {
-        "ppn": "316627356",
+        "ppn": "316627356","corpus": 3,
         "author": "Langendijk, Pieter (1683-1756)",
         "title": "De gedichten : `IT`Part 2. / By Pieter Langendyk`LO`",
         "year": "17XX",
@@ -4061,7 +4061,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "334088534",
+        "ppn": "334088534","corpus": 3,
         "author": "-",
         "title": "De volmaakte Hollandsche keuken-meid. / `IT`By Eene voornaame mevrouwe onlangs in 'sGravenhage overleeden`LO`",
         "year": "1746",
@@ -4090,7 +4090,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "57041830",
+        "ppn": "57041830","corpus": 3,
         "author": "-",
         "title": "De geestelijke goudschaele. Zynde een versameling [...] geestelijke liedekens, psalmen en lof-sangen",
         "year": "1683",
@@ -4119,7 +4119,7 @@ var rawData =
         "context_mozes": "hooren ghy recht volk knecht niemandt bespooren leestet romeynen tien clachtigh zijnse versmeeten ghetuyghen klaer propheeten apostelen allegaer elck ghelijck ghesinde prijst krachtigh bevinde stemme vast vaten verbont nae behooren"
     },
     {
-        "ppn": "198472889",
+        "ppn": "198472889","corpus": 3,
         "author": "Vollenhove, Joannes (1631-1708)",
         "title": "Kruistriomf en gezangen. / `IT`By J. Vollenhove`LO`",
         "year": "1750",
@@ -4148,7 +4148,7 @@ var rawData =
         "context_mozes": "god heil endt wet slangen slang oogen blyft vleesch lag hart oog vloeken geest verlost ramp wereld &gt; niew helsche isrel stene kracht israël hemel och dekkleet alrede waarmede verdedigt"
     },
     {
-        "ppn": "852979738",
+        "ppn": "852979738","corpus": 3,
         "author": "-",
         "title": "Davids psalmen. / `IT`By J. Westerbaen`LO`",
         "year": "1655",
@@ -4177,7 +4177,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "840510268",
+        "ppn": "840510268","corpus": 3,
         "author": "Rotgans, Lukas (1653-1710)",
         "title": "Wilhem de Derde, door Gods genade, koning van Engeland [...]. In heldendicht beschreven. / `IT`By L. Rotgans`LO`",
         "year": "1698",
@@ -4206,7 +4206,7 @@ var rawData =
         "context_mozes": "god wekt burger onbesproken leven volgt wetten vingeren geschreven steene tafelen zorg betrout gelukkig geboden bout tydelyk vermaak aartsche bezigheden beletten         "
     },
     {
-        "ppn": "852197551",
+        "ppn": "852197551","corpus": 3,
         "author": "Adriaan Koerbagh",
         "title": "t Nieuw woorden-boek der regten",
         "year": "1664",
@@ -4235,7 +4235,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "830934618",
+        "ppn": "830934618","corpus": 3,
         "author": "-",
         "title": "De CL. Davids psalmen. / `IT`By J. de Brune de jonge`LO`",
         "year": "1644",
@@ -4264,7 +4264,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "56887949",
+        "ppn": "56887949","corpus": 3,
         "author": "Jacob Hendricksz. Pos",
         "title": "Middelier lied-boeck: waer in eenighe nieuwe liedtjes zijn, [...] getrocken uyt het Oude ende Nieuwe Testament. / By Een liefhebber (= Jacob Hendricksz. Pos)",
         "year": "1651",
@@ -4293,7 +4293,7 @@ var rawData =
         "context_mozes": "god heeren christum nae spreeckt ydel pos &gt; wijs onser leer israel ghy propheten geeft drincken mijne dorst lesen waerachtigh hooghmoedt hoort weeten wil eyscht lam bekeert vrolijck lof sanck"
     },
     {
-        "ppn": "57110336",
+        "ppn": "57110336","corpus": 3,
         "author": "M. van Speybroeck (17e E.)",
         "title": "Syons wijn-bergh, inhoudende verscheyden schriftuerlijcke liedekens. / By M. van Speybroeck",
         "year": "1670",
@@ -4322,7 +4322,7 @@ var rawData =
         "context_mozes": "lijden gaen propheten wet alsoo sijnder glory beginnen minnen schriftuer veur laten weeten samen wandelden paden galileen volbracht geschreven wijs bedacht verheven beneven psallem boeck christus moeste syrius dienaren leven"
     },
     {
-        "ppn": "37317075",
+        "ppn": "37317075","corpus": 3,
         "author": "Cornelis de Leeuw",
         "title": "Christelycke plicht-rymen, om te singen of te leesen. / By Cornelis de Leeuw",
         "year": "1648",
@@ -4351,7 +4351,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "345410114",
+        "ppn": "345410114","corpus": 3,
         "author": "-",
         "title": "Davids psalmen, nieuwlyx op rym-maat gestelt. / `IT`(By J. Oudaen et al.)`LO`",
         "year": "1685",
@@ -4380,7 +4380,7 @@ var rawData =
         "context_mozes": "god ren aron wees psalm stem gebed heeren stam diese verkoren geslacht baanden ongebaande pad voetstap gevonden volk kudde stonden veylig buyten vrees aäron &gt; lxxviij 90 onderwijs asaphs maat"
     },
     {
-        "ppn": "183614585",
+        "ppn": "183614585","corpus": 3,
         "author": "Bidloo, Lamb. (1633/38-1724)",
         "title": "Panpoe¨ticon Batavum, kabinet, waar in de afbeeldingen van voornaame Nederlandsche dichteren, versameld [...] door Arnoud van Halen, en onder [...] aanmerkingen, over de Hollandsche rym-konst, geopendt. / `IT`By Lamb. Bidloo`LO`",
         "year": "1720",
@@ -4409,7 +4409,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "170152812",
+        "ppn": "170152812","corpus": 3,
         "author": "Decker, Jeremias de (1609-1666)",
         "title": "Lof der geldsucht, ofte Vervolg der r?m-oeffeningen. : `IT`2 parts. / By J. de Decker`LO`",
         "year": "1702",
@@ -4438,7 +4438,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "30600786X",
+        "ppn": "30600786X","corpus": 3,
         "author": "Herlein, J.D. (18e E.)",
         "title": "Beschryvinge van de volk-plantinge Zuriname. / `IT`By J.D.Hl. [= J.D. Herlein]`LO`",
         "year": "1718",
@@ -4467,7 +4467,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "296779458",
+        "ppn": "296779458","corpus": 3,
         "author": "Sorgen, Philippus van (-1677)",
         "title": "Dichtkundige ziele-zangen. / `IT`By Philippus van Sorgen et al`LO`",
         "year": "17XX",
@@ -4496,7 +4496,7 @@ var rawData =
         "context_mozes": "spreecken jesus staf lastig jok deedt waarlijk god verbreeken pharo naem maakte wonderen bequam mogten sware roe alvermogend wezen hand vroomen daniel propheten geweten michaël geest leven zenden aart volle"
     },
     {
-        "ppn": "314327371",
+        "ppn": "314327371","corpus": 3,
         "author": "Post, Elisabeth Maria (1755-1812)",
         "title": "Het land, in brieven. / `IT`[By Elisabeth Maria Post]`LO`",
         "year": "1792",
@@ -4525,7 +4525,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "220322031",
+        "ppn": "220322031","corpus": 3,
         "author": "Hoogvliet, Arnold (1687-1763)",
         "title": "Abraham, de aartsvader, in XII boeken. / `IT`By Arnold Hoogvliet`LO`",
         "year": "1728",
@@ -4554,7 +4554,7 @@ var rawData =
         "context_mozes": "ô goddelyke hoogvliet zooveel geschiedenis heeren sterft canaän mans lotgevallen schrandre hoogvliets fyn penseel verbeelt kerck history duikt kruis druk heft glory gekroont naem zweven faem tongen eeuwen leeft zwierig"
     },
     {
-        "ppn": "317716875",
+        "ppn": "317716875","corpus": 3,
         "author": "Bidloo, Govert (1649-1713)",
         "title": "Ontleding des menschelyken lichaams. / `IT`By Govard Bidloo. ; Designed by G. de Lairesse`LO`",
         "year": "1728",
@@ -4583,7 +4583,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "86139559X",
+        "ppn": "86139559X","corpus": 3,
         "author": "Poirters, Adrianus (1605-1674)",
         "title": "Het duyfken in de steen-rotse, dat is: Eene mede-lydende siele op die bittere passie Jesu Christi mediterende. / `IT`By Een priester der societeyt Iesu [= Adrianus Poirters]`LO`",
         "year": "1657",
@@ -4612,7 +4612,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "841011095",
+        "ppn": "841011095","corpus": 3,
         "author": "Sluiter, Willem (1627-1673)",
         "title": "Gezangen van heilige en godtvruchtige stoffe. / `IT`By W. Sluiter`LO`",
         "year": "1687",
@@ -4641,7 +4641,7 @@ var rawData =
         "context_mozes": "macht neemt altijdt neerstig acht behoet schut overal ziel lijf ongeval biesen kist bewaerde phar os list klein kind hoog verhief selven god       "
     },
     {
-        "ppn": "98852345",
+        "ppn": "98852345","corpus": 3,
         "author": "Steven Blankaart (1650-1704)",
         "title": "Verhandelinge van de opvoedinge en ziekten der kinderen. / By Steph. Blankaart",
         "year": "1684",
@@ -4670,7 +4670,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "17211425X",
+        "ppn": "17211425X","corpus": 3,
         "author": "Mayvogel, Jacob Coenraetsz (17e E.)",
         "title": "Vermakelycke bruylofts-kroon, door-vlochten met verscheyden leersame gedichten. / `IT`By I.C. May-vogel`LO`",
         "year": "1670",
@@ -4699,7 +4699,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "234987626",
+        "ppn": "234987626","corpus": 3,
         "author": "Poot, Hubert Cornelisz (1689-1733)",
         "title": "Mengeldichten. : `IT`[Part 1]. / By H:K: Poot`LO`",
         "year": "1716",
@@ -4728,7 +4728,7 @@ var rawData =
         "context_mozes": "god prees bergen thermutis joodsche vader vermogen aerde ontfang vleesch genomen goelyk schynt doot leven verdriet gebergde kintsheit heeren jan oudaen joffrouwe maria breedenburg echtgenoten kunstqueekend gelukkigh paer pryzen hant"
     },
     {
-        "ppn": "17585114X",
+        "ppn": "17585114X","corpus": 3,
         "author": "Uilenbroek, Hendrik (17e E.)",
         "title": "Christelyke gezangen. / `IT`By Hendrik Uilenbroek`LO`",
         "year": "1713",
@@ -4757,7 +4757,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "842423311",
+        "ppn": "842423311","corpus": 3,
         "author": "Meerhuysen, Jan Pietersz. (1618-1667)",
         "title": "De geest van Jan Tamboer of Uytgeleeze stoffe voor de klucht-lievende ionckheydt. : `IT`3 parts. / [By Jan Pietersz. Meerhuysen]`LO`",
         "year": "1659",
@@ -4786,7 +4786,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "842255567",
+        "ppn": "842255567","corpus": 3,
         "author": "Vondel, Joost van den (1587-1679)",
         "title": "De Parnas aen de Belt. / `IT`By J.V. Vondel`LO`",
         "year": "1657",
@@ -4815,7 +4815,7 @@ var rawData =
         "context_mozes": "god haest geest zoon dienst kus myns heillands mont steets zuur verzoet and ren zwier brand altaaren veege geesten heete riffen waaren gloed gezengt voorbeeld leer minst held wonder meêr"
     },
     {
-        "ppn": "180654640",
+        "ppn": "180654640","corpus": 3,
         "author": "Overbeke, Aernout van (1632-1674)",
         "title": "De rymwercken. / `IT`By Aernout van Overbeke`LO`",
         "year": "1709",
@@ -4844,7 +4844,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "830315101",
+        "ppn": "830315101","corpus": 3,
         "author": "Veen, Jan van der (1587-1659)",
         "title": "Over-zeesche zege, en bruylofts-zangen. Als mede alle de wercken by hem oyt ghemaackt. / `IT`By Jan van der Veen`LO`",
         "year": "1637",
@@ -4873,7 +4873,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "314413790",
+        "ppn": "314413790","corpus": 3,
         "author": "Poirters, Adrianus (1605-1674)",
         "title": "Den spieghel van Philagie. / `IT`By Adrianus Poirters`LO`",
         "year": "1674",
@@ -4902,7 +4902,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "305505238",
+        "ppn": "305505238","corpus": 3,
         "author": "Dercks, Alle (1670-1733)",
         "title": "Lusthof des gemoets, bestaande in stichtelyke gesangen, strekkende om in de vergaderinge [...] gesongen en ook gelesen te worden. / `IT`(By Alle Dercks)`LO`",
         "year": "1732",
@@ -4931,7 +4931,7 @@ var rawData =
         "context_mozes": "quaden lidt bevel ziel snel rusten verblijt helpt heeren getal vermeeren gevallen zijt selven geboden laten roden leven boeck paulus gelijcker moden sijn leer wilt deught neemen strijt vleys ionckheyt"
     },
     {
-        "ppn": "832734802",
+        "ppn": "832734802","corpus": 3,
         "author": "Orlers, Jan Jansz (1570-1646)",
         "title": "Beschrijvinge der stadt Leyden. : `IT`3 parts. / By J.J. Orlers`LO`",
         "year": "1641",
@@ -4960,7 +4960,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "194858138",
+        "ppn": "194858138","corpus": 3,
         "author": "Cambon-van der Werken, M.G. de (1734-na1796)",
         "title": "De kleine Grandisson, of De gehoorzaame zoon. / `IT`By Weduwe de Cambon gebooren van der Werken`LO`",
         "year": "1782",
@@ -4989,7 +4989,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "154153087",
+        "ppn": "154153087","corpus": 3,
         "author": "Loosjes, Adriaan Pietersz (1761-1818)",
         "title": "Frank van Borselen en Jacoba van Beijeren. / `IT`By A. Loosjes Pz`LO`",
         "year": "1790",
@@ -5018,7 +5018,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "850942764",
+        "ppn": "850942764","corpus": 3,
         "author": "Merwede, Matthijs van der (1613-1664)",
         "title": "Uyt-heemsen oorlog, ofte roomse min-triomfen. / `IT`By  M.V.M. Hr. van Cl. [= Matthys van der Merwede van Clootwyck]`LO`",
         "year": "1651",
@@ -5047,7 +5047,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "317289942",
+        "ppn": "317289942","corpus": 3,
         "author": "-",
         "title": "Het evangelische visnet, bevattende sommige veranderde liedjes uit het zelve, andere uit de Evangelische Triumph-wagen, Zingende zwaan en anderen",
         "year": "17XX",
@@ -5076,7 +5076,7 @@ var rawData =
         "context_mozes": "verheven sprak goede begeeren laet geree woonplaatzen bouwen elias staat betrouwen wolk omscheen hoorden stem wonder gerekent hangt moordenaren medicyn genas woestyn serpent geneesden ras aanzag aanziet christus eet spreekt"
     },
     {
-        "ppn": "318836866",
+        "ppn": "318836866","corpus": 3,
         "author": "-",
         "title": "Surinaamsche staatkundige almanach voor den jaare 1796. / `IT`By C. Brouwn`LO`",
         "year": "1796",
@@ -5105,7 +5105,7 @@ var rawData =
         "context_mozes": "j la meza wed prado jacob salomon levy oliveira 500 mr robles leon castilho para david soesman abraham 1000 medina del gemeente jessurun lobo jun vieira samson idem isaach da"
     },
     {
-        "ppn": "186167237",
+        "ppn": "186167237","corpus": 3,
         "author": "-",
         "title": "CL geestlyke gezangen, welke in de gereformeerde kerken van Cleve, Gulik, Berg en Marksland gezongen worden. / `IT`Translated into Dutch by A. Velingius Wilh. fil.`LO`",
         "year": "1766",
@@ -5134,7 +5134,7 @@ var rawData =
         "context_mozes": "nochtans inge zet betrachten volmaakte blyft vervloekt schryft leven werkverbond dam overtreden recht                 "
     },
     {
-        "ppn": "260560774",
+        "ppn": "260560774","corpus": 3,
         "author": "Wagenaar, Jan (1709-1773)",
         "title": "Vaderlandsche historie, vervattende de geschiedenissen der nu Vereenigde Nederlanden, inzonderheid die van Holland [...]. Tweede deel, beginnende met den aanvang der negende eeuwe, en eindigende met de dood van Willem den II [...] in't jaar 1256. / `IT`[By Jan Wagenaar]`LO`",
         "year": "1749",
@@ -5163,7 +5163,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "315139412",
+        "ppn": "315139412","corpus": 3,
         "author": "Boetius a` Bolswert (ca. 1580-1633)",
         "title": "Duyfkens ende Willemynkens pelgrimagie tot haren beminden binnen Iervsalem. / `IT`By Boetius a Bolswert`LO`",
         "year": "1656",
@@ -5192,7 +5192,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "174883056",
+        "ppn": "174883056","corpus": 3,
         "author": "Willink, Danie¨l (1676-1722)",
         "title": "Lusthof van christelyke dank- en beedezangen. : `IT`2 parts. / By Danie¨l Willink`LO`",
         "year": "1715",
@@ -5221,7 +5221,7 @@ var rawData =
         "context_mozes": "god lied waarheid israël heeren stem duur bevoolen haare verheevenheid kragt taal zieltroostende boek uittocht merkwaardig zege vyftiende hoofdstuk geboekt staat man gantsch hunnen beschermer munt oude loflyke mosaïsche goede"
     },
     {
-        "ppn": "108874907",
+        "ppn": "108874907","corpus": 3,
         "author": "-",
         "title": "Geur van geestel?cke speceryen, uytgebreyt in eenige stichtel?cke rym-werken",
         "year": "17XX",
@@ -5250,7 +5250,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "260560537",
+        "ppn": "260560537","corpus": 3,
         "author": "Wagenaar, Jan (1709-1773)",
         "title": "Vaderlandsche historie, vervattende de geschiedenissen der nu Vereenigde Nederlanden, inzonderheid die van Holland [...]. Eerste deel, beginnende met de aankomst der Batavieren [...] en eindigende met het jaar 800. / `IT`[By Jan Wagenaar]`LO`",
         "year": "1749",
@@ -5279,7 +5279,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "862243491",
+        "ppn": "862243491","corpus": 3,
         "author": "Placker, Christianus de",
         "title": "Euangelische leeuwerck, ofte Historie-liedekens. : `IT`5 parts. / By C.D.P. [= Christianus de Placker]`LO`",
         "year": "1682",
@@ -5308,7 +5308,7 @@ var rawData =
         "context_mozes": "goedigh sprak gewis wil wort fris eert priesters staat offer gaet wet raedt ginck stad capharnaum hondertsten man aenbadt heeren knecht         "
     },
     {
-        "ppn": "306172399",
+        "ppn": "306172399","corpus": 3,
         "author": "-",
         "title": "Een bundeltje van geestelyke gezangen, vertonende de goedertierenheit Godts des zaligmakers en de werkzaamheden van heilzoekenden",
         "year": "1757",
@@ -5337,7 +5337,7 @@ var rawData =
         "context_mozes": "hoog bevel hant vromen ziet daniel propheten geweten michaël geest leven zenden aard                 "
     },
     {
-        "ppn": "305095048",
+        "ppn": "305095048","corpus": 3,
         "author": "Lonius, C. (A.F.)",
         "title": "Den bedrieger bedroogen. Of Den gevangen smous [...]. In zes t'samenspraaken. / `IT`By C. Lonius A.F. [pseudonym of Jan Willem Claus van Laar]`LO`",
         "year": "1737",
@@ -5366,7 +5366,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "150686765",
+        "ppn": "150686765","corpus": 3,
         "author": "Frederik van Leenhof",
         "title": "Den hemel op aarde",
         "year": "1703",
@@ -5395,7 +5395,7 @@ var rawData =
         "context_mozes": "priesteren geschikt geloovige geestelijke derwaarts leiden leert priesterdom oude testament wet rouwe verboden teekenen mijden past broeder doodt viand esau joseph gevangenis goede gewisse geduirige maaltijd verkoos wellust schatten aegypten"
     },
     {
-        "ppn": "842285377",
+        "ppn": "842285377","corpus": 3,
         "author": "Vondel, Joost van den (1587-1679)",
         "title": "Jeptha of Offerbelofte. Treurspel. / `IT`By J.V. Vondel`LO`",
         "year": "1659",
@@ -5424,7 +5424,7 @@ var rawData =
         "context_mozes": "wet god jeptha kroon mont len heiden deez schoone leven hemel stijl raad volk verbod gehoord memphis passen neen opgewassen koning vreemd onwaardig heilloos bed omhelzen top steig ren moogt"
     },
     {
-        "ppn": "139884238",
+        "ppn": "139884238","corpus": 3,
         "author": "-",
         "title": "Geuse lietboeck, waer in begrepen is den oorsprongh vande troublen der Nederlantsche oorlogen",
         "year": "1645",
@@ -5453,7 +5453,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "298493993",
+        "ppn": "298493993","corpus": 3,
         "author": "Campe, J.H. (1746-1818)",
         "title": "Handleiding tot de natuurlyke opvoeding of Robinson Crusoe¨, geschikt ten dienste der jeugd. / `IT`By J.H. Campe. ; Translated from the German`LO`",
         "year": "1780",
@@ -5482,7 +5482,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "16018326X",
+        "ppn": "16018326X","corpus": 3,
         "author": "Moens, Petronella (1762-1843)",
         "title": "Hugo de Groot. In zeven zangen. / `IT`[By Petronella Moens]`LO`",
         "year": "1790",
@@ -5511,7 +5511,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "328403806",
+        "ppn": "328403806","corpus": 3,
         "author": "Poirters, Adrianus (1605-1674)",
         "title": "Ydelheydt des wereldts. / `IT`By Adrianus Poirters`LO`",
         "year": "1645",
@@ -5540,7 +5540,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "318833778",
+        "ppn": "318833778","corpus": 3,
         "author": "-",
         "title": "Surinaamsche staatkundige almanach voor den jaare 1793. / `IT`By C. Brouwn`LO`",
         "year": "1793",
@@ -5569,7 +5569,7 @@ var rawData =
         "context_mozes": "jacob rivier gemeente gezwoore david paramaribo weesmeesteren isak samuel j cassas mord la para clerken comptoire jessurun lobo dasilva solis tweede regent gebedhuis gabay crasto joseph arrias josua haim del"
     },
     {
-        "ppn": "241190363",
+        "ppn": "241190363","corpus": 3,
         "author": "Ruyter, Jacobus de (1709-1712 fl.)",
         "title": "Nieuw lied-boeck genaemt den maegdekrans gevlochten [...] tot vermaeck der Nederlandtsche vryers ende vrysters. : `IT`2 parts. / By J. de Ruyter`LO`",
         "year": "1712",
@@ -5598,7 +5598,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "852734786",
+        "ppn": "852734786","corpus": 3,
         "author": "Sluiter, Willem (1627-1673)",
         "title": "Buiten- eensaem huis- somer- en winter-leven. / `IT`By W. Sluiter`LO`",
         "year": "1680",
@@ -5627,7 +5627,7 @@ var rawData =
         "context_mozes": "gewiel steen hoog berg blonk son licht messias sprak elias klonk god stem wolken vloed iorsaen 88 merk            "
     },
     {
-        "ppn": "197226116",
+        "ppn": "197226116","corpus": 3,
         "author": "Simon de Vries",
         "title": "’t Amsterdamsch hoerdom",
         "year": "1681",
@@ -5656,7 +5656,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "242746284",
+        "ppn": "242746284","corpus": 3,
         "author": "Amurath-effendi (Hekim-bachi)",
         "title": "De lantaarn voor 1796. / `IT`By Amurath-effendi Hekim-bachi [pseudonym of Pieter van Woensel]`LO`",
         "year": "1796",
@@ -5685,7 +5685,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "303424206",
+        "ppn": "303424206","corpus": 3,
         "author": "Metaal, Frank Arentsz (17e E.)",
         "title": "Maas-sluysse meeuwe-klagt, behelzende verscheide geestelyke gezangen en gedichten. / `IT`By Frank Metaal`LO`",
         "year": "1734",
@@ -5714,7 +5714,7 @@ var rawData =
         "context_mozes": "plaets liefde aaron heeren geloof doodt doot koning pharao getrouwe waerschouwinge veracht vewesen nochtans verscheyde mael baden plage waerheydt afgeweeken haet betoonden quamen meenden wandelen werk melden ioseph israels uytgang"
     },
     {
-        "ppn": "841330263",
+        "ppn": "841330263","corpus": 3,
         "author": "Janssen van ter Goes, Anthony (c.1626-1699)",
         "title": "Zederymen, bestaande in zangen en gedigten. / `IT`By A.J. [= Anthony Janssen]. ; Music by S. Lefevre`LO`",
         "year": "1656",
@@ -5743,7 +5743,7 @@ var rawData =
         "context_mozes": "god pracht wet heeren goddelijk geloof zeth vadren verstonden mont hope gegront namaals verstaan israël kond ghedaen levijs geslacht opperpriesterlijke gemeente klein nedrig wezen schrikke niemand aardze glory wast heenen"
     },
     {
-        "ppn": "15423995X",
+        "ppn": "15423995X","corpus": 3,
         "author": "-",
         "title": "t Nieuw groot Hoorns lied-boekje, bestaande in veel stigtige en vermakelyke bruylofts liedekens",
         "year": "17XX",
@@ -5772,7 +5772,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "310384257",
+        "ppn": "310384257","corpus": 3,
         "author": "-",
         "title": "Volks-liedjens. Uitgegeeven door de Maatschapp?: tot nut van't algemeen. : `IT`Part 1`LO`",
         "year": "1789",
@@ -5801,7 +5801,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "315454768",
+        "ppn": "315454768","corpus": 3,
         "author": "Mechelen, Lucas van (1595/96-1652)",
         "title": "Cloosterken der gheestelijcke verryssenisse ofte der ontwordentheyt. / `IT`By De selve religieus Capucijn, die den Blijden requiem ghemaeckt heeft [= Lucas van Mechelen]`LO`",
         "year": "1639",
@@ -5830,7 +5830,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "160514193",
+        "ppn": "160514193","corpus": 3,
         "author": "Rooleeuw, Reinier (1627-1684)",
         "title": "Schriftuurlyke gezangen. / `IT`By Reinier Rooleeuw`LO`",
         "year": "1702",
@@ -5859,7 +5859,7 @@ var rawData =
         "context_mozes": "leer sijn dees barmhartig vader wetten zond lijden stem hoort leerling heeren opent mont voert hemelreden zalighe ver arm geest bedroeft zacht gemoede hongren deugd rein licht sticht lof denk"
     },
     {
-        "ppn": "83078649X",
+        "ppn": "83078649X","corpus": 3,
         "author": "-",
         "title": "t Kleyn lust-hofje, vol van bruyloft-zangen. / `IT`Compiled by H.J. Soeteboom`LO`",
         "year": "1649",
@@ -5888,7 +5888,7 @@ var rawData =
         "context_mozes": "bruyloft verflouwen ofte noyt laban bereyden jacob lea leyde gaet israël leeren geener maeght geeft spijse kleeren             "
     },
     {
-        "ppn": "375523685",
+        "ppn": "375523685","corpus": 3,
         "author": "Sorgen, Philippus van (-1677)",
         "title": "Aanhangsel, of tweede deel; van de dicht-kundige ziele-zangen. / `IT`By Philippus van Sorgen et al`LO`",
         "year": "1680",
@@ -5917,7 +5917,7 @@ var rawData =
         "context_mozes": "spreecken iesus staf lastig iock deedt waerlyck god verbreecken pharao naem maeckte wonderen bequaem mogten sware roê syn alvermogend wezen volle beeld wien voortgeteelt abraham sagh verblijd viel terneer sijn"
     },
     {
-        "ppn": "108487288",
+        "ppn": "108487288","corpus": 3,
         "author": "Ucay, Gervais (fl.1668-1695)",
         "title": "Nieuwe verhandeling van de Venus-ziekten. / `IT`By Gervais Ucay. ; Annotated by S. Blankaart`LO`",
         "year": "1700",
@@ -5946,7 +5946,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "87997894",
+        "ppn": "87997894","corpus": 3,
         "author": "-",
         "title": "Geestelick vreugde-beeckje, toe-ge-eygent aen de Hollantse jeughd",
         "year": "1645",
@@ -5975,7 +5975,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843225955",
+        "ppn": "843225955","corpus": 3,
         "author": "Antonides van der Goes, Johannes (1647-1684)",
         "title": "De Ystroom. : `IT`4 parts. / By J. Antonides van der Goes`LO`",
         "year": "1671",
@@ -6004,7 +6004,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "318984156",
+        "ppn": "318984156","corpus": 3,
         "author": "Amurath-effendi (Hekim-bachi)",
         "title": "De lantaarn voor 1792. / `IT`By Amurath-effendi Hekim-bachi [pseudonym of Pieter van Woensel]`LO`",
         "year": "1792",
@@ -6033,7 +6033,7 @@ var rawData =
         "context_mozes": "elkander j c mahomed tafel leggen cervantes aanhangers bitter behept israëlieten oudtijds vergeeten smaad verdrukkingen verdienstelilks ren regenten eenvoudigheid oor leent geestelijken opstookingen mogt hemel insluipen laeten kristenen zien arme"
     },
     {
-        "ppn": "843389907",
+        "ppn": "843389907","corpus": 3,
         "author": "-",
         "title": "tAmsteldams minne-beeckie",
         "year": "1645",
@@ -6062,7 +6062,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843389818",
+        "ppn": "843389818","corpus": 3,
         "author": "Gargon, Mattheus (1661-1728)",
         "title": "Nut tyd-verdryv. / `IT`By M. Gargon`LO`",
         "year": "1686",
@@ -6091,7 +6091,7 @@ var rawData =
         "context_mozes": "christus syn heeren joden wonderen horen noemt aangenomen deuter verworpen paulus kranken profeet minzaam licht bekoren nadelig verlossen duivel waarschouwinge dienstknegt zoon huys god heil leer wijkt all vlijt besteed"
     },
     {
-        "ppn": "296914584",
+        "ppn": "296914584","corpus": 3,
         "author": "-",
         "title": "tRonde jaer of Den schat der geestelijcke lof-sangen. : `IT`2 Parts. / By C.V.P.R.`LO`",
         "year": "1683",
@@ -6120,7 +6120,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "170293513",
+        "ppn": "170293513","corpus": 3,
         "author": "Schutte, Rutger (1708-1784)",
         "title": "Zangwijzen van stichtel?ke gezangen. / `IT`By Rutger Schutte`LO`",
         "year": "176X",
@@ -6149,7 +6149,7 @@ var rawData =
         "context_mozes": "god goddelijke gezang recht gekochten bloed lam staan cithers hand dienstknecht lams zingen geeft spreekend voorbeeld saul israëls tertullianus prudentius sedulius juvencus prosper sidonius gregorius nazianzener veele laatere godgeleerden david"
     },
     {
-        "ppn": "240411242",
+        "ppn": "240411242","corpus": 3,
         "author": "Tuinman, Carolus (1659-1728)",
         "title": "Beginzel van hemelwerk; bestaande in mengelzangen. / `IT`By Carolus Tuinman`LO`",
         "year": "1720",
@@ -6178,7 +6178,7 @@ var rawData =
         "context_mozes": "god lyk heeren aanzien wil dienstknecht onmidd gestadig spiegelstraal genadig blonk aangezicht luisterglanssen diergelyks plicht weêrschyn hemeltranssen wensch glansryke achterdeelen verheelen zag gelyken heilzon straalt doorluchte gloriblyken gunst liefde staat"
     },
     {
-        "ppn": "318705370",
+        "ppn": "318705370","corpus": 3,
         "author": "-",
         "title": "Den gheestelycken speel-wagen op den blyden wegh van Bethleem, voor de christelijcke ionckheydt",
         "year": "1699",
@@ -6207,7 +6207,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "37871854",
+        "ppn": "37871854","corpus": 3,
         "author": "Hieronymus Sweerts (1629-1696)",
         "title": "Innerlycke ziel-tochten op't H. avontmaal. / By Hieronymus Sweerts",
         "year": "1673",
@@ -6236,7 +6236,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "149329989",
+        "ppn": "149329989","corpus": 3,
         "author": "Leenhof, Fredericus van (1647-1712)",
         "title": "Den hemel op aarden; of een korte en klaare beschrijvinge van de waare en stantvastige blydschap. / `IT`By Fredericus van Leenhof`LO`",
         "year": "1703",
@@ -6265,7 +6265,7 @@ var rawData =
         "context_mozes": "priesteren geschikt geloovige geestelijke derwaarts leiden leert priesterdom oude testament wet rouwe verboden teekenen mijden past naem verscheidentlijk zin zamenhang zien verstaan noemt logt planeet aarde dikker gedrongen elkand ren"
     },
     {
-        "ppn": "842430067",
+        "ppn": "842430067","corpus": 3,
         "author": "Huygen, Pieter (1662-na1724)",
         "title": "De beginselen van Gods koninkryk in den mensch uitgedrukt in zinnebeelden. / `IT`(By Pieter Huygen)`LO`",
         "year": "1689",
@@ -6294,7 +6294,7 @@ var rawData =
         "context_mozes": "laet beginnen hemelsch leven aardsche vleesch enoch god wandelde hield ziende onzienelijken apostelen duisend vrome christenen gedaan             "
     },
     {
-        "ppn": "841124191",
+        "ppn": "841124191","corpus": 3,
         "author": "Comenius, Jan Amos (1592-1670)",
         "title": "Eerste deel der school-geleertheyd, genoemt Het portael. = Prima pars scholasticæ eruditionis, dicta Vestibulum. / `IT`By Joh. Amos Comenius. ; Enlarged edition by J. Redinger et al`LO`",
         "year": "1658",
@@ -6323,7 +6323,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "294953019",
+        "ppn": "294953019","corpus": 3,
         "author": "Blankaart, Steven (1650-1704)",
         "title": "Een nette verhandeling van de leger-ziekten, als mede van de scheeps-ziekten. / `IT`By S. Blankaard`LO`",
         "year": "1703",
@@ -6352,7 +6352,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "854163948",
+        "ppn": "854163948","corpus": 3,
         "author": "-",
         "title": "Geestel?cke harmonie, van veelderley ende uytghelesene [...] cathol?cke kerckel?cke lofsanghen",
         "year": "1637",
@@ -6381,7 +6381,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "191228354",
+        "ppn": "191228354","corpus": 3,
         "author": "-",
         "title": "Het stamboek op de papiere snykunst van mejuffrouw Joanna Koerten, huisvrouw van [...] Adriaan Blok. Bestaande in Latynsche en Nederduitsche gedichten der voornaamste dichters",
         "year": "1735",
@@ -6410,7 +6410,7 @@ var rawData =
         "context_mozes": "rustig praalt bekker wakkre toveryontdekker doelwit haat gunst maalde gerust gezeeten rekkelyker aäron vondt man eerstens weldaadt oit vergeeten kamer toegerust         "
     },
     {
-        "ppn": "318252910",
+        "ppn": "318252910","corpus": 3,
         "author": "Borcht, Willem van der (1622-1651)",
         "title": "Brvsselschen blom-hof van Cvpido, ghedeylt in dry deelen. / `IT`By Guilielmus van-der Borcht`LO`",
         "year": "1641",
@@ -6439,7 +6439,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "298370980",
+        "ppn": "298370980","corpus": 3,
         "author": "Amurath-effendi (Hekim-bachi)",
         "title": "De lantaarn voor 1800. / `IT`By Amurath-effendi Hekim-bachi [pseudonym of Pieter van Woensel]`LO`",
         "year": "1800",
@@ -6468,7 +6468,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "14828910X",
+        "ppn": "14828910X","corpus": 3,
         "author": "Manheer, Gerrit (1772-1800 fl.)",
         "title": "Kransje van letter-bloempjes, voor Neerlandsch jufferschap. / (By Gerrit Manheer)`LO`",
         "year": "1790",
@@ -6497,7 +6497,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "292314051",
+        "ppn": "292314051","corpus": 3,
         "author": "-",
         "title": "Pharmacopoea Amstelredamensis, of d'Amsterdammer apotheek",
         "year": "1714",
@@ -6526,7 +6526,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "24274642X",
+        "ppn": "24274642X","corpus": 3,
         "author": "Amurath-effendi (Hekim-bachi)",
         "title": "De lantaarn voor 1798. / `IT`By Amurath-effendi Hekim-bachi [pseudonym of Pieter van Woensel]`LO`",
         "year": "1798",
@@ -6555,7 +6555,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "18484374X",
+        "ppn": "18484374X","corpus": 3,
         "author": "Mauricius, Johan Jacob (1692-1768)",
         "title": "Besluit der dichtlievende uitspanningen. / `IT`By Joan Jakob Mauricius`LO`",
         "year": "1762",
@@ -6584,7 +6584,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "182784002",
+        "ppn": "182784002","corpus": 3,
         "author": "Paape, Gerrit (1752-1803)",
         "title": "Het leven en sterven van een hedendaagsch aristocraat. Behelzende veele satyres en waarheden, die het volk weeten moet, om tot regte kennis van zaaken te komen. / `IT`By Gerrit Paape. ; Translated from the French`LO`",
         "year": "1798",
@@ -6613,7 +6613,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "832257982",
+        "ppn": "832257982","corpus": 3,
         "author": "-",
         "title": "Re?nsburchs angier-hoff, beplant met alle de wercken, ende liedekens, die op't selve rethorices-beroep verhandelt z?n [...]. Begonnen op den 26`SUP`en`LO` mey, in't jaer 1641",
         "year": "1641",
@@ -6642,7 +6642,7 @@ var rawData =
         "context_mozes": "raedt vint beschreven tweede boeck exodus thien acht priester jethro ghegheven tgheen nut waerdige israels gheslacht waerder reghel alsulcken waerdigh ghepresen syn macht       "
     },
     {
-        "ppn": "181739283",
+        "ppn": "181739283","corpus": 3,
         "author": "Winter, Nicolaas Simon van (1718-1795)",
         "title": "De jaargetyden, in vier zangen. / `IT`By Nicolaas Simon van Winter`LO`",
         "year": "1769",
@@ -6671,7 +6671,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "314509216",
+        "ppn": "314509216","corpus": 3,
         "author": "-",
         "title": "Geestelyke gesangen, opgemaakt door eenige godvruchtige sangers en sangeressen. : `IT`2 parts. / Compiled by A. van Loo`LO`",
         "year": "1714",
@@ -6700,7 +6700,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "149197977",
+        "ppn": "149197977","corpus": 3,
         "author": "Bellamy, Jacobus (1757-1786)",
         "title": "Proeven voor het verstand, den smaak en het hart. / `IT`(By Jacobus Bellamy et al.)`LO`",
         "year": "1790",
@@ -6729,7 +6729,7 @@ var rawData =
         "context_mozes": "jongelings stonden volle vlam voelde dogter gered ode onweder vrije naarvolging mendelszoon donder knetterslagen straks stoutsten vertzaagen zwijgt wenk sijn heeren         "
     },
     {
-        "ppn": "279895623",
+        "ppn": "279895623","corpus": 3,
         "author": "Alphen, Hie¨ronymus van (1746-1803)",
         "title": "Hondert geestelyke liederen in digtmaat gebragt naar de sangvoys van eenige psalmen Davids. / `IT`[By Hieronymus van Alphen]`LO`",
         "year": "1744",
@@ -6758,7 +6758,7 @@ var rawData =
         "context_mozes": "haest lied tafels staan disch spyse almacht bragt geweesen doe volk manna wiert gevoedt david leesen trekt voorspoedig rydend seegen wagen zions hoogte singen lam druk verlossing kwam wateren "
     },
     {
-        "ppn": "297444174",
+        "ppn": "297444174","corpus": 3,
         "author": "Alphen, Hie¨ronymus van (1746-1803)",
         "title": "Hondert geestelyke liederen, in dichtmaat gebragt naar de sangvoysen van eenige der berymde psalmen Davids. / `IT`(By Hieronymus van Alphen)`LO`",
         "year": "1748",
@@ -6787,7 +6787,7 @@ var rawData =
         "context_mozes": "haest lied tafels staan disch spyse almacht bragt geweesen doe volk manna wiert gevoedt david leesen trekt voorspoedig rydend seegen wagen zions hoogte singen lam druk verlossing kwam wateren "
     },
     {
-        "ppn": "98851233",
+        "ppn": "98851233","corpus": 3,
         "author": "- ",
         "title": "Pharmacopæa Amstelredamensis, of d'Amsterdammer apotheek",
         "year": "1683",
@@ -6816,7 +6816,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "154035513",
+        "ppn": "154035513","corpus": 3,
         "author": "Elsland, Jan van (1671?-1736)",
         "title": "Gezangen, of Het vrolyk gezelschap der negen zanggodinnen. / `IT`By Jan van Elsland`LO`",
         "year": "1738",
@@ -6845,7 +6845,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "277913616",
+        "ppn": "277913616","corpus": 3,
         "author": "Bussingh, Johannes Wilhelmus (1761-1828)",
         "title": "Gezangen voor de gereformeerde kerk van Nederland. / `IT`By Johannes Wilhelmus Bussingh`LO`",
         "year": "1796",
@@ -6874,7 +6874,7 @@ var rawData =
         "context_mozes": "mensch judaes stam dees verstoten bastaert kroost abraham werpt bevend straf einde lijk dekzel keert koning weder buigt messia neder verblinde heiden buk       "
     },
     {
-        "ppn": "386048320",
+        "ppn": "386048320","corpus": 3,
         "author": "-",
         "title": "[Het oudt Haerlems liedt-boeck]",
         "year": "16XX",
@@ -6903,7 +6903,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "291135021",
+        "ppn": "291135021","corpus": 3,
         "author": "-",
         "title": "Evangelische liederen. / `IT`Translated from the German [by J. Deknatel]`LO`",
         "year": "1738",
@@ -6932,7 +6932,7 @@ var rawData =
         "context_mozes": "wien lam nergens rust redding vonden wereld klein god gruwel hert dondert straf afgezondert vrystad opgedaan heiland neemt blind doof arrem man zulken leevens boek omwonden doek seven zeegels toegemaakt"
     },
     {
-        "ppn": "188261249",
+        "ppn": "188261249","corpus": 3,
         "author": "-",
         "title": "De van den hemel afgebeeden [...] in alle verdrukking [...] nog bloeie¨nden oranje-boom; of Verzameling van eenige liederen, ten dienste [...] der waare ouwerwetse patriotten, beminnaars van prins Willem de Vyfde. : `IT`2 parts`LO`",
         "year": "1785",
@@ -6961,7 +6961,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "831124970",
+        "ppn": "831124970","corpus": 3,
         "author": "-",
         "title": "Medenblicker scharre-zoodtje, ghevangen en ontweydt van verscheyden visschers. / `IT`Music composed by H.J. Prins`LO`",
         "year": "1650",
@@ -6990,7 +6990,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "160311918",
+        "ppn": "160311918","corpus": 3,
         "author": "Feith, Rhijnvis (1753-1824)",
         "title": "Brieven over verscheide onderwerpen. / `IT`By Rhynvis Feith`LO`",
         "year": "1784",
@@ -7019,7 +7019,7 @@ var rawData =
         "context_mozes": "mendelszoon schoone volmaaktheid qui zinnen valt la l eenheid schoonheid zinnelijker voortbrengselen natuur zodanigen noemen wien teeken inwendige uitwendig ingedrukt volkomenheid aanbieden moeite pour beauté le cas que nous faisons"
     },
     {
-        "ppn": "10120213X",
+        "ppn": "10120213X","corpus": 3,
         "author": "Luyken, Jan (1649-1712)",
         "title": "Jesus en de ziel. : `IT`3 parts. / [By Jan Luyken]`LO`",
         "year": "1685",
@@ -7048,7 +7048,7 @@ var rawData =
         "context_mozes": "god ne hert rom vers xviii sinnebeeldt tegenwoordigheyt nabyheyt spreeckt heeren eenigen plaets staat                "
     },
     {
-        "ppn": "81372132",
+        "ppn": "81372132","corpus": 3,
         "author": "Cornelis Bontekoe (1647-1685)",
         "title": "Gebruik en mis-bruik van de thee. / By Cornelis Bontekoe",
         "year": "1686",
@@ -7077,7 +7077,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "83222541X",
+        "ppn": "83222541X","corpus": 3,
         "author": "-",
         "title": "De seldsaame en noit gehoorde wal-vis-vangst, voorgevallen by St. Anna-land in't jaar 1682. / `IT`By P.P.v.S`LO`",
         "year": "1684",
@@ -7106,7 +7106,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "158573188",
+        "ppn": "158573188","corpus": 3,
         "author": "Martinet, J.F. (1729-1795)",
         "title": "Kleine katechismus der natuur voor kinderen. / `IT`By J.F. Martinet`LO`",
         "year": "1779",
@@ -7135,7 +7135,7 @@ var rawData =
         "context_mozes": "ouders daartoe aanspoorden gezegd leezen godvruchtige mannen job david jesaias verzuimden salomo daarover boek schreef werken              "
     },
     {
-        "ppn": "843594543",
+        "ppn": "843594543","corpus": 3,
         "author": "Vondel, Joost van den (1587-1679)",
         "title": "Verscheide gedichten. / `IT`By I.V. Vondel. ; Comp. D.B.D.L.B`LO`",
         "year": "1644",
@@ -7164,7 +7164,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "364232862",
+        "ppn": "364232862","corpus": 3,
         "author": "-",
         "title": "t Leven en bedryf van Clement Marot",
         "year": "17XX",
@@ -7193,7 +7193,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "165393408",
+        "ppn": "165393408","corpus": 3,
         "author": "Burg, Hermanus van den (1682-1752)",
         "title": "Mengelzangen. / `IT`By H. van den Burg`LO`",
         "year": "1717",
@@ -7222,7 +7222,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "90580702",
+        "ppn": "90580702","corpus": 3,
         "author": "-",
         "title": "Amsterdamsche vreughde-stroom, bestaande in zoete, vrolijcke ende aengename nieuwe deuntjes",
         "year": "1654",
@@ -7251,7 +7251,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "170296687",
+        "ppn": "170296687","corpus": 3,
         "author": "Schutte, Rutger (1708-1784)",
         "title": "Zangwijzen van Stichtelijke gezangen. / `IT`By Rutger Schutte. ; Music volume 2 by L. Frischmuth`LO`",
         "year": "176X",
@@ -7280,7 +7280,7 @@ var rawData =
         "context_mozes": "oog hoog heeren naem god zoon aandacht licht glans aangezicht len vijand vlugt pluk lust godstent beschouwen hemelsche bevel bestek horeb bouwen aholiab bezaleël vernuft ging aaron smaak ontbrak wederom"
     },
     {
-        "ppn": "336279639",
+        "ppn": "336279639","corpus": 3,
         "author": "-",
         "title": "Bybelsche historie-liedekens, lof-sangen ende gebeden",
         "year": "166X",
@@ -7309,7 +7309,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "401543870",
+        "ppn": "401543870","corpus": 3,
         "author": "Joachim Oudaen (1628-1692)",
         "title": "Haagsche broeder-moord, of Dolle blydschap. Treurspel. / By J. Oudaen",
         "year": "1674",
@@ -7338,7 +7338,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "823081362",
+        "ppn": "823081362","corpus": 3,
         "author": "-",
         "title": "Nieu dubbelt Haerlems lietboeck ghenaemt den laurier-krans, der amoureusen",
         "year": "1643",
@@ -7367,7 +7367,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "831730358",
+        "ppn": "831730358","corpus": 3,
         "author": "Jonctijs, Danie¨l (1600-1654)",
         "title": "Roseliins oochies. / `IT`By Dan. Jonctys`LO`",
         "year": "1639",
@@ -7396,7 +7396,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "183978277",
+        "ppn": "183978277","corpus": 3,
         "author": "Winter, Nicolaas Simon van (1718-1795)",
         "title": "De Amstelstroom, in zes zangen. / `IT`By Nicolaas Simon van Winter`LO`",
         "year": "1755",
@@ -7425,7 +7425,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "240057864",
+        "ppn": "240057864","corpus": 3,
         "author": "-",
         "title": "(`IT`Incipit A2:`LO`) Het wydberoemde overtoompje, of de playsierige [...] Amsterveensche boomgaard, zynde beplant met alderhande snakeryen",
         "year": "17XX",
@@ -7454,7 +7454,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "170295036",
+        "ppn": "170295036","corpus": 3,
         "author": "Schutte, Rutger (1708-1784)",
         "title": "Stichtel?ke gezangen. / `IT`By Rutger Schutte. ; (Volume 2: music by L. Frischmuth)`LO`",
         "year": "1770",
@@ -7483,7 +7483,7 @@ var rawData =
         "context_mozes": "god heilige gezongen gen zee zegezang biddend hand throon jah betamelyken jehovaas oorlog geslachte heeren wil vuur ziet vervolg éen dichtstuk aartsvaderen gedenkschriften bewaard jakobs zegen josephs kinderen xlviii verg"
     },
     {
-        "ppn": "15957322X",
+        "ppn": "15957322X","corpus": 3,
         "author": "Haren, Onno Zwier van (1713-1779)",
         "title": "Van Japan: met betrekking tot de Hollandse natie, en de christelyke gods-dienst. / `IT`By Onno Zwier van Haren`LO`",
         "year": "1775",
@@ -7512,7 +7512,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "167762656",
+        "ppn": "167762656","corpus": 3,
         "author": "Sorgen, Philippus van (-1677)",
         "title": "Dicht-kundige ziele-zangen, op-gesongen door verscheyde zangh-lievers. / `IT`[By Philippus van Sorgen et al.]`LO`",
         "year": "1681",
@@ -7541,7 +7541,7 @@ var rawData =
         "context_mozes": "hoog bevel hand vromen ziet daniel propheten geweten michaël geest leven senden aerd                 "
     },
     {
-        "ppn": "82292160X",
+        "ppn": "82292160X","corpus": 3,
         "author": "-",
         "title": "Haerlemsche winter-bloempjes, op-geoffert aen de vreugd-lievende nymphjes",
         "year": "1647",
@@ -7570,7 +7570,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "333594037",
+        "ppn": "333594037","corpus": 3,
         "author": "Vondel, Joost van den (1587-1679)",
         "title": "Lucifer. Treurspel. / `IT`By J. v. Vondel`LO`",
         "year": "1654",
@@ -7599,7 +7599,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "239769198",
+        "ppn": "239769198","corpus": 3,
         "author": "-",
         "title": "Apollo's St. Nicolaas-gift, aan Minerva. Voorzien met nieuwe en oude minne-herders- en mengel-zangen",
         "year": "17XX",
@@ -7628,7 +7628,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "842391274",
+        "ppn": "842391274","corpus": 3,
         "author": "-",
         "title": "De nieuwe hofsche rommelzoo",
         "year": "1655",
@@ -7657,7 +7657,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "842414991",
+        "ppn": "842414991","corpus": 3,
         "author": "-",
         "title": "Amsterdamsche vreughde-stroom, bestaande in zoete, vrol?cke ende aengename nieuwe deuntjes",
         "year": "1654",
@@ -7686,7 +7686,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "319010546",
+        "ppn": "319010546","corpus": 3,
         "author": "-",
         "title": "Haerlemsche somer-bloempjes, tweede offer, aen de vreught-lievende nymphjes",
         "year": "1651",
@@ -7715,7 +7715,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "170708276",
+        "ppn": "170708276","corpus": 3,
         "author": "Pistorius, Thomas (1763 fl.)",
         "title": "Korte en zakelyke beschryvinge van de colonie van Zuriname. / `IT`By Thomas Pistorius`LO`",
         "year": "1763",
@@ -7744,7 +7744,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "215870514",
+        "ppn": "215870514","corpus": 3,
         "author": "Schaz, J.A.",
         "title": "Het land der willekeurigen, of De verdeedigers van Abimelech. [De reize door het Aapenland ophelderende.]. / `IT`By J.A. Schaz [pseudonym of Gerrit Paape]`LO`",
         "year": "1789",
@@ -7773,7 +7773,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "338460667",
+        "ppn": "338460667","corpus": 3,
         "author": "Mommaert, Jan (17e E.)",
         "title": "Het Brabandts nachtegaelken. / `IT`14th enlarged impression by J.M. [= Jan Mommaert]`LO`)",
         "year": "1656",
@@ -7802,7 +7802,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "240430255",
+        "ppn": "240430255","corpus": 3,
         "author": "Salzmann, Chr.G. (1744-1811)",
         "title": "Stichtend en vermaeklijk handboekje voor kinderen en kindervrienden. / `IT`By Salzman. ; Translated from the German`LO`",
         "year": "1792",
@@ -7831,7 +7831,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "168323419",
+        "ppn": "168323419","corpus": 3,
         "author": "Kater, Roelant de (18e E.)",
         "title": "Vlaardings vissers lied-boek, voorzien met [...] vissers, bruylofts en andere stigtelijke gezangen. : `IT`2 parts. / (By Roelant de Kater)`LO`",
         "year": "17XX",
@@ -7860,7 +7860,7 @@ var rawData =
         "context_mozes": "god geloove zes pharaos paradijs eeuwige persoonen euangelisten vijf boeken beschrijft dagen werken zevensten dag rust wild merke agt ziel spaard israëls uytgank stervende krank bevel gebeente zond maanden bewaard"
     },
     {
-        "ppn": "303190760",
+        "ppn": "303190760","corpus": 3,
         "author": "Schutte, Rutger (1708-1784)",
         "title": "Stichtel?ke gezangen. : `IT`Part 4. / By Rutger Schutte`LO`",
         "year": "1787",
@@ -7889,7 +7889,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "37313045",
+        "ppn": "37313045","corpus": 3,
         "author": "Anthony Janssen van ter Goes",
         "title": "Christelijck vermaeck, bestaende in verscheyden stichtelijcke rijmen en gesangen. / By Anthony Janssen",
         "year": "1645",
@@ -7918,7 +7918,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "318708426",
+        "ppn": "318708426","corpus": 3,
         "author": "Bellemans, Daniel (1641-1674)",
         "title": "Den lieffelycken paradys-voghel tot Godt om-hoogh vlieghende. / `IT`By Daniel Bellemans`LO`",
         "year": "1674",
@@ -7947,7 +7947,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "831601531",
+        "ppn": "831601531","corpus": 3,
         "author": "Stribee´, Cornelis (17e E.)",
         "title": "Chaos ofte verwerden clomp; in-houdende verscheyde vermakel?cke lietjes. / `IT`By Cornelis Stribee´`LO`",
         "year": "1643",
@@ -7976,7 +7976,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "844010456",
+        "ppn": "844010456","corpus": 3,
         "author": "-",
         "title": "Het tweede deel van de koddige olipodrigo",
         "year": "1654",
@@ -8005,7 +8005,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "169189465",
+        "ppn": "169189465","corpus": 3,
         "author": "Montanus, David (-1687)",
         "title": "Stemme des gejuygs en des heils over't groote interest van een christen. [...] in gezangen vervat. / `IT`By David Montanus`LO`",
         "year": "1684",
@@ -8034,7 +8034,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "212421522",
+        "ppn": "212421522","corpus": 3,
         "author": "-",
         "title": "Apollo's vasten-avond-gift",
         "year": "1745",
@@ -8063,7 +8063,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "840510489",
+        "ppn": "840510489","corpus": 3,
         "author": "-",
         "title": "t Eerste(-tweede) deel van Sparens vreughden-bron, uytstortende veel nieuwe als singens-waerdighe deuntjens",
         "year": "1643",
@@ -8092,7 +8092,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "338206906",
+        "ppn": "338206906","corpus": 3,
         "author": "Swaen, Willem de (ca.1610-1673)",
         "title": "Den singende swaen: dat is, Den lof-sangh der heyligen, die als singende swaenen, de doodt blygeestigh hebben ontfangen. : `IT`2 parts. / By G.D.S. [= Willem de Swaen]`LO`",
         "year": "1655",
@@ -8121,7 +8121,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "841152403",
+        "ppn": "841152403","corpus": 3,
         "author": "Gouwerack, Leonardus",
         "title": "Erato; omhelst van verscheyde minnedeuntjes. / `IT`By L. Gouwerack`LO`",
         "year": "1646",
@@ -8150,7 +8150,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "822830809",
+        "ppn": "822830809","corpus": 3,
         "author": "-",
         "title": "Arions vingertuig, opdeunende verscheide minne-klagjes. : `IT`Part . 1`LO`",
         "year": "1645",
@@ -8179,7 +8179,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "296361232",
+        "ppn": "296361232","corpus": 3,
         "author": "-",
         "title": "Leeuwarder apotheek na de Galenisch-chymic¸e manier. / `IT`Translated into Dutch by F.J. Winter`LO`",
         "year": "1702",
@@ -8208,7 +8208,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "830534415",
+        "ppn": "830534415","corpus": 3,
         "author": "Ringers, Vitus (1660-1725)",
         "title": "Stichtel?k sang-prieel, belommerd met het Hooge Lied Salomons, ende andere heilige gesangen. / `IT`By Vitus Ringers`LO`",
         "year": "1686",
@@ -8237,7 +8237,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "822572443",
+        "ppn": "822572443","corpus": 2,
         "author": "Johannes Duijkerius",
         "title": "Vervolg van 't leven van Philopater",
         "year": "1697",
@@ -8266,7 +8266,7 @@ var rawData =
         "context_mozes": "god wet wetten ontfangen waere immediate voorgeschreven kwam zee bloed stinken stond riep an israël meerder gehouden oppermagten volk steene tafelen geschreven openbaringe verhandreikinge kinderen israëls geopenbaart vond harzenen gevraagt"
     },
     {
-        "ppn": "84130422X",
+        "ppn": "84130422X","corpus": 3,
         "author": "-",
         "title": "Amsteldamse vrolikheyt. Vervult met veel'erhande gesangen",
         "year": "1647",
@@ -8295,7 +8295,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "193255650",
+        "ppn": "193255650","corpus": 3,
         "author": "-",
         "title": "Het hernhutsche nachtegaaltje, in eene vrolyke luim; zingende honderd nieuwe [...] airtjes",
         "year": "1757",
@@ -8324,7 +8324,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "171035771",
+        "ppn": "171035771","corpus": 3,
         "author": "Palingh, Abraham (fl. 1659)",
         "title": "t Afgerukt mom-aansight der tooverye. / `IT`By Abraham Palingh`LO`",
         "year": "1725",
@@ -8353,7 +8353,7 @@ var rawData =
         "context_mozes": "god koninck deeden wijs kracht pharao tooverije hert verhardt wil ghene begeerte saul desperaet zijnde waerseghsters tooveresse raet ginck toovernaers noemt koning maeckten eygen middel egypten stelt teghen aengehist dees"
     },
     {
-        "ppn": "186862008",
+        "ppn": "186862008","corpus": 3,
         "author": "-",
         "title": "Apollo's kermis-gift. Aan de Haagsche vermaaks-gesinde jeugd",
         "year": "1743",
@@ -8382,7 +8382,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "853407975",
+        "ppn": "853407975","corpus": 3,
         "author": "-",
         "title": "Nieuw vermeerdert koninckl?ck lied-boeck; versien met verscheyden lof en triumphgesangen, op de uytsteekende helden-daden van [...] William en Maria, koning en koninginne van Engelant",
         "year": "1695",
@@ -8411,7 +8411,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "304580651",
+        "ppn": "304580651","corpus": 3,
         "author": "-",
         "title": "Apollo's kermis-gift aan de Haagsche vermaaks-gesinde jeugd",
         "year": "17XX",
@@ -8440,7 +8440,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "30817254X",
+        "ppn": "30817254X","corpus": 3,
         "author": "-",
         "title": "Passi, paesch en pinxter- gezangen, nevens de vyfthien mysterien van het roosen-kransje. / `IT`[Compiled by J.J. Stichter]`LO`",
         "year": "17XX",
@@ -8469,7 +8469,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "822851598",
+        "ppn": "822851598","corpus": 3,
         "author": "Hofman, Johan (1650 fl. ; letterkundige 17e eeuw)",
         "title": "Nederlandtsche woorden-schat, dat is, Verduytschinge van vytheemsche woorden. / `IT`[By Johan Hofman]`LO`",
         "year": "1650",
@@ -8498,7 +8498,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "186864132",
+        "ppn": "186864132","corpus": 3,
         "author": "-",
         "title": "Apollo's nieuwe-jaers-gift. Aen het bekoorlyke Hollandsche jufferschap",
         "year": "1745",
@@ -8527,7 +8527,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "292666020",
+        "ppn": "292666020","corpus": 3,
         "author": "-",
         "title": "De Leeuwarder apotheek, volgens de Galenische en chimische wyze. / `IT`Translated into Dutch after the 2nd Latin impression`LO`",
         "year": "1720",
@@ -8556,7 +8556,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "152093559",
+        "ppn": "152093559","corpus": 3,
         "author": "Hoogstraten, Jan van (1662-1736)",
         "title": "Zedezangen en stigtelyke liederen. / `IT`[By Jan van Hoogstraten]. ; Music by G. Han`LO`",
         "year": "1708",
@@ -8585,7 +8585,7 @@ var rawData =
         "context_mozes": "daan verhuist kent jakob hoort hoog bidde hemels opperzaal godheit stelt voorspraak midden jesus geneesheer kwael              "
     },
     {
-        "ppn": "311456472",
+        "ppn": "311456472","corpus": 3,
         "author": "-",
         "title": "Het amoureuze lust-hof, of't Vervolg van Thirsis minne-wit, bestaande in de aangenaamste gezangen",
         "year": "1719",
@@ -8614,7 +8614,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "155723472",
+        "ppn": "155723472","corpus": 3,
         "author": "-",
         "title": "Apollo's kermis-gift aan de Haagsche vermaaks-gesinde jeugd",
         "year": "1745",
@@ -8643,7 +8643,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "318834804",
+        "ppn": "318834804","corpus": 3,
         "author": "-",
         "title": "Surinaamsche staatkundige almanach voor den jaare 1794. / `IT`[By Charles Brouwn]`LO`",
         "year": "1794",
@@ -8672,7 +8672,7 @@ var rawData =
         "context_mozes": "david samuel tweede fernandes joode savane la parra paramaribo abm idem mord isaak meza gemeente haim nahar ishak bo mesquita orgelist c f steffens binne vader moeder g costerus huisvrouw"
     },
     {
-        "ppn": "303134003",
+        "ppn": "303134003","corpus": 3,
         "author": "-",
         "title": "Triomf van Nederlandt, of Vervolg op het eerste tweede en derde deel van het Geuse liedboek",
         "year": "1734",
@@ -8701,7 +8701,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "117208108",
+        "ppn": "117208108","corpus": 3,
         "author": "Laet, Franciscus de",
         "title": "Christel?cke en vermakel?cke gesangen. / `IT`By Franciscus de Laet`LO`",
         "year": "1647",
@@ -8730,7 +8730,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "173723985",
+        "ppn": "173723985","corpus": 3,
         "author": "-",
         "title": "De roemrugtige Haagsche faam, of De nieuwe Amsterdamsche fonteyn. Verc¸iert met [...] minne liederen, herders en matroose gezangen",
         "year": "1721",
@@ -8759,7 +8759,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "842391045",
+        "ppn": "842391045","corpus": 3,
         "author": "-",
         "title": "Stootkant of Nieuwe-jaars-gift, aan de Amstelsche jonkheidt: `IT`Part 1`LO`",
         "year": "1655",
@@ -8788,7 +8788,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "180160745",
+        "ppn": "180160745","corpus": 3,
         "author": "-",
         "title": "Delfschen Helicon, ofte Grooten Hollandschen nachtegael",
         "year": "1720",
@@ -8817,7 +8817,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "180893521",
+        "ppn": "180893521","corpus": 3,
         "author": "Hoeven, Willem van der (-1727)",
         "title": "De dood van sultan Selim, Turksen keizer; treurspel. / `IT`By Willem vander Hoeven`LO`",
         "year": "1717",
@@ -8846,7 +8846,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "303311878",
+        "ppn": "303311878","corpus": 3,
         "author": "-",
         "title": "De nieuwe vermeerderde Haagse joncker, of 't Amsterdamse salet juffertje, singende alderhande [...] liedtjes",
         "year": "1717",
@@ -8875,7 +8875,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "173195695",
+        "ppn": "173195695","corpus": 3,
         "author": "-",
         "title": "Den Hollandszen praat-vaars nieuwjaarsgift, aan het bevalligen Stichtsze jufferschap",
         "year": "17XX",
@@ -8904,7 +8904,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "304580163",
+        "ppn": "304580163","corpus": 3,
         "author": "-",
         "title": "Apollo's kermis-gift, aan de Haagsche vermaaks-gesinde jeugd",
         "year": "17XX",
@@ -8933,7 +8933,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "168652579",
+        "ppn": "168652579","corpus": 3,
         "author": "-",
         "title": "De groote nieuwe Hollandsche boots-gezel, ofte Bataviers helden-stuk",
         "year": "17XX",
@@ -8962,7 +8962,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "173723896",
+        "ppn": "173723896","corpus": 3,
         "author": "-",
         "title": "De groote nieuwe Hollandsche boots-gezel, ofte Bataviers helden-stuk",
         "year": "17XX",
@@ -8991,7 +8991,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "35378477X",
+        "ppn": "35378477X","corpus": 3,
         "author": "-",
         "title": "De Amsterdamse gaare-keuken, met den blyhertigen op-disser. Voorsien met de nieuwste [...] liederen",
         "year": "1736",
@@ -9020,7 +9020,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "303319453",
+        "ppn": "303319453","corpus": 3,
         "author": "-",
         "title": "De mars-drager, of Nieuwe toverlantaren. Waar in vertoond word de nieuwste en aangenaamste gezangen, die hedendaags gezongen worden",
         "year": "1754",
@@ -9049,7 +9049,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "304199931",
+        "ppn": "304199931","corpus": 3,
         "author": "-",
         "title": "Het vermakelyk bagyn-hof, of Den Hollandschen edelman, verc¸iert met de nieuwste [...] gezangen",
         "year": "1739",
@@ -9078,7 +9078,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "152065180",
+        "ppn": "152065180","corpus": 3,
         "author": "Groenewegen, Johannes (1709-1764)",
         "title": "De lofzangen Israels waar onder de Heere woont. / `IT`By (Johannes and) Jacob Groenewegen`LO`",
         "year": "1752",
@@ -9107,7 +9107,7 @@ var rawData =
         "context_mozes": "doot leven heyl oude dag geloovig volk ruste schaduw wet zag zoon kuste vader gesterkt stof verheffen vermonden genaa geschiet mogt recht lof verkonden zingen gans elendig verlooren lag neer"
     },
     {
-        "ppn": "844010065",
+        "ppn": "844010065","corpus": 3,
         "author": "Lodewijk Meijer",
         "title": "Verloofde koninksbruidt",
         "year": "1668",
@@ -9136,7 +9136,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "159416310",
+        "ppn": "159416310","corpus": 3,
         "author": "Verschuere Reynvaan, J. (1739-1809 ; Zeeuwse organist/-componist)",
         "title": "Gezangen der vr?e-metzelaaren. / `IT`By J. Verscheure Reynvaan`LO`",
         "year": "1799",
@@ -9165,7 +9165,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "303143282",
+        "ppn": "303143282","corpus": 3,
         "author": "-",
         "title": "De nieuwe vermeerderde Groenlandse walvis-vangst, ofte Amsterdamse Y-stroom. Vervult met [...] liederen",
         "year": "1721",
@@ -9194,7 +9194,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "844219916",
+        "ppn": "844219916","corpus": 3,
         "author": "-",
         "title": "De nieuwe Haagsche nachtegaal. Vol van de nieuwste deunen en aartigste zangen",
         "year": "1659",
@@ -9223,7 +9223,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "291261043",
+        "ppn": "291261043","corpus": 3,
         "author": "Feith, Rhijnvis (1753-1824)",
         "title": "Brieven over verscheide onderwerpen. : `IT`Part 1. / By Rhijnvis Feith`LO`",
         "year": "1792",
@@ -9252,7 +9252,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "149257082",
+        "ppn": "149257082","corpus": 3,
         "author": "Kornelis, Tannetge (1660-1690)",
         "title": "Een nieuw liedt-boekje, genaamt het dubbelt Emausje. : `IT`2 parts. / By Tannetge Kornelis`LO`",
         "year": "1742",
@@ -9281,7 +9281,7 @@ var rawData =
         "context_mozes": "vijf god land hof wijs segend iacob labans ooge data rijcker laban verlaet egypsen koning vreemdeling medean pharaas schoone elementen bestieren heeren zijnder behoet hoord klok slagen boeken geschreven steen"
     },
     {
-        "ppn": "173830269",
+        "ppn": "173830269","corpus": 3,
         "author": "Zande, Hendrik van der (1713-1717 fl.)",
         "title": "Demetrius, of Stryd tusschen de liefde en het staatsbelang, treurspel. / `IT`(By Hendrik van der Zande)`LO`",
         "year": "1717",
@@ -9310,7 +9310,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "152084959",
+        "ppn": "152084959","corpus": 3,
         "author": "Hoogstraten, Jan van (1662-1736)",
         "title": "Zegepraal, der goddelyke liefde, vertoont in zeven-en-veertig zielopwekkende zinnebeelden. / `IT`[By Jan van Hoogstraten]`LO`",
         "year": "1709",
@@ -9339,7 +9339,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "183476921",
+        "ppn": "183476921","corpus": 3,
         "author": "-",
         "title": "De opregte Zandvoorder speel-wagen. Verc¸ierd met aardige minne-liedjes",
         "year": "1780",
@@ -9368,7 +9368,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "168756714",
+        "ppn": "168756714","corpus": 3,
         "author": "-",
         "title": "Het nieuwe princesse liedt-boeck of het Haeghse spelde-kussentje",
         "year": "1682",
@@ -9420,7 +9420,7 @@ var rawData =
         "context_mozes": "stuurman j elkander hoogerduin pieter god langer gedaan middelen waaren commandeur beneffens goede texelsche lootsman symon duinker verdere officieren scheepsvolk pleegde raad leven haggelyk gevaar eindelyk meergemelde stoute couragieuze sprak"
     },
     {
-        "ppn": "224273434",
+        "ppn": "224273434","corpus": 3,
         "author": "-",
         "title": "Apollo's nieuwe-jaers-gift. Aen het bekoorlyke Nederlandsche jufferschap. : `IT`Part 2`LO`",
         "year": "1753",
@@ -9449,7 +9449,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "353784095",
+        "ppn": "353784095","corpus": 3,
         "author": "Brouwer, Jacob (18e E.)",
         "title": "De lammeren-vreugd, of De herders bruyloft. Queelende herders-zangen. / `IT`By Jacob Brouwer`LO`",
         "year": "1732",
@@ -9478,7 +9478,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "17305806X",
+        "ppn": "17305806X","corpus": 3,
         "author": "Styl, S. (1731-1804)",
         "title": "Krispyn filozoof, blyspe´l. / `IT`[By Simon St?l]`LO`",
         "year": "1754",
@@ -9507,7 +9507,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "85338570X",
+        "ppn": "85338570X","corpus": 3,
         "author": "Maertsz, Cornelis (17e E.)",
         "title": "Het singende nachtegaeltje quelende soetelyck, tot stichtel?ck vermaeck voor de christel?ck ieught. / `IT`By Cornelis Maertsz`LO`",
         "year": "1671",
@@ -9536,7 +9536,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "142219800",
+        "ppn": "142219800","corpus": 3,
         "author": "-",
         "title": "Geschiedkundige beschryving van de maan, deszelfs inwooneren en z?n beste regeerings-vorm in een tydvak van 4500 jaaren",
         "year": "1794",
@@ -9565,7 +9565,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "850933714",
+        "ppn": "850933714","corpus": 3,
         "author": "Merwede, Matthijs van der (1613-1664)",
         "title": "Geestelyke minne-vlammen. / `IT`By M. vander Merwede heere van Clootw?k`LO`",
         "year": "1653",
@@ -9594,7 +9594,7 @@ var rawData =
         "context_mozes": "schotels disch wasschen eeuwige bruyloft and re rots staf getroffen schoone volk hemel sorge gong versloffen haren god verbuffelt           "
     },
     {
-        "ppn": "302706089",
+        "ppn": "302706089","corpus": 3,
         "author": "-",
         "title": "Den Italiaenschen quacksalver, ofte den Nieuwen Amsterdamschen Jan Potazy",
         "year": "1708",
@@ -9623,7 +9623,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "138779902",
+        "ppn": "138779902","corpus": 3,
         "author": "-",
         "title": "Matroosen vreught, vol van de nieuwste ende hedendaaghsche liedekens",
         "year": "1696",
@@ -9652,7 +9652,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "303139145",
+        "ppn": "303139145","corpus": 3,
         "author": "Hart, Floris Willemsz. van der (1e helft 18e E.)",
         "title": "Den nieuwen Katwycker christelycke zee-vaart, versien met nieuwe christelijcke gezangen, rymen en gebeden. / `IT`By Floris Willemsz vander Hart`LO`",
         "year": "1732",
@@ -9681,7 +9681,7 @@ var rawData =
         "context_mozes": "ziet rym konst klaer god liedekens zinge deselve berymt godsalige vader david salomon waarden hielden psalmen exodus vyftien leest vind beschreven staan doe gedaan song lof zang majesteit rijmkonst vrouw"
     },
     {
-        "ppn": "103901728",
+        "ppn": "103901728","corpus": 3,
         "author": "Bushof, Bernardus (1592?-1639)",
         "title": "Nieuwe lof-sangen en geestel?cke liedekens. / `IT`By B. Busschof`LO`",
         "year": "1694",
@@ -9710,7 +9710,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "851948553",
+        "ppn": "851948553","corpus": 3,
         "author": "-",
         "title": "tKortswylige steekertie, omvlogten en doornagelt, met innige, vierige, minnetreckjens",
         "year": "1654",
@@ -9739,7 +9739,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "155708813",
+        "ppn": "155708813","corpus": 3,
         "author": "Wolff, Betje (1738-1804)",
         "title": "Brieven van Constantia Paulina Dortsma [...] geschreeven aan haare nigt Scriblera van Utrecht. / `IT`[By Elisabeth Wolff-Bekker]. ; Edited and prefaced by P. Dortsma Secundus`LO`",
         "year": "1776",
@@ -9768,7 +9768,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "175864217",
+        "ppn": "175864217","corpus": 3,
         "author": "-",
         "title": "De vermakelijcke buys-man, ofte Koddige boots-geselletje: singende veel vermaeckelijcke visschers [...] liedjes",
         "year": "1703",
@@ -9797,7 +9797,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "330020676",
+        "ppn": "330020676","corpus": 3,
         "author": "Sweerts, Cornelis (1669-1742)",
         "title": "Boertige en ernstige minnezangen. / `IT`[By Cornelis Zweerts]`LO`",
         "year": "1705",
@@ -9826,7 +9826,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "832255130",
+        "ppn": "832255130","corpus": 3,
         "author": "-",
         "title": "[Nephtunis zee-wagen]",
         "year": "1667",
@@ -9855,7 +9855,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "138625581",
+        "ppn": "138625581","corpus": 3,
         "author": "Vriend, J. (pyschologie/logica)",
         "title": "Verliefde, of klagende minnaer. / `IT`By J. Vriend`LO`",
         "year": "1698",
@@ -9884,7 +9884,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "169312402",
+        "ppn": "169312402","corpus": 3,
         "author": "-",
         "title": "De vrolyke openhartige minnaar, zingende allerhande minne-zangen",
         "year": "1795",
@@ -9913,7 +9913,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "102567433",
+        "ppn": "102567433","corpus": 3,
         "author": "Vos, Jan (ca. 1610-1667 ; treurspeldichter)",
         "title": "Aran en Titus, of Wraek en weerwraek, trevrspel. / `IT`By Jan Vos`LO`",
         "year": "1699",
@@ -9942,7 +9942,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "842086609",
+        "ppn": "842086609","corpus": 3,
         "author": "Smeerbol, J.",
         "title": "Bruylofts-kost, bestaande in verscheyden [...] echts-gezangen. / `IT`(By J. Smeerbol)`LO`",
         "year": "1645",
@@ -9971,7 +9971,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "303131055",
+        "ppn": "303131055","corpus": 3,
         "author": "Baron, Jan Zachariasz (17de eeuw)",
         "title": "Leyts-Prieeltje, ofte Cvpidoos zinn'licheyt. / `IT`By J.Z. Baron`LO`",
         "year": "1651",
@@ -10000,7 +10000,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "185302815",
+        "ppn": "185302815","corpus": 3,
         "author": "-",
         "title": "Oude ende nieuwe lof-zangen, die gemeenlyk gezongen worden op de geboorte [...] Jesu Christi. / `IT`Compiled by J.S. [= J.J. Stichter]`LO`",
         "year": "1740",
@@ -10029,7 +10029,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "303311274",
+        "ppn": "303311274","corpus": 3,
         "author": "-",
         "title": "Het tweede deel, van De nieuwe Overtoompsze markt-schipper, of Vermaakelyke Leidsze kaag",
         "year": "17XX",
@@ -10058,7 +10058,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843905816",
+        "ppn": "843905816","corpus": 3,
         "author": "Heemskerk, Johan van (1597-1656)",
         "title": "Inleydinghe tot het ontwerp van een Batavische Arcadia. / `IT`[By Johan van Heemskerk]`LO`",
         "year": "1637",
@@ -10087,7 +10087,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "305090097",
+        "ppn": "305090097","corpus": 3,
         "author": "Mooy, Maarten (1739-1817)",
         "title": "Omstandig journaal van de reize naar Groenland. / `IT`By Maarten Mooy`LO`",
         "year": "1787",
@@ -10116,7 +10116,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "240411544",
+        "ppn": "240411544","corpus": 3,
         "author": "Tuinman, Carolus (1659-1728)",
         "title": "Zedenzangen, over een groot gedeelte der Nederlandsche spreekwoorden van dagelyks gebruik [...] op verscheiden rymtrant en zangwyzen. / `IT`By C. Tuinman`LO`",
         "year": "1720",
@@ -10145,7 +10145,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "844193860",
+        "ppn": "844193860","corpus": 3,
         "author": "-",
         "title": "Het eerste deel van d'Amsteldamsche minne-zuch-jens",
         "year": "1643",
@@ -10174,7 +10174,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "302994564",
+        "ppn": "302994564","corpus": 3,
         "author": "Rusting, Salomon van (1652-1717 ; dichter, arts)",
         "title": "Barbarologia, s?nde de sleutel der grandiloquentia paganismi, ofte boeren-latyn. / `IT`By Salomon van Rusting`LO`",
         "year": "1733",
@@ -10203,7 +10203,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "318776782",
+        "ppn": "318776782","corpus": 3,
         "author": "-",
         "title": "De Amsterdamsze gaare-keuken, met den blyhertigen op-disser. Voorzien met de nieuwste [...] liederen",
         "year": "1796",
@@ -10232,7 +10232,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "182499553",
+        "ppn": "182499553","corpus": 3,
         "author": "-",
         "title": "De nieuwe Oost-Indische rooseboom zynde voorzien met allerhande liederen",
         "year": "1784",
@@ -10261,7 +10261,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "305518348",
+        "ppn": "305518348","corpus": 3,
         "author": "Ridderus, Franciscus (1620-1683)",
         "title": "Huys-gesangen, gepast op sijn huys-catechisatie. / `IT`By Franciscus Ridderus`LO`",
         "year": "1658",
@@ -10290,7 +10290,7 @@ var rawData =
         "context_mozes": "god tvolck volk pharo ontlasten sprak brandend vyer seyd seght laet ruben bed &gt; avond gesang dag stemme joseph twater most midian zypora versuchte zwaere lasten woud dorst spreecken gemoedight"
     },
     {
-        "ppn": "164370390",
+        "ppn": "164370390","corpus": 3,
         "author": "Waarmond, Lieven van",
         "title": "Hollands koors, verergert in een derdendaaghse; vervallen in een quynende sieckte; en gee¨yndight in ellendige dootstuypen. S?nde een verhaal van de onheylen [...] die den lande van Holland [...] s?n overgekomen. / `IT`By Lieven van Waarmond`LO`",
         "year": "1687",
@@ -10319,7 +10319,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "168221314",
+        "ppn": "168221314","corpus": 3,
         "author": "-",
         "title": "De Oostindische thee-boom, getrokken op veelerhande gezangen",
         "year": "1767",
@@ -10348,7 +10348,7 @@ var rawData =
         "context_mozes": "banda groeyd rivieren besproeyd adam eva bewoond goud kostelijk drijft schrijft ganges euphrat betoond vertel kust cormandel peru            "
     },
     {
-        "ppn": "172171040",
+        "ppn": "172171040","corpus": 3,
         "author": "Mauricius, Johan Jacob (1692-1768)",
         "title": "Dichtlievende uitspanningen. / `IT`By Joan Jakob Mauricius`LO`",
         "year": "1753",
@@ -10377,7 +10377,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "90849000",
+        "ppn": "90849000","corpus": 3,
         "author": "-",
         "title": "tAmsteldams minne-beeckje",
         "year": "1649",
@@ -10406,7 +10406,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "153232900",
+        "ppn": "153232900","corpus": 3,
         "author": "Fokke, A. (Simonsz. ; 1755-1812)",
         "title": "Het onscheidbaar drietal redenwezens verlichting, deugd en t?d, op eene zonderlinge zinspeelende w?ze geschetst. / `IT`By A. Fokke Simonsz`LO`",
         "year": "1799",
@@ -10435,7 +10435,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "314443576",
+        "ppn": "314443576","corpus": 3,
         "author": "Bie, Cornelis de (1627-1715/16)",
         "title": "Den heyligen ridder Gommarvs, patroon der stadt Lier, oft Gewillige verduldigheyt, op het tonneel ghebrocht door de [...] gulde [...] Den Groeyenden Boom den 23. en 25. iunij 1669. / `IT`Rhymed version by Cornelius de Bie`LO`",
         "year": "1670",
@@ -10464,7 +10464,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "168370808",
+        "ppn": "168370808","corpus": 3,
         "author": "Denik, C.L. (18e E.)",
         "title": "Het nieuw Maas-sluysche hoekertje, voerende eenige [...] liedekens : `IT`2 parts. / By C.L. Denik`LO`",
         "year": "1755",
@@ -10493,7 +10493,7 @@ var rawData =
         "context_mozes": "adam doodt vil lichaam zonden wil heerscht name ia gantsch volk kwame rend losse toom koning              "
     },
     {
-        "ppn": "328921912",
+        "ppn": "328921912","corpus": 3,
         "author": "-",
         "title": "Nieuwe geestelycke liedekens tot godtvruchtigh gebruyck der jonckheydt in den catechismus",
         "year": "1742",
@@ -10522,7 +10522,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "832338516",
+        "ppn": "832338516","corpus": 3,
         "author": "Bon, Arnold",
         "title": "Delfs Cupidoos schighje. Betreffende, veele geestige minne lietjes. / `IT`[By Arnold Bon]`LO`",
         "year": "1652",
@@ -10551,7 +10551,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "155559710",
+        "ppn": "155559710","corpus": 3,
         "author": "-",
         "title": "De nieuwe Hollandsen boots-gesel, ofte Bataviers helden-stuk",
         "year": "1704",
@@ -10580,7 +10580,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "317725289",
+        "ppn": "317725289","corpus": 3,
         "author": "-",
         "title": "Het harders-stafje, of Het soet geselschap van harders en harderinnen, zingende allerhande ernstige en boertige [...] liederen",
         "year": "1740",
@@ -10609,7 +10609,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "84356928X",
+        "ppn": "84356928X","corpus": 3,
         "author": "Vondel, Joost van den (1587-1679)",
         "title": "Salmoneus. Treurspel. / `IT`By J.V. Vondel`LO`",
         "year": "1685",
@@ -10638,7 +10638,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "303310022",
+        "ppn": "303310022","corpus": 3,
         "author": "-",
         "title": "(`IT`Title A2:`LO`) De vrolyke kramer, met Kleyn Jans playsierig [...] marsdragend hondje",
         "year": "17XX",
@@ -10667,7 +10667,7 @@ var rawData =
         "context_mozes": "bleek knegt handen opgeregt hulpe bad isrel amalek vertrad doodt brak kop waard heeren regters stelden vegters voorts gekomen vorst iosua schromen ô engel verbond canaans geslagt   "
     },
     {
-        "ppn": "314659994",
+        "ppn": "314659994","corpus": 3,
         "author": "Lixbona, Joannes de (17e E.)",
         "title": "Hemelsch nachtegaelke¯ oft Gheestelycke liedekens om devght met vrevght te be-oeffenen. / `IT`By J. de Lixbona`LO`",
         "year": "1644",
@@ -10696,7 +10696,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "168372193",
+        "ppn": "168372193","corpus": 3,
         "author": "-",
         "title": "De kweelende godin, of De zingende leyster",
         "year": "1750",
@@ -10725,7 +10725,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "168348810",
+        "ppn": "168348810","corpus": 3,
         "author": "-",
         "title": "De mey-blom of de zomer-spruyt. Tezamen gebonden met veelderhande gezangen",
         "year": "1762",
@@ -10754,7 +10754,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "149253656",
+        "ppn": "149253656","corpus": 3,
         "author": "Moens, Petronella (1762-1843)",
         "title": "Liederen voor het vaderland. / `IT`By Petronella Moens et al`LO`",
         "year": "1792",
@@ -10806,7 +10806,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "317310313",
+        "ppn": "317310313","corpus": 3,
         "author": "Ruloffs, Bartholomeus (1741-1801)",
         "title": "Nieuwjaarswensch van Thomasvae^r, op de bruiloft van Kloris en Roosje [...]. Gedaan in den Amsteldamschen schouwburg. den derden january des jaars 1791. / `IT`[By Bartholomeus Ruloffs]`LO`",
         "year": "1791",
@@ -10835,7 +10835,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "308172183",
+        "ppn": "308172183","corpus": 3,
         "author": "-",
         "title": "Oude ende nieuwe geestelyke liedekens, op de heylige dagen van het geheele jaer. / `IT`[Compiled by J.S. = J. Stichter]`LO`",
         "year": "1744",
@@ -10864,7 +10864,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "302506306",
+        "ppn": "302506306","corpus": 3,
         "author": "Porjeere, Olivier (1736-1818)",
         "title": "Zanglievende uitspanningen. / `IT`By O. Porjeere`LO`",
         "year": "1788",
@@ -10893,7 +10893,7 @@ var rawData =
         "context_mozes": "vrolijkhart verdriet lied mijne zee hooren hart meenig goede moed hallelujah laet prijzen liefde tempert weltevreden vergenoegdheid maakte wijze storm jagtsneeuw hagel donder moeite togt vreugd goël wezen angst zit"
     },
     {
-        "ppn": "09308627X",
+        "ppn": "09308627X","corpus": 3,
         "author": "-",
         "title": "t Amsteldams minne-beeckje",
         "year": "1658",
@@ -10922,7 +10922,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "29906333X",
+        "ppn": "29906333X","corpus": 3,
         "author": "Corneille, Pierre (1606-1684)",
         "title": "Sertorius, treurspel. / `IT`By P. Corneille. ; Translated from the French (by J. Haverkamp)`LO`",
         "year": "1722",
@@ -10951,7 +10951,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "830010750",
+        "ppn": "830010750","corpus": 3,
         "author": "-",
         "title": "Een nieuw liedt-boeck, genaemt het Enchuyser bot-schuytjen",
         "year": "1681",
@@ -10980,7 +10980,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "175782253",
+        "ppn": "175782253","corpus": 3,
         "author": "-",
         "title": "De Schiedamse jeneverstoker. Zijnde verciert met [...] minne-sangen",
         "year": "1746",
@@ -11009,7 +11009,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843016787",
+        "ppn": "843016787","corpus": 3,
         "author": "Pels, Andries (1631-1681)",
         "title": "Minne-liederen e´n me´ngelzangen. / `IT`By A. Pe´ls`LO`",
         "year": "1684",
@@ -11038,7 +11038,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "149228023",
+        "ppn": "149228023","corpus": 3,
         "author": "-",
         "title": "Apollo's kermis-gift aan de Amsterdamsche juffers",
         "year": "1746",
@@ -11067,7 +11067,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "252781716",
+        "ppn": "252781716","corpus": 3,
         "author": "-",
         "title": "Apollo's kermis-gift aan de Amsterdamsche juffers",
         "year": "1746",
@@ -11096,7 +11096,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "204361664",
+        "ppn": "204361664","corpus": 3,
         "author": "-",
         "title": "De koninginne van Hongaryen. Verciert met velerhande fraaje en vermakelyke liederen",
         "year": "1746",
@@ -11125,7 +11125,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "381238334",
+        "ppn": "381238334","corpus": 3,
         "author": "Lixbona, Joannes de (17e E.)",
         "title": "Kers-nacht ende de naervolgende dagen tot onse lieve vrouwe lichtmis inhoudende veel schoone kers-liedekens, met meer andere. / `IT`[By Joannes de Lixbona]`LO`",
         "year": "1736",
@@ -11154,7 +11154,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "17439036X",
+        "ppn": "17439036X","corpus": 3,
         "author": "Hoeven, Willem van der (-1727)",
         "title": "Isabella princesse van Iberie¨, hof en landspel. / `IT`By W. vander Hoeven`LO`",
         "year": "1720",
@@ -11183,7 +11183,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "169318133",
+        "ppn": "169318133","corpus": 3,
         "author": "-",
         "title": "De nieuwe Overtoomsche markt-schipper, of Durkerdammer kraamer, zynde verzierd met veele zoete [...] gezangen",
         "year": "1791",
@@ -11212,7 +11212,7 @@ var rawData =
         "context_mozes": "klok god slaat slaet eva bloot mensch sproot stof aerde neerstig let waerden tafels wet mitsdezen denkt perzoonen iaer bestieren vieren recht bediet wilt hooren boeken schreef wonden kreeg zoon"
     },
     {
-        "ppn": "331560453",
+        "ppn": "331560453","corpus": 3,
         "author": "-",
         "title": "Het nieuw natuerlyk toover-boek, ofte Den nieuwen vermeerderden sak der konsten",
         "year": "17XX",
@@ -11241,7 +11241,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "303120231",
+        "ppn": "303120231","corpus": 3,
         "author": "-",
         "title": "De nieuwe vermaakelyke snuyf-doos, zynde versiert met veelderley zoort van aardige en aangenaame gezangen, alle op de nieuwste voysen",
         "year": "17XX",
@@ -11270,7 +11270,7 @@ var rawData =
         "context_mozes": "ô wee israël gebleeken roep uur murmureerend volk pharoos jok ontslipten hemels tolk slavenhuys egipten verlost god vaaren vergaaten wil          "
     },
     {
-        "ppn": "304030708",
+        "ppn": "304030708","corpus": 3,
         "author": "Pels, Andries (1631-1681)",
         "title": "De verwaande Hollandsche Franschman. Blyspe´l. / `IT`(By Andries Pels et al.)`LO`",
         "year": "1717",
@@ -11299,7 +11299,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "317203932",
+        "ppn": "317203932","corpus": 3,
         "author": "-",
         "title": "Agter-hofje in zig bevattende uytgesogte stigtelyke en zielroerende gesangen",
         "year": "1732",
@@ -11328,7 +11328,7 @@ var rawData =
         "context_mozes": "bereikte opper zaligheid zalig god geest verlicht rein geloof vromen recht besef eeuwige heylrijk dierwaardigst goede allerzwaarst gewigt pause           "
     },
     {
-        "ppn": "314773150",
+        "ppn": "314773150","corpus": 3,
         "author": "-",
         "title": "Orgelpartij voor leerlingen van het clavier, behoorende tot het zangboek, genaamd: Verzameling van oude en nieuwe gezangen voor alle de hoogtyden des jaars",
         "year": "1799",
@@ -11357,7 +11357,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "303298499",
+        "ppn": "303298499","corpus": 3,
         "author": "-",
         "title": "De zingende koddenaar, queelende verscheide nieuwe liederen, die hedendaegs gezongen werden",
         "year": "1777",
@@ -11386,7 +11386,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "160255082",
+        "ppn": "160255082","corpus": 3,
         "author": "Post, Elisabeth Maria (1755-1812)",
         "title": "Gezangen der liefde. / `IT`(By Elisabeth Maria Post)`LO`",
         "year": "1794",
@@ -11415,7 +11415,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "822921413",
+        "ppn": "822921413","corpus": 3,
         "author": "-",
         "title": "Haarlemsche mei-bloempjes, derde offer, aen de vreughd-lievende nymphjes",
         "year": "1649",
@@ -11444,7 +11444,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "102181675",
+        "ppn": "102181675","corpus": 3,
         "author": "Caldero´n de la Barca, Pedro (1600-1681)",
         "title": "De tovere´s Circe, treurspe´l. / `IT`By (Pedro Caldero´n de la Barca. ; Translated by) A.B. de Leeuw`LO`",
         "year": "1690",
@@ -11473,7 +11473,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "183901487",
+        "ppn": "183901487","corpus": 3,
         "author": "-",
         "title": "De nieuwe Domburgsche speel-wagen, vermeerdert met de Nieuwe Vlissingsche tyd-korter [...]. Voortbrengende [...] minne, herders en drink-liederen",
         "year": "1767",
@@ -11502,7 +11502,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "353783552",
+        "ppn": "353783552","corpus": 3,
         "author": "-",
         "title": "Den dapperen prins Karel van Lotharingen",
         "year": "1744",
@@ -11531,7 +11531,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "169215288",
+        "ppn": "169215288","corpus": 3,
         "author": "-",
         "title": "Het vermakelyke vrouwen-tuyntje, waer in te vinden zyn de aldernieuwste liederen",
         "year": "1786",
@@ -11560,7 +11560,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "184246997",
+        "ppn": "184246997","corpus": 3,
         "author": "-",
         "title": "Vermakelyke Haagsche tap-toe, waer in te vinden zyn de aldernieuwste liederen",
         "year": "1774",
@@ -11589,7 +11589,7 @@ var rawData =
         "context_mozes": "roof gevleid versteeken kwaelyk ziet breeken negende laetsten dief levi gebooren amsteldam gerief meede zaem geswooren ongevange hoop            "
     },
     {
-        "ppn": "318769328",
+        "ppn": "318769328","corpus": 3,
         "author": "-",
         "title": "Het speel-schuytje met vrolyke naay-meysjes. Zingende en queelende de aldernieuwste gezangen",
         "year": "1751",
@@ -11618,7 +11618,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "172505089",
+        "ppn": "172505089","corpus": 3,
         "author": "Marre, Jan de (1696-1763)",
         "title": "Marcus Curtius. Trevrspel. / `IT`(By Jan de Marre)`LO`",
         "year": "1734",
@@ -11647,7 +11647,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "30539956X",
+        "ppn": "30539956X","corpus": 3,
         "author": "-",
         "title": "Het nie[uw] vermaakely[ke] dansschool. Waar in gedanst, gezongen en gespeeld werd",
         "year": "1779",
@@ -11676,7 +11676,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "303299185",
+        "ppn": "303299185","corpus": 3,
         "author": "-",
         "title": "De vermaarde Abcouder paarde-markt. Waar in te vinden zyn de nieuwste en aangenaamste liederen",
         "year": "1790",
@@ -11705,7 +11705,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "296989770",
+        "ppn": "296989770","corpus": 3,
         "author": "Hoen, Pieter 't (1744-1828)",
         "title": "Nieuwe proeve van klijne gedichten voor kinderen. / `IT`(By Pieter 't Hoen)`LO`",
         "year": "1778",
@@ -11734,7 +11734,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "16931460X",
+        "ppn": "16931460X","corpus": 3,
         "author": "-",
         "title": "De boere-dans, of 't gezelschap na de mode, vermaakende zig onder [...] 't zingen der hedendaagze nieuwste liederen",
         "year": "1789",
@@ -11763,7 +11763,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "292658230",
+        "ppn": "292658230","corpus": 3,
         "author": "-",
         "title": "Het oudt Haerlems liedt-boeck",
         "year": "1682",
@@ -11792,7 +11792,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "168292327",
+        "ppn": "168292327","corpus": 3,
         "author": "-",
         "title": "De nieuwe vermaaklyke gaare-keuken van de gekroonde A",
         "year": "1746",
@@ -11821,7 +11821,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "184374812",
+        "ppn": "184374812","corpus": 3,
         "author": "-",
         "title": "De drie kemphaantjes. Waar in te vinden zyn de aldernieuwste liederen",
         "year": "178X",
@@ -11850,7 +11850,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "318774305",
+        "ppn": "318774305","corpus": 3,
         "author": "-",
         "title": "De nieuwe vermakelyke Utrechtse min-stroom",
         "year": "1767",
@@ -11879,7 +11879,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "830930469",
+        "ppn": "830930469","corpus": 3,
         "author": "Brughman, Pieter (-1668)",
         "title": "Christelicke bedenckinge over het wel-gereformeerde christelick geloof. / `IT`By P.J.V.B. (= P.J.V. Brugman)`LO`",
         "year": "1657",
@@ -11908,7 +11908,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "240174623",
+        "ppn": "240174623","corpus": 3,
         "author": "-",
         "title": "Geschenk voor Nederlands jufferschap",
         "year": "1789",
@@ -11937,7 +11937,7 @@ var rawData =
         "context_mozes": "sterflijkheid verheugd gezaligd stapt verkwikt weldaadig graf schiep man vrouw boek vers 27 gedacht spreuk vergeefsch bijbel staat denke           "
     },
     {
-        "ppn": "160328292",
+        "ppn": "160328292","corpus": 3,
         "author": "-",
         "title": "Neerlands hooft- en wortelsonde, het verzuym van de bekeringe der heydenen, aangewesen [...] door drie leer-redens gedaan [...] door drie der voornaamste kerk-voogden in Engeland [...] en hoe t' ontwortelen in Suriname en Berbices, getoont. / `IT`Translated from the English and annotated by J.W. Kals`LO`",
         "year": "1756",
@@ -11966,7 +11966,7 @@ var rawData =
         "context_mozes": "nae werk heeren roem heerlykheid handen vercierselen vingeren wil bekent maken wienshalven geschied schryver zegt voleinde scheppinge gen 31 god zag gemaakt getal kinderen israels snoer erffenisse uirdrukkelyk knecht belast"
     },
     {
-        "ppn": "840597207",
+        "ppn": "840597207","corpus": 3,
         "author": "Vondel, Joost van den (1587-1679)",
         "title": "Maeghden. Trevrspel. / `IT`By J.V. Vondel`LO`",
         "year": "1639",
@@ -11995,7 +11995,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "315141034",
+        "ppn": "315141034","corpus": 3,
         "author": "-",
         "title": "A` la Zoutmans victorie, bevogten door de Hollanders op de Engelsche. Voorgevallen op de Doggersbank [...]. Zingende de blyde overwinning",
         "year": "1782",
@@ -12024,7 +12024,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "302775064",
+        "ppn": "302775064","corpus": 3,
         "author": "-",
         "title": "Het nieuwe groote harpje, inhoudende veele schriftuyrlijke liedekens ende bruylofts-gesangen",
         "year": "16XX",
@@ -12053,7 +12053,7 @@ var rawData =
         "context_mozes": "kost verblijden nedrigheyt doe vingh prophecijen leggen stampt lij schriften klaer beduyt                  "
     },
     {
-        "ppn": "840596650",
+        "ppn": "840596650","corpus": 3,
         "author": "Vondel, Joost van den (1587-1679)",
         "title": "Peter en Pauwels. Trevrspel. / `IT`By J.V. Vondel`LO`",
         "year": "1641",
@@ -12082,7 +12082,7 @@ var rawData =
         "context_mozes": "broght samarien harnas been heir schoolde voet garizim heilighdom zien bergh graven quansuis begroef daetlijck zagh draven heilgen            "
     },
     {
-        "ppn": "183107039",
+        "ppn": "183107039","corpus": 3,
         "author": "-",
         "title": "De Amsterdamsche kermis-vreugd. Zingende, by die gelegenheid, de aldernieuwste liederen",
         "year": "1793",
@@ -12111,7 +12111,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "148288421",
+        "ppn": "148288421","corpus": 3,
         "author": "- -",
         "title": "De tempel der zanggodinnen, behelsende minne- herders- en kusch-liederen. / `IT`Compiled by Een gezelschap van jonge juffers`LO` De tempel der zanggodinnen, behelsende minne- herders- en kusch-liederen. / `IT`Compiled by Een gezelschap van jonge juffers`LO`",
         "year": "1750 1750",
@@ -12140,7 +12140,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "149202830",
+        "ppn": "149202830","corpus": 3,
         "author": "Verton, Reynier (1736-1767 fl.)",
         "title": "Een nieuw liedt-boekje, genaemt het dubbelt papiere ploegje. / `IT`By Reynier Verton`LO`",
         "year": "1736",
@@ -12169,7 +12169,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "138893608",
+        "ppn": "138893608","corpus": 3,
         "author": "Metaal, Frank Arentsz (17e E.)",
         "title": "Maes-sluysche compas, versien met veele aengename liedekens. / `IT`By F.A. Metael`LO`",
         "year": "1693",
@@ -12198,7 +12198,7 @@ var rawData =
         "context_mozes": "tijd schort leden wilt heeren dag doorbrengen plag tijden deeden saterdage luyden klock vliet welcken beduyden neemt uytstel lien arbeyt          "
     },
     {
-        "ppn": "303863862",
+        "ppn": "303863862","corpus": 3,
         "author": "Swildens, J.H. (1745-1809)",
         "title": "Vaderlandsch A-B boek voor de Nederlandsche jeugd. / `IT`(By Johan Hendrik Swildens)`LO`",
         "year": "1781",
@@ -12227,7 +12227,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "304332623",
+        "ppn": "304332623","corpus": 3,
         "author": "-",
         "title": "De Amerikaansche koopman; zingende de nieuwste [...] liederen",
         "year": "17XX",
@@ -12256,7 +12256,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "184216621",
+        "ppn": "184216621","corpus": 3,
         "author": "-",
         "title": "De nieuwe Amsteldamsche buyten-singel, waar in te vinden zyn de aldernieuwste liederen",
         "year": "1770",
@@ -12285,7 +12285,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "184370272",
+        "ppn": "184370272","corpus": 3,
         "author": "-",
         "title": "De schreeuwende kat-soe, op zyn wagen [...] zingende de aldernieuwste liederen",
         "year": "17XX",
@@ -12314,7 +12314,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "169199282",
+        "ppn": "169199282","corpus": 3,
         "author": "-",
         "title": "Aardige en vermakelyke joe, joe, joe. Waar mede gespeeld [...] werd de nieuwste liederen",
         "year": "1792",
@@ -12343,7 +12343,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "252103300",
+        "ppn": "252103300","corpus": 3,
         "author": "-",
         "title": "Gekroond Batavia, zynde verciert met de voornaemste liederen, die hedendaags gezongen werden",
         "year": "17XX",
@@ -12372,7 +12372,7 @@ var rawData =
         "context_mozes": "god zoon agt dagen besneden tempel brengt vreden wet klaer                    "
     },
     {
-        "ppn": "841057699",
+        "ppn": "841057699","corpus": 3,
         "author": "-",
         "title": "De klugtige tyd-verdryver waar in de alder-aardigste vermaakl?kheden [...] t'zaam gezet z?n",
         "year": "1653",
@@ -12401,7 +12401,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "31877707X",
+        "ppn": "31877707X","corpus": 3,
         "author": "-",
         "title": "Het tweede deel, van de Amsteldamsche schouwburg; of De nieuwe bey-korf. Waar in te vinden zyn de nieuwste [...] liederen",
         "year": "1769",
@@ -12430,7 +12430,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "318770083",
+        "ppn": "318770083","corpus": 3,
         "author": "-",
         "title": "De vino caser, of De Amsterdamse pakhuis vreugt",
         "year": "1783",
@@ -12459,7 +12459,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "380671921",
+        "ppn": "380671921","corpus": 3,
         "author": "Heussen, Frans Esausz den (1599-1679)",
         "title": "Den christel?cken iongelingh: dat is Een stichtel?cke onderwysinge, hoe de iongelinghen [...] haer in leven ende wandel hebben christel?ck te dragen. / `IT`By Frans Esausz. den Heussen`LO`",
         "year": "1644",
@@ -12511,7 +12511,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "159851742",
+        "ppn": "159851742","corpus": 3,
         "author": "Vos, Isaac (-1651?)",
         "title": "De beklaeghlycke dwang. Bly-eyndent treurspel. / `IT`By Isaac Vos`LO`",
         "year": "1677",
@@ -12540,7 +12540,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "184226201",
+        "ppn": "184226201","corpus": 3,
         "author": "-",
         "title": "De vrolyke schoorsteenveeger, zingende, onder het veegen, de aldernieuwste liederen",
         "year": "1791",
@@ -12569,7 +12569,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "31880851X",
+        "ppn": "31880851X","corpus": 3,
         "author": "-",
         "title": "De Rhynsburger leister: zingende 38 nieuwe en 13 weinig bekende zoo menuetten [...] drink-liederen, enz.",
         "year": "17XX",
@@ -12598,7 +12598,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "102517541",
+        "ppn": "102517541","corpus": 3,
         "author": "Nuyts, Pieter (1640-1709)",
         "title": "Admetus, en Alcestis. Treurspel. / `IT`By P. Nuyts`LO`",
         "year": "1694",
@@ -12627,7 +12627,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "299060837",
+        "ppn": "299060837","corpus": 3,
         "author": "Brandt, Gerard (1626-1685)",
         "title": "De veinzende Torquatus, trevrspel. / `IT`(By Geeraert Brandt)`LO`",
         "year": "1733",
@@ -12656,7 +12656,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "16592487X",
+        "ppn": "16592487X","corpus": 3,
         "author": "-",
         "title": "Het nieuwe vermeerderde groote harpje, inhoudende vele schriftuurl?ke liedekens, lof- ende bruylofts-gesangen",
         "year": "1703",
@@ -12685,7 +12685,7 @@ var rawData =
         "context_mozes": "kost verblijden nedrigheyd ving prophecyen leggen prent ly schriften klaer beduyt hulp wilt geestelijke water stroomen menschen bystant zwak egypten scheyden volk zant steenrots leyden ingewant vuur vlam laeft brand"
     },
     {
-        "ppn": "292534523",
+        "ppn": "292534523","corpus": 3,
         "author": "Verbrugge, Johannes (ca. 1633-1681)",
         "title": "Chirurgyns scheeps-kist. Z?nde een catalogus oft lyste der medicamenten, die yder chirurg?n naar Oost- of West-Indien gemeenlick mede-voert. / `IT`By J.V.B [= Johannes Verbrugge]`LO`",
         "year": "1723",
@@ -12714,7 +12714,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "291317200",
+        "ppn": "291317200","corpus": 3,
         "author": "Focquenbroch, Willem Godschalk van (1640-1670)",
         "title": "Min in't lazarus-huys, blyspel. / `IT`By W.G.V. Focquenbrocht`LO`",
         "year": "1732",
@@ -12743,7 +12743,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "169193462",
+        "ppn": "169193462","corpus": 3,
         "author": "-",
         "title": "De vrolyke prinsman, zingende allerhande nieuwe liederen, op deeze tegenwoordige tyd toepasselyk",
         "year": "1788",
@@ -12772,7 +12772,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "822564335",
+        "ppn": "822564335","corpus": 3,
         "author": "-",
         "title": "Het Haerlems leeuwerckje, in-houdende veel aerdige nieuwe liedekens",
         "year": "1672",
@@ -12801,7 +12801,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "168292459",
+        "ppn": "168292459","corpus": 3,
         "author": "-",
         "title": "Het Oranje vreugde-maal: opgedischt in de gaare-keuken van de gekroonde B. Ter gelegenheyd van de verheffing van z?ne hoogheyd",
         "year": "1747",
@@ -12830,7 +12830,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "318815257",
+        "ppn": "318815257","corpus": 3,
         "author": "Jennyn, Philippus",
         "title": "Gheestelycken vvaeckenden staf der iodsche schaep-herders. / `IT`By Philippus Jennyn`LO`",
         "year": "1651",
@@ -12859,7 +12859,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "238374882",
+        "ppn": "238374882","corpus": 3,
         "author": "Vreede, Pieter (1750-1837)",
         "title": "Vaderlandsche liederen, voor het genootschap van wapenhandel [...] te Leyden. / `IT`[By Pieter Vreede et al.]`LO`",
         "year": "1784",
@@ -12888,7 +12888,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "169316270",
+        "ppn": "169316270","corpus": 3,
         "author": "-",
         "title": "De twee vrolyke confraaters. Zingende de nieuwste liederen",
         "year": "1795",
@@ -12917,7 +12917,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "853335885",
+        "ppn": "853335885","corpus": 3,
         "author": "Vos, Jan (ca. 1610-1667 ; treurspeldichter)",
         "title": "Medea, treurspel. / `IT`By Jan Vos`LO`",
         "year": "1679",
@@ -12946,7 +12946,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "180891561",
+        "ppn": "180891561","corpus": 3,
         "author": "Hoeven, Willem van der (-1727)",
         "title": "De rechter in zyn eigen zaak. Blyspel. / `IT`By Willem vander Hoeven`LO`",
         "year": "1718",
@@ -12975,7 +12975,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "215847318",
+        "ppn": "215847318","corpus": 3,
         "author": "Rivier, Simon",
         "title": "De verovering van Den Briel, of Grondlegging der Batavische vryheid, treurspel. / `IT`[By Simon Rivier]`LO`",
         "year": "1777",
@@ -13004,7 +13004,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "308086031",
+        "ppn": "308086031","corpus": 3,
         "author": "-",
         "title": "Speceryen-geur, ofte eene verzaameling van uitmuntende gezangen, uit eenige nagelaten schriften vergadert van de heeren A. de R. &amp; J.G.",
         "year": "1735",
@@ -13033,7 +13033,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "303287136",
+        "ppn": "303287136","corpus": 3,
         "author": "Vos, Isaac (-1651?)",
         "title": "Iemant en Niemant. / `IT`By Isaac de Vos`LO`",
         "year": "1707",
@@ -13062,7 +13062,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "108025799",
+        "ppn": "108025799","corpus": 3,
         "author": "Lingelbach, David (1641-)",
         "title": "Sardanapalus, treurspel. / `IT`By D. Lingelbach`LO`",
         "year": "1699",
@@ -13091,7 +13091,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "291075975",
+        "ppn": "291075975","corpus": 3,
         "author": "Lingelbach, David (1641-)",
         "title": "De spookende minnaar. Trevr-bly-eyndend-spel. / `IT`(By David Lingelbach)`LO`",
         "year": "1729",
@@ -13120,7 +13120,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "842997032",
+        "ppn": "842997032","corpus": 3,
         "author": "-",
         "title": "Het nieuwe rommelzootje, te samen-ghestelt van verscheyden nieuwe liedekens",
         "year": "1670",
@@ -13149,7 +13149,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "170175332",
+        "ppn": "170175332","corpus": 3,
         "author": "Barbier, Marie-Anne (1670-1742)",
         "title": "Tomyris, of De dood van Cyrus; treurspel. / `IT`By Barbier. ; Translated from the French (by I. Bilderd?k)`LO`",
         "year": "1763",
@@ -13178,7 +13178,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "172758564",
+        "ppn": "172758564","corpus": 3,
         "author": "Arents, Thomas (1652-1701)",
         "title": "Joan Galeasso: dwingeland van Milanen. Treurspel. / `IT`By Tomas Arentsz`LO`",
         "year": "1718",
@@ -13207,7 +13207,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "140478337",
+        "ppn": "140478337","corpus": 3,
         "author": "Vega, Lope de (1562-1635)",
         "title": "Gedwongen vriendt. / `IT`By Lope de Vega Carpio. ; Translated into Dutch by I. Vos`LO`",
         "year": "1662",
@@ -13236,7 +13236,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "296163023",
+        "ppn": "296163023","corpus": 3,
         "author": "Vega, Lope de (1562-1635)",
         "title": "Gedwongen vriendt; trevrspel. / `IT`By Lope de Vega Carpio. ; Translated into Dutch verse by Isaak Vos`LO`",
         "year": "1743",
@@ -13265,7 +13265,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "146253124",
+        "ppn": "146253124","corpus": 3,
         "author": "-",
         "title": "Een geheel nieuw liedeboek van het roosje",
         "year": "179X",
@@ -13294,7 +13294,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "306658062",
+        "ppn": "306658062","corpus": 3,
         "author": "La Fosse, Antoine de (1653-1708)",
         "title": "Polyxena, trevrspel. / `IT`[By Antoine de La Fosse sieur d'Aubigny]. ; Translated from the French by M.B. [= M. Bode]`LO`",
         "year": "1740",
@@ -13323,7 +13323,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "170591646",
+        "ppn": "170591646","corpus": 3,
         "author": "La Chapelle, Jean de (1655-1723)",
         "title": "Markus Antonius en Kleopatra. Trevrspel. / `IT`(By Jean de La Chapelle. ; Translated by E. Webber)`LO`",
         "year": "1739",
@@ -13352,7 +13352,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "333139208",
+        "ppn": "333139208","corpus": 3,
         "author": "Bidloo, Govert (1649-1713)",
         "title": "Karel, erf-prins van Spanje. Treurspel. / `IT`(By Govard Bidloo)`LO`",
         "year": "1726",
@@ -13381,7 +13381,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "140802398",
+        "ppn": "140802398","corpus": 3,
         "author": "-",
         "title": "Opwekkende matroozen-liederen ter aanmoediging van 'slands zeemagt. Opgezongen, ter geleegentheidt van de begonne vyandelykheden, tusschen de Engelsche, en de Nederlandse provintien",
         "year": "178X",
@@ -13410,7 +13410,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "161563368",
+        "ppn": "161563368","corpus": 3,
         "author": "Racine, Jean (1639-1699)",
         "title": "Mithridates, koning van Pontus; treurspel. / `IT`By Racine. ; Translated from the French by T. Arents`LO`",
         "year": "1729",
@@ -13439,7 +13439,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "852771401",
+        "ppn": "852771401","corpus": 3,
         "author": "Sluiter, Willem (1627-1673)",
         "title": "Christel?ke doodts-betrachting, bestaende in verscheyden sterf-gesangen. /  `IT`By Wilhelm Sluiter`LO`",
         "year": "1687",
@@ -13468,7 +13468,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "165422572",
+        "ppn": "165422572","corpus": 3,
         "author": "Wilde, Maria de (1682-na 1755)",
         "title": "Abradates en Panthea, treurspel. / `IT`[By Maria de Wilde]`LO`",
         "year": "1710",
@@ -13497,7 +13497,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "180890328",
+        "ppn": "180890328","corpus": 3,
         "author": "Bruin, Claas (1671-1732)",
         "title": "De grondlegging der roomsche vryheid. Treurspel. / `IT`(By Claas Bruin)`LO`",
         "year": "1713",
@@ -13526,7 +13526,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "160021901",
+        "ppn": "160021901","corpus": 3,
         "author": "Feith, Rhijnvis (1753-1824)",
         "title": "De patriotten. Tooneelspel. / `IT`[By Rh?nvis Feith]`LO`",
         "year": "1785",
@@ -13555,7 +13555,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "142925675",
+        "ppn": "142925675","corpus": 3,
         "author": "Rijk, Frans (1680-1741 fl.)",
         "title": "De hedendaagsche bankroetier achterhaalt. Klvchtspel. / `IT`[By Frans R?k]`LO`",
         "year": "17XX",
@@ -13584,7 +13584,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843529040",
+        "ppn": "843529040","corpus": 3,
         "author": "Corneille, Pierre (1606-1684)",
         "title": "De Cid, treurspel. / `IT`By Corneille. ; Translated from the French`LO`",
         "year": "1697",
@@ -13613,7 +13613,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "172660726",
+        "ppn": "172660726","corpus": 3,
         "author": "Smids, Ludolph (1649-1720)",
         "title": "Konradyn, koning van Napels en Sicilie¨n. Trevrspel. / `IT`(By Ludolph Smids)`LO`",
         "year": "1736",
@@ -13642,7 +13642,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "110197380",
+        "ppn": "110197380","corpus": 3,
         "author": "-",
         "title": "Kort en opregt verhaal van het droevig en avontuurl?k wedervaren, van Abraham Jansz van Oelen, schipper van nieu Vos-meer [...] in die [...] hooge water vloed. En hoe h? [...] een (so genaemde) walvis, gevangen heeft",
         "year": "1683",
@@ -13671,7 +13671,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "244785430",
+        "ppn": "244785430","corpus": 3,
         "author": "-",
         "title": "Almanak, voor de beschaafde jeugd. Voor het jaar 1799",
         "year": "1799",
@@ -13700,7 +13700,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "314658688",
+        "ppn": "314658688","corpus": 3,
         "author": "-",
         "title": "De alder-nieuwste leyssem liedekens die ghesonghen worden op den kersnacht",
         "year": "1684",
@@ -13729,7 +13729,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "90430328",
+        "ppn": "90430328","corpus": 3,
         "author": "Joost van den Vondel (1587-1679) (ISNI 0000 0001 2135 6020)",
         "title": "Gysbrecht van Aemstel. d'ondergangk van zijne stadt, en zijn ballingschap. Treurspel. / By J.V. Vondel",
         "year": "1659",
@@ -13758,7 +13758,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843834129",
+        "ppn": "843834129","corpus": 3,
         "author": "Corneille, Pierre (1606-1684)",
         "title": "De dood van Pompeus, treurspel. / `IT`By Corneille. ; Translated from the French`LO`",
         "year": "1684",
@@ -13787,7 +13787,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "83360225X",
+        "ppn": "83360225X","corpus": 3,
         "author": "Oosterwijck, Volckerus van (1602-1675)",
         "title": "Rymen ende zangen over het Hooge-liedt Salomons. / `IT`By Volckerus van Oosterwijck`LO`",
         "year": "1655",
@@ -13816,7 +13816,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "303255730",
+        "ppn": "303255730","corpus": 3,
         "author": "-",
         "title": "Vrye landbouwers gezangen",
         "year": "1790",
@@ -13845,7 +13845,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "18394612X",
+        "ppn": "18394612X","corpus": 3,
         "author": "Mahaut, Antoine (ca. 1720-ca. 1785)",
         "title": "Maendelyks musikaels tydverdryf; bestaende in nieuwe Hollandsche canzonetten of zang-liederen op d'Italiaensche trant in't musiek gebracht. / `IT`By A. Mahaut. ; Rhymed version by K. Elzevier`LO`",
         "year": "1752",
@@ -13875,6 +13875,7 @@ var rawData =
     },
     {
         "ppn": "167620592",
+        "corpus": 3,
         "author": "Racine, Jean (1639-1699)",
         "title": "Athalia, treurspel. / `IT`By [Jean Baptiste Racine. ; Translated by] F. R?k`LO`",
         "year": "1716",
@@ -13903,7 +13904,7 @@ var rawData =
         "context_mozes": "volk god wet jojada vader heeren maak farao tempeldaaken abner moog lyk jozabet ga voegen handvest onderhoud zeden manieren bestemden tyd offerfeest vieren tweede tooneel spaar dierb re schat eenigste"
     },
     {
-        "ppn": "302990186",
+        "ppn": "302990186","corpus": 2,
         "author": "Johannes Duijkerius",
         "title": "Het leven van Philopater",
         "year": "1691",
@@ -13932,7 +13933,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "29816177X",
+        "ppn": "29816177X","corpus": 3,
         "author": "Quinault, Philippe (1635-1688)",
         "title": "Agrippa, o´f De gewaande Tiberinus. Treurspe´l. / `IT`By Quinault. ; Translated from the French`LO`",
         "year": "1734",
@@ -13961,7 +13962,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "310805007",
+        "ppn": "310805007","corpus": 3,
         "author": "Molie`re (1622-1673)",
         "title": "Het school voor de vrouwen, blyspel. / `IT`By Molliere. ; Translated from the French by T. Arents`LO`",
         "year": "1753",
@@ -13990,7 +13991,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "844006335",
+        "ppn": "844006335","corpus": 3,
         "author": "Quinault, Philippe (1635-1688)",
         "title": "De medevrysters, blyspel. / `IT`[By Philippe Quinault]`LO`",
         "year": "1689",
@@ -14019,7 +14020,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "146252233",
+        "ppn": "146252233","corpus": 3,
         "author": "-",
         "title": "De lustige nachtegaal, zingende allerhande fraaije liedjes",
         "year": "17XX",
@@ -14048,7 +14049,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "172937531",
+        "ppn": "172937531","corpus": 3,
         "author": "Le Blanc, Jean Bernard (1707-1781)",
         "title": "Aben-Zai¨d, keizer der Mogollen; trevrspel. / `IT`By Le Blanc. ; Translated from the French by N.W. op den Hooff`LO`",
         "year": "1738",
@@ -14077,7 +14078,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "337027064",
+        "ppn": "337027064","corpus": 3,
         "author": "Haps, Pieter Willem van (1696-1714 fl.)",
         "title": "Sophonisba, treurspel. / `IT`(By Pieter Willem van Haps)`LO`",
         "year": "1733",
@@ -14106,7 +14107,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "192268457",
+        "ppn": "192268457","corpus": 3,
         "author": "-",
         "title": "Liederen der Orde van S`SUP`t.`LO` Peter voor de loge Prudentia",
         "year": "1781",
@@ -14135,7 +14136,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "300368496",
+        "ppn": "300368496","corpus": 3,
         "author": "Hoeven, Willem van der (-1727)",
         "title": "De doodelyke minnenyd, treurspel. / `IT`By Willem vander Hoeven`LO`",
         "year": "1714",
@@ -14164,7 +14165,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "100531881",
+        "ppn": "100531881","corpus": 3,
         "author": "Antonides van der Goes, Johannes (1647-1684)",
         "title": "De gelyke twe´lingen, kluchtig blyspe´l. / `IT`[By Johannes Antonides van der Goes et al.]`LO`",
         "year": "1682",
@@ -14193,7 +14194,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "176697918",
+        "ppn": "176697918","corpus": 3,
         "author": "Stephanie, Gottlieb (1741-1800)",
         "title": "De schaaking uit het serail. Zangspel. / `IT`By [Gottlieb Stephanie. ; Translated by] G. Brender a` Brandis`LO`",
         "year": "1797",
@@ -14222,7 +14223,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "191500054",
+        "ppn": "191500054","corpus": 3,
         "author": "Sauve´ dit de La Noue, Jean-Baptiste (1701-1760)",
         "title": "Mahomet de tweede; treurspel. / `IT`By De La Noue¨. ; Translated from the French by N.W. op den Hooff`LO`",
         "year": "1763",
@@ -14251,7 +14252,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "238643050",
+        "ppn": "238643050","corpus": 3,
         "author": "-",
         "title": "Bataafsche liederen, voor vaderlandsche jongelingen en meisjes",
         "year": "1795",
@@ -14280,7 +14281,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "318986590",
+        "ppn": "318986590","corpus": 3,
         "author": "Sluiter, Willem (1627-1673)",
         "title": "Jeremia's klaag-liederen. / `IT`By Wilhelm Sluiter`LO`",
         "year": "1677",
@@ -14309,7 +14310,7 @@ var rawData =
         "context_mozes": "selven wort mont reden god waarschouwinge overtuiginge volk liedt beschreven wou dikwils hersingen                 "
     },
     {
-        "ppn": "149040598",
+        "ppn": "149040598","corpus": 3,
         "author": "Manheer, Gerrit (1772-1800 fl.)",
         "title": "Het zangeresje aan de Maas. Of Vervolg op het kransje van letterbloempjes. : `IT`Part 1. / (By Gerrit Manheer)`LO`",
         "year": "1794",
@@ -14338,7 +14339,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "842286462",
+        "ppn": "842286462","corpus": 3,
         "author": "Vondel, Joost van den (1587-1679)",
         "title": "Joseph in Dothan. Trevrspel. / `IT`By J. v. Vondel`LO`",
         "year": "1644",
@@ -14367,7 +14368,7 @@ var rawData =
         "context_mozes": "aertsvader gebroeders god deught zwarigheit gevallen zonen jakob dothan wouden stof onfeilbare weereltsche historien heidensche verzieringe neemen overmits heylige geschiedenissen altijdt oorzaak jammer kleen ontwerpende gemackelijck leeren spiegelen aertsvaders welcker"
     },
     {
-        "ppn": "289035708",
+        "ppn": "289035708","corpus": 3,
         "author": "Dreyer, P.A. (1610-1630 fl.)",
         "title": "Stichtelyke liedekens. / `IT`By P.A. Dreyer`LO`",
         "year": "1684",
@@ -14396,7 +14397,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "239945174",
+        "ppn": "239945174","corpus": 3,
         "author": "-",
         "title": "Nieuw liedeboek, tot vermaak van 't algemeen. : `IT`Part 1`LO`",
         "year": "1794",
@@ -14425,7 +14426,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "163577986",
+        "ppn": "163577986","corpus": 3,
         "author": "La Fosse, Antoine de (1653-1708)",
         "title": "Manlius Capitolinus; treurspel. / `IT`(By Antoine de La Fosse sieur d'Aubigny). ; [Translated by] (P. Malfait de jonge [et al.])`LO`",
         "year": "1711",
@@ -14454,7 +14455,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "172956617",
+        "ppn": "172956617","corpus": 3,
         "author": "Steenwijk, Frans van (1705-1788 ; Toneelschrijver en vertaler)",
         "title": "Ada, gravin van Holland en Zeeland; treurspel. / `IT`(By Frans van Steenw?k)`LO`",
         "year": "1754",
@@ -14483,7 +14484,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "822901943",
+        "ppn": "822901943","corpus": 3,
         "author": "Ockes, Herman",
         "title": "Herman Ockes hemel-sucht, ofte, sijne laetste besigheydt: vervattende eenighe stucken des Nieuwen Testaments",
         "year": "1649",
@@ -14512,7 +14513,7 @@ var rawData =
         "context_mozes": "god heten gaet toont selfs priester offert gaven geboden getuygh ioden iesus iong ren capernaum quamen vreught eng len ghelijck aengaende opstandingh dooden laest ghy noyt abrams aller isack iacobs"
     },
     {
-        "ppn": "170690911",
+        "ppn": "170690911","corpus": 3,
         "author": "Corneille, Pierre (1606-1684)",
         "title": "Polieukte, Armenisch martelaar; trevrspel. / `IT`By P. Corneille. ; Translated from the French by F. R?k`LO`",
         "year": "1724",
@@ -14541,7 +14542,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "291251773",
+        "ppn": "291251773","corpus": 3,
         "author": "Gresset, Jean Baptiste Louis (1709-1777)",
         "title": "Eduard de Derde, treurspel. / `IT`By Gresset. ; Translated from the French by G. Muiser`LO`",
         "year": "1761",
@@ -14570,7 +14571,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "95757805",
+        "ppn": "95757805","corpus": 3,
         "author": "Hendrick de Graef (1664-1671 fl.)",
         "title": "Alcinea, of Stantvastige kuysheydt. Treur-bly-eynd spel. / (By Hendrick de Graef)",
         "year": "1671",
@@ -14599,7 +14600,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "18976192X",
+        "ppn": "18976192X","corpus": 3,
         "author": "Riemsnyder, Hendrik (1743-1825)",
         "title": "Liedjes voor kinderen. / `IT`By Hendrik Riemsnyder`LO`",
         "year": "1781",
@@ -14628,7 +14629,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "167759302",
+        "ppn": "167759302","corpus": 3,
         "author": "Steenwijk, Frans van (1705-1788 ; Toneelschrijver en vertaler)",
         "title": "Beleazar, trevrspel. / `IT`(By Frans van Steenw?k)`LO`",
         "year": "1742",
@@ -14657,7 +14658,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "10005465X",
+        "ppn": "10005465X","corpus": 3,
         "author": "-",
         "title": "Korte inhoud, van De toveryen van Armida. Of het belegerde Jeruzalem",
         "year": "1683",
@@ -14686,7 +14687,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "831130318",
+        "ppn": "831130318","corpus": 3,
         "author": "-",
         "title": "tGroot achter-hofken, beplant met verscheyden gheestel?cke liedekens",
         "year": "1639",
@@ -14715,7 +14716,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "318654687",
+        "ppn": "318654687","corpus": 3,
         "author": "Hanins, Albertus Ignatius D' (1661 fl.)",
         "title": "Het bevel van Cvpido, bestaende in dry deelen [...] het eerste is ghenaemt minne-lietjens, het tweede herders-ghedichten, ende het derde kluchten. / `IT`By Albertus Ignatius d' Hanins`LO`",
         "year": "1653",
@@ -14745,6 +14746,7 @@ var rawData =
     },
     {
         "ppn": "841349517",
+        "corpus": 3,
         "author": "Dubbels, Pieter (1625-1671)",
         "title": "Helikon, bestaande in Zangen, Kusjes, en Mengel-r?m. / `IT`By P. Dubbels`LO`",
         "year": "1645",
@@ -14773,7 +14775,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "165644184",
+        "ppn": "165644184","corpus": 3,
         "author": "Steenwijk, Frans van (1705-1788 ; Toneelschrijver en vertaler) Steenwijk, Frans van (1705-1788 ; Toneelschrijver en vertaler)",
         "title": "Thamas Koelikan, of De verovering van het Mogolsche ryk; trevrspel. / `IT`[By Frans van Steenw?k]`LO` Thamas Koelikan, of De verovering van het Mogolsche ryk; trevrspel. / `IT`[By Frans van Steenw?k]`LO`",
         "year": "1745 1745",
@@ -14802,7 +14804,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "262635496",
+        "ppn": "262635496","corpus": 3,
         "author": "Bruin, Claas (1671-1732)",
         "title": "De verhinderde wraak van Cajus Martius Coriolanus. Trevrspel. / `IT`[By Claas Bruin]`LO`",
         "year": "1738",
@@ -14832,6 +14834,7 @@ var rawData =
     },
     {
         "ppn": "170560880",
+        "corpus": 3,
         "author": "Steenwijk, Frans van (1705-1788 ; Toneelschrijver en vertaler)",
         "title": "Beon, koning van Egipte; treurspel. / `IT`By F.V. Steenwyk`LO`",
         "year": "1768",
@@ -14860,7 +14863,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843832924",
+        "ppn": "843832924","corpus": 3,
         "author": "Pluimer, Joan (-1720)",
         "title": "Reinout in het betoverde hof; zynde het gevolg van Armida. / `IT`[By Joan Pluimer]`LO`",
         "year": "1697",
@@ -14889,7 +14892,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "844241814",
+        "ppn": "844241814","corpus": 3,
         "author": "Mason, John (1582-)",
         "title": "Muliassus de Turk. Trevrspel. / `IT`By [John Mason. ; Translated by] D. Kalbergen`LO`",
         "year": "1652",
@@ -14918,7 +14921,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "108558738",
+        "ppn": "108558738","corpus": 3,
         "author": "Molie`re (1622-1673)",
         "title": "De burgerlyke edelman, blyspel. / `IT`By Moliere. ; Translated from the French [by H. Maas]`LO`",
         "year": "1700",
@@ -14947,7 +14950,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "174884370",
+        "ppn": "174884370","corpus": 3,
         "author": "Vryer, Jacobus de",
         "title": "Het oude koffyhuis, of De Haagsche Mercuur gehekelt, door Pasquin, Juvenalis, en Mercurius. Kluchtspel. / `IT`By Jacobus de Vryer [pseudonym of Jacob van Rijndorp]`LO`",
         "year": "1712",
@@ -14976,7 +14979,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "830461930",
+        "ppn": "830461930","corpus": 3,
         "author": "-",
         "title": "Hoorns liedt-boecxken, vol stichtige bruylofts-sangen",
         "year": "1659",
@@ -15028,7 +15031,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "308419421",
+        "ppn": "308419421","corpus": 3,
         "author": "-",
         "title": "Don Jeronimo, maerschalk van Spanjen, treurspel",
         "year": "1713",
@@ -15057,7 +15060,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "167449095",
+        "ppn": "167449095","corpus": 3,
         "author": "Campistron, Jean Galbert de (1656-1713)",
         "title": "Andronicus, trevrspel. / `IT`By De Campistron. ; Translated from the French (by F. van Steenw?k)`LO`",
         "year": "1741",
@@ -15109,7 +15112,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "237876280",
+        "ppn": "237876280","corpus": 3,
         "author": "-",
         "title": "Vaderlandsche gezangen",
         "year": "1791",
@@ -15138,7 +15141,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "823051390",
+        "ppn": "823051390","corpus": 3,
         "author": "-",
         "title": "Lente-bloemtjes geworpen in de schoot van aangename juffers",
         "year": "1682",
@@ -15167,7 +15170,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843004517",
+        "ppn": "843004517","corpus": 3,
         "author": "La Thuillerie, Jean Franc¸ois Juvenon de (1653-1688)",
         "title": "Krispyn, poe¨et, en officier. Kluchtspel. / `IT`[By Jean Franc¸ois Juvenon de La Thuillerie]`LO`",
         "year": "1685",
@@ -15196,7 +15199,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "159845807",
+        "ppn": "159845807","corpus": 3,
         "author": "Corneille, Pierre (1606-1684)",
         "title": "Andromeda. Treurspel. / `IT`[By Pierre Corneille]`LO`",
         "year": "1699",
@@ -15225,7 +15228,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "16083452X",
+        "ppn": "16083452X","corpus": 3,
         "author": "Hessen, Willem (1702-1741)",
         "title": "Zinspeelende liefdens gezangen. Verdeeld in acht-en-twintig stukken [...] voor twee stemmen [...]. Cantus. / `IT`By Willem Hessen. ; Music by W. Vermooten`LO`",
         "year": "1741",
@@ -15254,7 +15257,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "171617150",
+        "ppn": "171617150","corpus": 3,
         "author": "Boon, Cornelis (1680-1746)",
         "title": "Leiden verlost. Treurspel. / `IT`By Kornelis Boon Heer te Engelandt`LO`",
         "year": "1711",
@@ -15283,7 +15286,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "318713535",
+        "ppn": "318713535","corpus": 3,
         "author": "Poirters, Adrianus (1605-1674)",
         "title": "Den pelgrim van Halle, ofte Historie van onse lieve Vrouwe van Halle. / `IT`By Een priester der societeyt Iesv [= Adrianus Poirters]`LO`",
         "year": "1657",
@@ -15312,7 +15315,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "154032301",
+        "ppn": "154032301","corpus": 3,
         "author": "-",
         "title": "Het vermaaklyk buitenleven, of De zingende en speelende boerenvreugd",
         "year": "1716",
@@ -15341,7 +15344,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843004479",
+        "ppn": "843004479","corpus": 3,
         "author": "Corneille, Pierre (1606-1684)",
         "title": "Cinna. Treurspe´l. / `IT`By Corneille. ; Translated from the French`LO`",
         "year": "1683",
@@ -15370,7 +15373,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "32047576X",
+        "ppn": "32047576X","corpus": 3,
         "author": "Jongherycx, Philippus",
         "title": "Kint-baerenden man. / `IT`By Philippus Jongherycx`LO`",
         "year": "1698",
@@ -15399,7 +15402,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "292478100",
+        "ppn": "292478100","corpus": 3,
         "author": "-",
         "title": "De wanhe´bbelyke liefde, kluchtspe´l",
         "year": "1753",
@@ -15428,7 +15431,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "212821334",
+        "ppn": "212821334","corpus": 3,
         "author": "-",
         "title": "Het Princelyke Oranje hof, cierlyk beplant met Oranje gezangen opgezonge ter gelegentheyd van de verheffing van [...] den heere prince van Oranje [...] tot erf-stadhouder. / `IT`Music by F. Pitton`LO`",
         "year": "1748",
@@ -15457,7 +15460,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843501235",
+        "ppn": "843501235","corpus": 3,
         "author": "Lingelbach, David (1641-)",
         "title": "Cleomenes. Trevrspel. / `IT`By D. Lingelbach`LO`",
         "year": "1687",
@@ -15486,7 +15489,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "176584188",
+        "ppn": "176584188","corpus": 3,
         "author": "-",
         "title": "De zingende kees, zig in zyne verdrukking diverteerende. Met diversche zangstukjes",
         "year": "1789",
@@ -15515,7 +15518,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "175849617",
+        "ppn": "175849617","corpus": 3,
         "author": "Starter, Jan Jansz (ca. 1594-1626)",
         "title": "Steeck-boecxken, ofte, 't Vermaak der jeugdelijcker herten, om daar door te weten,,[!] der herten secreten. / `IT`By J.J. Starter`LO`",
         "year": "1725",
@@ -15544,7 +15547,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "120490374",
+        "ppn": "120490374","corpus": 3,
         "author": "-",
         "title": "Sommige geestel?cke, christel?cke liederen ende lof-sangen [...]. Dewelcke ghebruyckt worden in de ghemeynten, toe ghedaen z?nde de [...] confessie van Augsburg",
         "year": "1650",
@@ -15573,7 +15576,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "239942183",
+        "ppn": "239942183","corpus": 3,
         "author": "-",
         "title": "Het vrolyk Keesje in de verdrukking",
         "year": "1789",
@@ -15602,7 +15605,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "318675315",
+        "ppn": "318675315","corpus": 3,
         "author": "Beer, Petrus de (1653-1657 fl.)",
         "title": "Gheestelycke rym-konst. / `IT`By Petrus de Beer`LO`",
         "year": "1657",
@@ -15631,7 +15634,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "313710511",
+        "ppn": "313710511","corpus": 3,
         "author": "Loosjes, Adriaan Pietersz (1761-1818)",
         "title": "Volks lieden-boek, bestaande in eene verzameling van geheel nieuwe Nederduitsche liedjes. / `IT`By A. Loosjes Pz.`LO`",
         "year": "1785",
@@ -15660,7 +15663,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "125103360",
+        "ppn": "125103360","corpus": 3,
         "author": "Sluiter, Willem (1627-1673)",
         "title": "Vreugt- en liefde-sangen. Aan de gemeinte J. Christi binnen [...] Eibergen. / `IT`By W. Sluiter`LO`",
         "year": "1682",
@@ -15689,7 +15692,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "318139820",
+        "ppn": "318139820","corpus": 3,
         "author": "-",
         "title": "Oud en nieuw Oost-Indie¨n, vervattende een [...] verhandelinge van Nederlands mogentheyd in die gewesten [...] Door Franc¸ois Valentyn",
         "year": "1722",
@@ -15718,7 +15721,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "98544179",
+        "ppn": "98544179","corpus": 3,
         "author": "Jean Baptiste Racine (1639-1699)",
         "title": "Ifigenia. Treurspél. / By Racine. ; Translated from the French",
         "year": "1683",
@@ -15747,7 +15750,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "832467294",
+        "ppn": "832467294","corpus": 3,
         "author": "Winschooten, Wigardus a` (ca1638-na1683)",
         "title": "Seeman: behelsende een grondige uitlegging van de Neederlandse konst, en spreekwoorden, voor soo veel die uit de seevaart s?n ontleend. / `IT`By W. a Winschooten`LO`",
         "year": "1681",
@@ -15776,7 +15779,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "240493540",
+        "ppn": "240493540","corpus": 3,
         "author": "Bidloo, Govert (1649-1713)",
         "title": "De muitery en nederlaag van Midas, koning onverstand, of Comma, punct, parenthesis, zinnespel. / `IT`(By Govard Bidloo)`LO`",
         "year": "1723",
@@ -15805,7 +15808,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "842419829",
+        "ppn": "842419829","corpus": 3,
         "author": "Sweerts, Cornelis (1669-1742)",
         "title": "Mengelzangen en zinnebeelden. / `IT`By Kornelis Sweerts`LO`",
         "year": "1694",
@@ -15834,7 +15837,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "241270367",
+        "ppn": "241270367","corpus": 3,
         "author": "-",
         "title": "Vaderlandsche liederen voor de gewapende studenten",
         "year": "1785",
@@ -15863,7 +15866,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "306277727",
+        "ppn": "306277727","corpus": 3,
         "author": "Eijk, Jan van (1757-1822)",
         "title": "Liederen voor den landman. : `IT`Part 1. / By Jan van Eyk`LO`",
         "year": "1794",
@@ -15892,7 +15895,7 @@ var rawData =
         "context_mozes": "kwam ruth sijn akker oude voorregt god weeuw wezen weleer wetten armen toegeweezen zag droeg zorg haare moeder            "
     },
     {
-        "ppn": "303819103",
+        "ppn": "303819103","corpus": 3,
         "author": "Molie`re (1622-1673)",
         "title": "Fielebout, o´f De do´kter tegen dank. Blyspe´l. / `IT`(By Molie`re)`LO`",
         "year": "1752",
@@ -15921,7 +15924,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "180901753",
+        "ppn": "180901753","corpus": 3,
         "author": "Domselaer, Tobias van (1660-1682 fl.)",
         "title": "Beschryving der sieraaden van het tooneel [...] in het Beleg en onzet[!] van Leiden. / `IT`(By Tobias van Domselaer)`LO`",
         "year": "1706",
@@ -15950,7 +15953,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "177245085",
+        "ppn": "177245085","corpus": 3,
         "author": "Noozeman, Jillis (1626-1682)",
         "title": "Romboud, of De getemde snorker. Klvcht-spel. / `IT`[By Jillis Noozeman]`LO`",
         "year": "17XX",
@@ -15979,7 +15982,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "122009029",
+        "ppn": "122009029","corpus": 3,
         "author": "Luyken, Jan (1649-1712)",
         "title": "Spiegel van't menschelyk bedryf. / `IT`[By Jan and Casper Luyken]`LO`",
         "year": "17XX",
@@ -16008,7 +16011,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "183630637",
+        "ppn": "183630637","corpus": 3,
         "author": "Alewyn, A. (1664-1721)",
         "title": "Beslikte Swaantje, en drooge Fobert; of De boere rechtbank. Blyspel. / `IT`By A. Alewyn`LO`",
         "year": "1715",
@@ -16037,7 +16040,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843834056",
+        "ppn": "843834056","corpus": 3,
         "author": "Molie`re (1622-1673)",
         "title": "De listige vryster, o´f De verschalkte voogd; blyspe´l. / `IT`[By Molie`re]`LO`",
         "year": "1690",
@@ -16066,7 +16069,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "255345070",
+        "ppn": "255345070","corpus": 3,
         "author": "Nomsz, Johannes (1738-1803)",
         "title": "Iemant en Niemant, zinspel. / `IT`By J. Nomsz`LO`",
         "year": "1768",
@@ -16095,7 +16098,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "303995009",
+        "ppn": "303995009","corpus": 3,
         "author": "-",
         "title": "Vervolg op De nieuwe vermakelijke Zeeuwsche speelwagen",
         "year": "17XX",
@@ -16124,7 +16127,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "353016020",
+        "ppn": "353016020","corpus": 3,
         "author": "Gaete, Hendrik van de (1707-1719 fl.)",
         "title": "De ontmantelde apotheker, met de gefopte hoorndrager, blyspel. / `IT`[By Hendrik van de Gaete]`LO`",
         "year": "17XX",
@@ -16153,7 +16156,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "842415114",
+        "ppn": "842415114","corpus": 3,
         "author": "Sweerts, Cornelis (1669-1742)",
         "title": "Mengelzangen en zinnebeelden. / `IT`By Cornelis Sweerts`LO`",
         "year": "1697",
@@ -16182,7 +16185,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "343764369",
+        "ppn": "343764369","corpus": 3,
         "author": "Tijsens, Gijsbert (1693-1732)",
         "title": "De windhandel, of Bubbles compagnien. Blyspel. / `IT`[By G?sbert T?sens]`LO`",
         "year": "1720",
@@ -16211,7 +16214,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "142231274",
+        "ppn": "142231274","corpus": 3,
         "author": "-",
         "title": "Bundel van Bataafsche volks-liedjens, op de meest bekende en nieuwste opera-wijzen",
         "year": "1794",
@@ -16240,7 +16243,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "181091259",
+        "ppn": "181091259","corpus": 3,
         "author": "Alewyn, A. (1664-1721)",
         "title": "De Puiterveense helleveeg, of Beslikte Swaantje aan den tap. Blyspel. / `IT`By A. Alewyn`LO`",
         "year": "1720",
@@ -16269,7 +16272,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "15345864X",
+        "ppn": "15345864X","corpus": 3,
         "author": "Lingelbach, David (1641-)",
         "title": "Amarillis. Bly-speelend harders-spel. / `IT`[By David Lingelbach]`LO`",
         "year": "171X",
@@ -16298,7 +16301,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "159495393",
+        "ppn": "159495393","corpus": 3,
         "author": "-",
         "title": "Zaan-vreugd; opgedragen aan de Zaan-landze jeugd; bestaande, in een verzameling van vroolijke [...] gezangen",
         "year": "1790",
@@ -16327,7 +16330,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "865534071",
+        "ppn": "865534071","corpus": 3,
         "author": "-",
         "title": "Kruis gezangen of he´melweg",
         "year": "169X",
@@ -16356,7 +16359,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "183101561",
+        "ppn": "183101561","corpus": 3,
         "author": "-",
         "title": "Op het huwelyk van den heere Jacob Alewyn Ghyzen, junior, en jonkvrouwe Debora Blaaupot",
         "year": "1722",
@@ -16385,7 +16388,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "831774673",
+        "ppn": "831774673","corpus": 3,
         "author": "Jonctijs, Danie¨l (1600-1654)",
         "title": "Hedens-daegse Venvs en Minerva; of Twist-gesprek tusschen die zelfde. / `IT`By D. Jonktys`LO`",
         "year": "1641",
@@ -16414,7 +16417,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "171533305",
+        "ppn": "171533305","corpus": 3,
         "author": "Norel, Rob. (1705 fl.)",
         "title": "De listige minnaars, of De jonker boer, en boer jonker. Blyspel. / `IT`By R.N. [= Roelof Norel]`LO`",
         "year": "1705",
@@ -16443,7 +16446,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "154013056",
+        "ppn": "154013056","corpus": 3,
         "author": "-",
         "title": "Hvwelykszangen, ter bruilofte van den heere Christiaan vander Meulen, en mejuffrouw Geertruid des Amorie. / `IT`(Music by W. Vermooten)`LO`",
         "year": "1720",
@@ -16472,7 +16475,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "183945670",
+        "ppn": "183945670","corpus": 3,
         "author": "-",
         "title": "De zang-godin aan't Y",
         "year": "17XX",
@@ -16501,7 +16504,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843374713",
+        "ppn": "843374713","corpus": 3,
         "author": "Pluimer, Joan (-1720)",
         "title": "De verlooren schildwacht. Kluchtpel[!]. / `IT`[By Joan Pluimer]`LO`",
         "year": "1686",
@@ -16530,7 +16533,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "173800432",
+        "ppn": "173800432","corpus": 3,
         "author": "Bondt, Reinier de (1576-1623)",
         "title": "Beleg en ontzet der stad Leiden, blyeindend treurspel. / `IT`By R. Bontius`LO`",
         "year": "1702",
@@ -16559,7 +16562,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "170621111",
+        "ppn": "170621111","corpus": 3,
         "author": "Saint-Foix, Germain Franc¸ois Poullain de (1698-1776)",
         "title": "Het orakel; blyspel [...] versierd met zang, dans, en verandering van tooneelen. / `IT`By De Sainte Foy. ; Translated from the French by N.W. op den Hooff`LO`",
         "year": "1747",
@@ -16588,7 +16591,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "296992852",
+        "ppn": "296992852","corpus": 3,
         "author": "-",
         "title": "Gezangen die gewoonlyk in den heiligen vastenstyd gebruykt werden",
         "year": "17XX",
@@ -16617,7 +16620,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "183100476",
+        "ppn": "183100476","corpus": 3,
         "author": "-",
         "title": "Ter bruilofte van den heere Abraham des Amorie, en jongkvrouwe Angelica Hugaert",
         "year": "1721",
@@ -16646,7 +16649,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "184805201",
+        "ppn": "184805201","corpus": 3,
         "author": "-",
         "title": "Kruis gezangen of he´melweg",
         "year": "1716",
@@ -16675,7 +16678,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843832037",
+        "ppn": "843832037","corpus": 3,
         "author": "Noozeman, Jillis (1626-1682)",
         "title": "Klucht van Kr?n Onverstant, of Vrouwen parlement. / `IT`By J. Noseman`LO`",
         "year": "1671",
@@ -16704,7 +16707,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "303869046",
+        "ppn": "303869046","corpus": 3,
         "author": "-",
         "title": "Eenige gezangen, van het Engelsch zendeling-genootschap tot uitbreiding van het evangelie. / `IT`Translated into Dutch`LO`",
         "year": "179X",
@@ -16733,7 +16736,7 @@ var rawData =
         "context_mozes": "brengt schuldig offers stervelingen held verwinnaar kwam zeege zingen lied lam haest jood heiden roem verbreiden vallen neêr klanken           "
     },
     {
-        "ppn": "183100786",
+        "ppn": "183100786","corpus": 3,
         "author": "-",
         "title": "Gezangen ter zilvere bruilofte van den heere Jacobus de Vos, en mejuffrouwe Katharina van de Ryp",
         "year": "1723",
@@ -16762,7 +16765,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "169346773",
+        "ppn": "169346773","corpus": 3,
         "author": "Styl, S. (1731-1804)",
         "title": "Vier zamenspraaken nopens de aanmerkingen van den rustenden tooneelspeeler M. Corver, op Het leven van Jan Punt; geplaatst in De levens van beroemde Nederlandsche mannen en vrouwen. / `IT`[By Simon St?l]`LO`",
         "year": "1786",
@@ -16791,7 +16794,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "205034748",
+        "ppn": "205034748","corpus": 3,
         "author": "-",
         "title": "Huuwlykszangen voor den heere Pieter Teyler, van der Hulst, en jongkvrouwe Helena Wynands Verschaave",
         "year": "1728",
@@ -16820,7 +16823,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "174901267",
+        "ppn": "174901267","corpus": 3,
         "author": "Racine, Jean (1639-1699)",
         "title": "Hester of de verlossinge der joden. Trevrspel. / `IT`By Racine. ; Translated from the French [by F. R?k]`LO`",
         "year": "1719",
@@ -16849,7 +16852,7 @@ var rawData =
         "context_mozes": "zaak veracht moogelyk vergaan geslacht hester zeg volk wet besneden tyd doorbrengen gebeden nuttigen dry dagen              "
     },
     {
-        "ppn": "304864900",
+        "ppn": "304864900","corpus": 3,
         "author": "Knoop, Johann Hermann (ca. 1700-na´ 1769)",
         "title": "Kort onderwys, hoedanig men de couranten best lezen en gebruiken kan. / `IT`By Johann Hermann Knoop`LO`",
         "year": "1758",
@@ -16878,7 +16881,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843846143",
+        "ppn": "843846143","corpus": 3,
         "author": "Quinault, Philippe (1635-1688)",
         "title": "Tooneelspel zonder tooneelspel. / `IT`By (Philippe Quinault. ; Translated by) P.D. [= P. Dubbels]`LO`",
         "year": "1671",
@@ -16907,7 +16910,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "169863883",
+        "ppn": "169863883","corpus": 3,
         "author": "Weyerman, Jacob Campo (1677-1747)",
         "title": "De Hollandsche sinnelykheid bly-spel. / `IT`[By Jacob Campo Weyerman]`LO`",
         "year": "1713",
@@ -16936,7 +16939,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "29903271X",
+        "ppn": "29903271X","corpus": 3,
         "author": "-",
         "title": "De juffrouw, naar de mode. Blyspel. / `IT`Translated from the French by N.W. op den Hooff`LO`",
         "year": "1737",
@@ -16965,7 +16968,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "843092475",
+        "ppn": "843092475","corpus": 3,
         "author": "Pers, Dirck Pietersz (1581-1659)",
         "title": "Bellerophon, of Lust tot w?sheyd: door sinne-beelden leerl?ck vertoont. / `IT`(By Dirck Pietersz Pers)`LO`",
         "year": "1638",
@@ -16994,7 +16997,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "315198648",
+        "ppn": "315198648","corpus": 3,
         "author": "Bottens, Pierre (1637-1717)",
         "title": "Het goddelick herte ofte De woonste Godts in het herte : `IT`Part 1. / By Fulgentius Bottens`LO`",
         "year": "1685",
@@ -17023,7 +17026,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "296993247",
+        "ppn": "296993247","corpus": 3,
         "author": "-",
         "title": "Oude ende nieuwe lof-sangen, die gemeenlijk gesongen worden op de geboorte [...] Jesu Christi. / `IT`[Compiled by J.J. Stichter]`LO`",
         "year": "1718",
@@ -17052,7 +17055,7 @@ var rawData =
         "context_mozes": "-"
     },
     {
-        "ppn": "192659545",
+        "ppn": "192659545","corpus": 3,
         "author": "-",
         "title": "Den groten zee-held; Paul Jonas. Waar in de aldernieuwste liederen gedrukt z?n",
         "year": "1785",
@@ -17296,7 +17299,7 @@ function displayNone(){
 function pointClickHandler(evt){
 	var activePoints = spinozaChart.getElementAtEvent(evt);
 	var currentPPN = rawestData[activePoints[0]._index].metaX;
-
+// comment
 	console.log(currentPPN);
   // console.log(rawestData[activePoints[0]._index].metaX);
 
