@@ -4,7 +4,6 @@ var rawData = [];
 
 /*
  * Load JSON by using an AJAX call
- *
  */
 function loadData() {
   var xmlhttp = new XMLHttpRequest();
@@ -335,98 +334,92 @@ function pointClickHandler(evt){
 
 	for ( i=0; i<rawData.length; i++ ) {
 		if(currentPPN == rawData[i].ppn) {
-			var metadataObj = {};
-			metadataObj.auteur = rawData[i].author;
-			metadataObj.titel = rawData[i].title;
-			metadataObj.jaar = rawData[i].year;
-			// metadataObj.drukker = rawData[i].printer;
-			// metadataObj.plaats = rawData[i].place;
-			metadataObj.url = rawData[i].stcn;
-			metadataObj.contextwoorden = rawData[i].context_natuur;
-
-
-			document.getElementsByClassName('fml-author')[0].innerHTML = metadataObj.auteur;
-			document.getElementsByClassName('fml-title')[0].innerHTML = metadataObj.titel + " <a class=\'fml-url\' target=\'_blank\' href=\'" + rawData[i].stcn + "\'>(stcn)</a>";
-			document.getElementsByClassName('fml-jaar')[0].innerHTML = metadataObj.jaar;
+			document.getElementsByClassName('fml-author')[0].innerHTML = rawData[i].author;
+			document.getElementsByClassName('fml-title')[0].innerHTML = rawData[i].title + " <a class=\'fml-url\' target=\'_blank\' href=\'" + rawData[i].stcn + "\'>(stcn)</a>";
+			document.getElementsByClassName('fml-jaar')[0].innerHTML = rawData[i].year;
 			document.getElementsByClassName('fml-drukker')[0].innerHTML = rawData[i].printer;
 			document.getElementsByClassName('fml-plaats')[0].innerHTML = rawData[i].place;
 
+			var fmlFrequentie = document.getElementsByClassName('fml-frequentie')[0].innerHTML;
+			var fmlOvereenkomst = document.getElementsByClassName('fml-overeenkomst')[0].innerHTML;
+			var fmlOverlap = document.getElementsByClassName('fml-overlap')[0].innerHTML;
+			var fmlContext = document.getElementsByClassName('fml-contextwoorden')[0].innerHTML;
 
 			if (thisConcept == 'default') {
-				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].def_sim;
-				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].def_freq;
-				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].def_overlap);
-				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = '-';
+				fmlFrequentie = rawData[i].def_sim;
+				fmlOvereenkomst = rawData[i].def_freq;
+				fmlOverlap = (rawData[i].def_overlap);
+				fmlContext = '-';
 			} else if (thisConcept == 'natuur') {
-				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[0];
-				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[0];
-				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[0]);
-				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_natuur;
+				fmlFrequentie = rawData[i].freq_array[0];
+				fmlOvereenkomst = rawData[i].sim_array[0];
+				fmlOverlap = (rawData[i].overlap_array[0]);
+				fmlContext = rawData[i].context_natuur;
 			} else if (thisConcept == 'god') {
-				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[1];
-				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[1];
-				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[1]);
-				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_god;
+				fmlFrequentie = rawData[i].freq_array[1];
+				fmlOvereenkomst = rawData[i].sim_array[1];
+				fmlOverlap = (rawData[i].overlap_array[1]);
+				fmlContext = rawData[i].context_god;
 			} else if (thisConcept == 'oorzaak') {
-				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[2];
-				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[2];
-				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[2]);
-				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_oorzaak;
+				fmlFrequentie = rawData[i].freq_array[2];
+				fmlOvereenkomst = rawData[i].sim_array[2];
+				fmlOverlap = (rawData[i].overlap_array[2]);
+				fmlContext = rawData[i].context_oorzaak;
 			} else if (thisConcept == 'wet') {
-				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[3];
-				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[3];
-				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[3]);
-				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_wet;
+				fmlFrequentie = rawData[i].freq_array[3];
+				fmlOvereenkomst = rawData[i].sim_array[3];
+				fmlOverlap = (rawData[i].overlap_array[3]);
+				fmlContext = rawData[i].context_wet;
 			} else if (thisConcept == 'kennis') {
-				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[4];
-				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[4];
-				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[4]);
-				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_kennis;
+				fmlFrequentie = rawData[i].freq_array[4];
+				fmlOvereenkomst = rawData[i].sim_array[4];
+				fmlOverlap = (rawData[i].overlap_array[4]);
+				fmlContext = rawData[i].context_kennis;
 			} else if (thisConcept == 'verstand') {
-				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[5];
-				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[5];
-				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[5]);
-				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_verstand;
+				fmlFrequentie = rawData[i].freq_array[5];
+				fmlOvereenkomst = rawData[i].sim_array[5];
+				fmlOverlap = (rawData[i].overlap_array[5]);
+				fmlContext = rawData[i].context_verstand;
 			} else if (thisConcept == 'reden') {
-				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[6];
-				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[6];
-				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[6]);
-				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_reden;
+				fmlFrequentie = rawData[i].freq_array[6];
+				fmlOvereenkomst = rawData[i].sim_array[6];
+				fmlOverlap = (rawData[i].overlap_array[6]);
+				fmlContext = rawData[i].context_reden;
 			} else if (thisConcept == 'macht') {
-				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].freq_array[7];
-				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].sim_array[7];
-				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[7]);
-				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_macht;
+				fmlOvereenkomst = rawData[i].freq_array[7];
+				fmlFrequentie = rawData[i].sim_array[7];
+				fmlOverlap = (rawData[i].overlap_array[7]);
+				fmlContext = rawData[i].context_macht;
 			} else if (thisConcept == 'recht') {
-				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].freq_array[8];
-				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].sim_array[8];
-				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[8]);
-				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_recht;
+				fmlOvereenkomst = rawData[i].freq_array[8];
+				fmlFrequentie = rawData[i].sim_array[8];
+				fmlOverlap = (rawData[i].overlap_array[8]);
+				fmlContext = rawData[i].context_recht;
 			} else if (thisConcept == 'wil') {
-				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[9];
-				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[9];
-				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[9]);
-				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_wil;
+				fmlFrequentie = rawData[i].freq_array[9];
+				fmlOvereenkomst = rawData[i].sim_array[9];
+				fmlOverlap = (rawData[i].overlap_array[9]);
+				fmlContext = rawData[i].context_wil;
 			} else if (thisConcept == 'schrift') {
-				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[10];
-				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[10];
-				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[10]);
-				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_schrift;
+				fmlFrequentie = rawData[i].freq_array[10];
+				fmlOvereenkomst = rawData[i].sim_array[10];
+				fmlOverlap = (rawData[i].overlap_array[10]);
+				fmlContext = rawData[i].context_schrift;
 			} else if (thisConcept == 'ziel') {
-				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[11];
-				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[11];
-				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[11]);
-				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_ziel;
+				fmlFrequentie = rawData[i].freq_array[11];
+				fmlOvereenkomst = rawData[i].sim_array[11];
+				fmlOverlap = (rawData[i].overlap_array[11]);
+				fmlContext = rawData[i].context_ziel;
 			} else if (thisConcept == 'lichaam') {
-				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[12];
-				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[12];
-				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[12]);
-				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_lichaam;
+				fmlFrequentie = rawData[i].freq_array[12];
+				fmlOvereenkomst = rawData[i].sim_array[12];
+				fmlOverlap = (rawData[i].overlap_array[12]);
+				fmlContext = rawData[i].context_lichaam;
 			} else if (thisConcept == 'mozes') {
-				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[13];
-				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[13];
-				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[13]);
-				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_mozes;
+				fmlFrequentie = rawData[i].freq_array[13];
+				fmlOvereenkomst = rawData[i].sim_array[13];
+				fmlOverlap = (rawData[i].overlap_array[13]);
+				fmlContext = rawData[i].context_mozes;
 			}
 
 
