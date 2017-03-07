@@ -120,8 +120,8 @@ table {
   margin-top: -10px;
   line-height: 22px; }
 
-.publisher-container {
-  height: 200px;
+.publisher-container, .author-container {
+  height: 150px;
   overflow: auto; }
 
 .inputbox-text {
@@ -204,3 +204,8 @@ h2 {
   left: 20px;
   color: #b7b7b7;
   font-size: 14px; }
+
+.deselect-button, .deselect-author-button {
+  cursor: pointer; }
+  .deselect-button:hover, .deselect-author-button:hover {
+    text-decoration: underline; }

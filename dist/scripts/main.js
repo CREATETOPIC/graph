@@ -2,6 +2,10 @@ var ctx = document.getElementById("topicChart");
 
 var rawData = [];
 
+/*
+ * Load JSON by using an AJAX call
+ *
+ */
 function loadData() {
   var xmlhttp = new XMLHttpRequest();
 
@@ -12,11 +16,12 @@ function loadData() {
         rawData = JSON.parse(xmlhttp.responseText);
         // console.log(rawData);
         grabAllPublishers();
+        grabAllAuthors();
         redrawGraph();
       }
-        else {
-          alert('something else other than 200 was returned');
-        }
+      else {
+          console.log('Andere error dan 200. Geen file gevonden?');
+      	}
       }
     };
 
@@ -26,85 +31,129 @@ function loadData() {
 
 loadData();
 
+/* 
+ * Grab all unique publishers
+ */
+
 var allPublishers = [];
-var activePublishers = ['bla'];
+var activePublishers = [''];
 
 function uniq(a) {
-    var prims = {"boolean":{}, "number":{}, "string":{}}, objs = [];
+  var prims = {"boolean":{}, "number":{}, "string":{}}, objs = [];
 
-    return a.filter(function(item) {
-        var type = typeof item;
-        if(type in prims)
-            return prims[type].hasOwnProperty(item) ? false : (prims[type][item] = true);
-        else
-            return objs.indexOf(item) >= 0 ? false : objs.push(item);
-    });
+  return a.filter(function(item) {
+    var type = typeof item;
+    if(type in prims) {
+      return prims[type].hasOwnProperty(item) ? false : (prims[type][item] = true);
+    }
+    else {
+      return objs.indexOf(item) >= 0 ? false : objs.push(item);
+    }
+  });
 }
 
 function grabAllPublishers() {
 	for ( i=0; i<rawData.length; i++ ) {
 		allPublishers.push(rawData[i].printer);
 	}	
+
 	var publisherContainer = document.getElementsByClassName('publisher-container')[0];
 
   allPublishersUniq = uniq(allPublishers);
-  console.log(allPublishersUniq.length);
+  allPublishersUniq.sort().reverse();
+
 	for ( i=0; i<allPublishersUniq.length; i++) {
 		publisherContainer.insertAdjacentHTML('afterbegin', '<input class="inputboxes" type="checkbox" onchange="toggleCheckbox(this)" name="inputpublisher" value="' + allPublishersUniq[i] + '" checked><span class="inputbox-text">' + allPublishersUniq[i] + '</span></input><br/>');
-
 	}
 	activePublishers = allPublishersUniq;
 }
 
-var filterOn = false;
 function toggleCheckbox(element) {
-   // element.checked = !element.checked;
-   console.log(element.value);
-   console.log(element.checked);
-   if (element.checked === false) {
-   	for (var i = 0; i < activePublishers.length; i++) {
-   		if (element.value == activePublishers[i]) {
-   			console.log('bingo');
-   			activePublishers.splice(i, 1);
-   		}
-   	}
-   } else if (element.checked === true ) {
-   	activePublishers.push(element.value);
-   }
-   // console.log(activePublishers);
-   filterOn = true;
-   redrawGraph();
+ 	if (element.checked === false) {
+ 		for (var i = 0; i < activePublishers.length; i++) {
+ 			if (element.value == activePublishers[i]) {
+ 				activePublishers.splice(i, 1);
+ 			}
+ 		}
+ 	} else if (element.checked === true ) {
+ 		activePublishers.push(element.value);
  }
+ redrawGraph();
+}
 
 function deselectAllCheckboxes(){
 	checkboxes = document.getElementsByClassName('inputboxes');
 
 	for (var i=0; i<checkboxes.length; i++)  {
 	  checkboxes[i].checked = false;
-	  // console.log(checkboxes[i].checked);
 	}
-	   // console.log(checkboxes);
-
+	activePublishers = [];
+	redrawGraph();
 }
 
-deselectAllCheckboxes();
+document.getElementsByClassName("deselect-button")[0].addEventListener("click", deselectAllCheckboxes);
 
 
+var allAuthors = [];
+var activeAuthors = [''];
+
+function grabAllAuthors() {
+	for ( i=0; i<rawData.length; i++ ) {
+		allAuthors.push(rawData[i].author);
+	}	
+	var authorContainer = document.getElementsByClassName('author-container')[0];
+
+  allAuthorsUniq = uniq(allAuthors);
+  allAuthorsUniq.sort().reverse();
+
+	for ( i=0; i<allAuthorsUniq.length; i++) {
+		authorContainer.insertAdjacentHTML('afterbegin', '<input class="inputboxes-authors" type="checkbox" onchange="toggleCheckboxAuthors(this)" name="inputpublisher" value="' + allAuthorsUniq[i] + '" checked><span class="inputbox-text">' + allAuthorsUniq[i] + '</span></input><br/>');
+	}
+	activeAuthors = allAuthorsUniq;
+}
+
+function toggleCheckboxAuthors(element) {
+ if (element.checked === false) {
+ 	for (var i = 0; i < activeAuthors.length; i++) {
+ 		if (element.value == activeAuthors[i]) {
+ 			activeAuthors.splice(i, 1);
+ 		}
+ 	}
+ } else if (element.checked === true ) {
+ 	activeAuthors.push(element.value);
+ }
+ redrawGraph();
+ }
+
+function deselectAuthorCheckboxes(){
+	checkboxes = document.getElementsByClassName('inputboxes-authors');
+
+	for (var i=0; i<checkboxes.length; i++)  {
+	  checkboxes[i].checked = false;
+	}
+	activeAuthors = [];
+	redrawGraph();
+}
+
+document.getElementsByClassName("deselect-author-button")[0].addEventListener("click", deselectAuthorCheckboxes);
+
+
+/* Concepten */
 var thisConcept = 'default';
 
 function conceptChanger() {
 	var element = document.getElementById("concept-picker");
 	var currentConcept = element.options[element.selectedIndex].value;
-	thisConcept = currentConcept;
-	// console.log(currentConcept);
-	redrawGraph();
 
+	thisConcept = currentConcept;
+	redrawGraph();
 }
 
 /* Hertekening van de grafiek */
 function redrawGraph() {
 	var firstYear = document.getElementById("firstyear");
 	var secondYear = document.getElementById("secondyear");
+
 	recalculateData(firstYear.value, secondYear.value);
 }
 
@@ -115,7 +164,7 @@ function recalculateData(firstyear, secondyear) {
 
 		if(rawData[i].year > firstyear && rawData[i].year < secondyear) {
 			var dataObj = {};
-			var increase = 12;
+			var increase = 14;
 
 			if (thisConcept == 'default') {
 				dataObj.x = rawData[i].def_sim;
@@ -178,18 +227,23 @@ function recalculateData(firstyear, secondyear) {
 				dataObj.x = rawData[i].sim_array[13];
 				dataObj.r = (rawData[i].overlap_array[13]*increase);
 			}
-            dataObj.title = rawData[i].title;
-            dataObj.year = rawData[i].year;
-            dataObj.metaX = rawData[i].ppn;
-			// dataObj.author = rawData[i].author;
-			// dataObj.publisher = rawData[i].printer;
+
+        dataObj.title = rawData[i].title;
+        dataObj.year = rawData[i].year;
+        dataObj.metaX = rawData[i].ppn;
+        dataObj.category = rawData[i].corpus;
 
    		for (var n = 0; n < activePublishers.length; n++) {
-   			if (rawData[i].drukker === activePublishers[n]) {
-   				rawestData.push(dataObj);
+   			if (rawData[i].printer === activePublishers[n]) {
+   				for (var l = 0; l < activeAuthors.length; l++) {
+   					if (rawData[i].author === activeAuthors[l]) {
+   					rawestData.push(dataObj);
+   					}
+   				}
    			}
 			}
 	}
+	// seperateData();
 	spinozaChart.update();
 }
 }
@@ -203,12 +257,33 @@ var rawestData = [
   }
 ];
 
+/* seperates the two datasets */
+// var sepData2 = [];
+// var sepData3 = [];
+
+// function seperateData(){
+// 	for (var n = 0; n < rawestData.length; n++){
+// 		if (rawestData[n].category === 2){
+// 			sepData2.push(rawestData[n])
+// 		} else if (rawestData[n].category === 3) {
+// 			sepData3.push(rawestData[n])
+// 		}
+
+// 	}
+
+// 	spinozaChart.update();
+
+// }
+
+// var allBgColors = [];
+
 var data = {
   datasets: [
     {
-      label: '',
+      label: 'Corpus 2',
       data: rawestData,
       backgroundColor: "rgba(189,156,105,0.7)",
+      // backgroundColor: allBgColors,
       hoverBackgroundColor: "#d9ba8b",
     }]
 };
@@ -241,7 +316,6 @@ var spinozaChart = new Chart(ctx,{
 
 recalculateData(1600, 1700);
 
-
 document.getElementsByClassName('filter-metadata-close')[0].addEventListener("click", displayNone);
 
 function displayNone(){
@@ -265,25 +339,99 @@ function pointClickHandler(evt){
 			metadataObj.auteur = rawData[i].author;
 			metadataObj.titel = rawData[i].title;
 			metadataObj.jaar = rawData[i].year;
-			metadataObj.drukker = rawData[i].printer;
-			metadataObj.plaats = rawData[i].place;
+			// metadataObj.drukker = rawData[i].printer;
+			// metadataObj.plaats = rawData[i].place;
 			metadataObj.url = rawData[i].stcn;
 			metadataObj.contextwoorden = rawData[i].context_natuur;
-			metadataObj.frequentie_1 = rawData[i].def_freq;
-			metadataObj.overeenkomst_1 = rawData[i].def_sim;
-			metadataObj.overlap_1 = rawData[i].def_overlap;
+
 
 			document.getElementsByClassName('fml-author')[0].innerHTML = metadataObj.auteur;
-			document.getElementsByClassName('fml-title')[0].innerHTML = metadataObj.titel + " <a class=\'fml-url\' target=\'_blank\' href=\'" + metadataObj.url + "\'>(stcn)</a>";
+			document.getElementsByClassName('fml-title')[0].innerHTML = metadataObj.titel + " <a class=\'fml-url\' target=\'_blank\' href=\'" + rawData[i].stcn + "\'>(stcn)</a>";
 			document.getElementsByClassName('fml-jaar')[0].innerHTML = metadataObj.jaar;
-			document.getElementsByClassName('fml-drukker')[0].innerHTML = metadataObj.drukker;
-			document.getElementsByClassName('fml-plaats')[0].innerHTML = metadataObj.plaats;
-			document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = metadataObj.contextwoorden;
+			document.getElementsByClassName('fml-drukker')[0].innerHTML = rawData[i].printer;
+			document.getElementsByClassName('fml-plaats')[0].innerHTML = rawData[i].place;
 
-			document.getElementsByClassName('fml-frequentie')[0].innerHTML = metadataObj.frequentie_1;
-			document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = metadataObj.overeenkomst_1;
-			document.getElementsByClassName('fml-overlap')[0].innerHTML = metadataObj.overlap_1;
+
+			if (thisConcept == 'default') {
+				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].def_sim;
+				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].def_freq;
+				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].def_overlap);
+				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = '-';
+			} else if (thisConcept == 'natuur') {
+				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[0];
+				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[0];
+				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[0]);
+				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_natuur;
+			} else if (thisConcept == 'god') {
+				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[1];
+				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[1];
+				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[1]);
+				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_god;
+			} else if (thisConcept == 'oorzaak') {
+				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[2];
+				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[2];
+				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[2]);
+				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_oorzaak;
+			} else if (thisConcept == 'wet') {
+				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[3];
+				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[3];
+				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[3]);
+				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_wet;
+			} else if (thisConcept == 'kennis') {
+				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[4];
+				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[4];
+				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[4]);
+				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_kennis;
+			} else if (thisConcept == 'verstand') {
+				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[5];
+				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[5];
+				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[5]);
+				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_verstand;
+			} else if (thisConcept == 'reden') {
+				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[6];
+				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[6];
+				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[6]);
+				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_reden;
+			} else if (thisConcept == 'macht') {
+				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].freq_array[7];
+				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].sim_array[7];
+				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[7]);
+				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_macht;
+			} else if (thisConcept == 'recht') {
+				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].freq_array[8];
+				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].sim_array[8];
+				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[8]);
+				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_recht;
+			} else if (thisConcept == 'wil') {
+				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[9];
+				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[9];
+				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[9]);
+				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_wil;
+			} else if (thisConcept == 'schrift') {
+				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[10];
+				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[10];
+				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[10]);
+				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_schrift;
+			} else if (thisConcept == 'ziel') {
+				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[11];
+				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[11];
+				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[11]);
+				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_ziel;
+			} else if (thisConcept == 'lichaam') {
+				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[12];
+				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[12];
+				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[12]);
+				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_lichaam;
+			} else if (thisConcept == 'mozes') {
+				document.getElementsByClassName('fml-frequentie')[0].innerHTML = rawData[i].freq_array[13];
+				document.getElementsByClassName('fml-overeenkomst')[0].innerHTML = rawData[i].sim_array[13];
+				document.getElementsByClassName('fml-overlap')[0].innerHTML = (rawData[i].overlap_array[13]);
+				document.getElementsByClassName('fml-contextwoorden')[0].innerHTML = rawData[i].context_mozes;
+			}
+
+
+
 
 		}
 	}
-    }
+}

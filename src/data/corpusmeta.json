@@ -2378,7 +2378,8 @@
         "context_mozes": "-"
     },
     {
-        "ppn": "31734028X","corpus": 2,
+        "ppn": "31734028X",
+        "corpus": 2,
         "author": "Balthasar Bekker",
         "title": "De betoverde wereld",
         "year": "1691-1693",
@@ -8236,7 +8237,8 @@
         "context_mozes": "-"
     },
     {
-        "ppn": "822572443","corpus": 2,
+        "ppn": "822572443",
+        "corpus": 2,
         "author": "Johannes Duijkerius",
         "title": "Vervolg van 't leven van Philopater",
         "year": "1697",

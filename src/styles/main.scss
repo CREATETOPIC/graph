@@ -87,8 +87,8 @@ transform: translateY(-50%);
 	line-height: 22px;
 }
 
-.publisher-container {
-	height: 200px;
+.publisher-container, .author-container {
+	height: 150px;
   overflow: auto;
 }
 
@@ -183,4 +183,11 @@ h2 {
     left: 20px;
     color: #b7b7b7;
     font-size: 14px;
+}
+
+.deselect-button, .deselect-author-button {
+	cursor: pointer;
+	&:hover {
+		text-decoration: underline;
+	};
 }
