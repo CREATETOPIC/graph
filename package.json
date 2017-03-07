@@ -1,7 +1,7 @@
 {
-  "name": "slotenmaker-brabant",
+  "name": "create-topic-chart",
   "version": "1.0.0",
-  "description": "Website Slotenmaker Brabant",
+  "description": "Chart for TOPIC",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -32,6 +32,7 @@
     "urijs": "^1.17.1"
   },
   "dependencies": {
-    "chart.js": "^2.4.0"
+    "chart.js": "^2.4.0",
+    "urijs": "^1.18.8"
   }
 }
