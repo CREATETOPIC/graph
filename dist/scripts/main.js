@@ -428,3 +428,42 @@ function pointClickHandler(evt){
 		}
 	}
 }
+
+
+
+
+
+/*******/
+
+var gephi = function () {
+
+var zoom = 80;
+
+ $( '.gephi' ).change(function() {
+    var nodes = $( this ).val();
+	$('path').css("stroke", "#cab38f");
+	$('path').css("opacity", "0.4");
+	$('path.' + nodes).show();
+	$('path.' + nodes).css("stroke", "red");
+	$('path.' + nodes).css("opacity", "1.0");
+   
+  }); 
+  $( '.zoomIn' ).click(function() {
+  
+  if (zoom <= 130) {
+  zoom = zoom + 10;
+  $('svg').attr( "height", zoom + "%" );
+  $('svg').attr( "width", zoom + "%" );
+  }
+  }); 
+  $( '.zoomOut' ).click(function() {
+  
+  if (zoom >= 50) {
+  zoom = zoom - 10;
+  $('svg').attr( "height", zoom + "%" );
+  $('svg').attr( "width", zoom + "%" );
+  }
+  }); 
+  
+};
+$(document).ready(gephi);
